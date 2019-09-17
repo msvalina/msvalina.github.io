@@ -4,3 +4,7 @@
   margin-right: auto !important;
   /* width: 50% !important; */
 }
+
+a.reference.external {
+  line-height: normal;
+}

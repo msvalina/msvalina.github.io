@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Marijan Svalina'
 SITENAME = u'Here Be Dragons'
-SITESUBTITLE = u'Navigating on the edge of order and chaos.'
+SITESUBTITLE = u'Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.' 
 # SITEURL = 'http://msvalina.org'
 SITEURL = ''
 
@@ -79,12 +79,13 @@ PLUGINS = [
     'sitemap',
     'neighbors',
     'assets',
-    'i18n_subsites'
+    'i18n_subsites',
+    'gist_directive'
 ]
 
 # I18N_SUBSITES = {
 #     'hr': {
-#         'SITENAME': 'Tu su Zmajevi',
+#         'SITENAME': 'Tu su Zmajevi.',
 #     }
 # }
 
@@ -122,13 +123,13 @@ HEADER_COVERS_BY_TAG = {'generic': 'assets/images/header_doggy_cool.jpg', 'btc':
 AUTHORS_BIO = {
     "marijan": {
         "name": "Marijan Svalina",
-        "cover": "assets/images/header_doggy.jpg",
+        "cover": "assets/images/header_doggy_cool.jpg",
         "image": "assets/images/msvalina-avatar.jpg",
         "github": "msvalina",
         "twitter": "msvalina",
         "website": "http://msvalina.org",
         "location": "Osijek",
-        "bio": "Programmer, Bitcoiner, Meditator, jack of all trades, master of none."
+        "bio": u"Programer. Bitcoiner. Meditator. Majstor svih zanata, najbolji u ni jednom.🧘🏻‍♂️ ₿  💻"
     }
 }
 

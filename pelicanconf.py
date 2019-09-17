@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Marijan Svalina'
 SITENAME = u'Here Be Dragons'
 SITESUBTITLE = u'Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.' 
-SITEURL = 'http://msvalina.org'
+SITEURL = 'https://msvalina.org'
 #SITEURL = ''
 
 DEFAULT_DATE = 'fs'

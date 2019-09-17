@@ -4,98 +4,98 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://msvalina.org/</loc>
-<lastmod>2019-09-17T13:59:57-00:00</lastmod>
+<loc>https://msvalina.org/</loc>
+<lastmod>2019-09-17T14:04:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.org/archives.html</loc>
-<lastmod>2019-09-17T13:59:57-00:00</lastmod>
+<loc>https://msvalina.org/archives.html</loc>
+<lastmod>2019-09-17T14:04:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.org/tags.html</loc>
-<lastmod>2019-09-17T13:59:57-00:00</lastmod>
+<loc>https://msvalina.org/tags.html</loc>
+<lastmod>2019-09-17T14:04:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.org/categories.html</loc>
-<lastmod>2019-09-17T13:59:57-00:00</lastmod>
+<loc>https://msvalina.org/categories.html</loc>
+<lastmod>2019-09-17T14:04:26-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.org/pages/about/</loc>
+<loc>https://msvalina.org/pages/about/</loc>
 <lastmod>2019-09-05T10:14:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.org/pages/about-hr-hr.html</loc>
+<loc>https://msvalina.org/pages/about-hr-hr.html</loc>
 <lastmod>2019-09-05T10:14:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.org/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html</loc>
+<loc>https://msvalina.org/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html</loc>
 <lastmod>2019-09-08T10:45:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.org/category/programming</loc>
+<loc>https://msvalina.org/category/programming</loc>
 <lastmod>2019-09-08T10:45:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.org/tag/bitcoin</loc>
+<loc>https://msvalina.org/tag/bitcoin</loc>
 <lastmod>2019-09-08T10:45:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.org/tag/gnucash</loc>
+<loc>https://msvalina.org/tag/gnucash</loc>
 <lastmod>2019-09-08T10:45:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.org/tag/ubuntu</loc>
+<loc>https://msvalina.org/tag/ubuntu</loc>
 <lastmod>2019-09-08T10:45:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.org/tag/linux</loc>
+<loc>https://msvalina.org/tag/linux</loc>
 <lastmod>2019-09-08T10:45:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.org/tag/docker</loc>
+<loc>https://msvalina.org/tag/docker</loc>
 <lastmod>2019-09-08T10:45:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.org/author/marijan</loc>
+<loc>https://msvalina.org/author/marijan</loc>
 <lastmod>2019-09-08T10:45:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

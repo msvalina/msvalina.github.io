@@ -44,7 +44,7 @@ STATIC_PATHS = ['assets']
 
 EXTRA_PATH_METADATA = {
     'assets/robots.txt': {'path': 'robots.txt'},
-    'assets/favicon.ico': {'path': 'favicon.ico'},
+    'assets/favicon/favicon.ico': {'path': 'favicon.ico'},
     'assets/CNAME': {'path': 'CNAME'}
 }
 

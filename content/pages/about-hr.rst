@@ -6,6 +6,7 @@ O meni
 :author: marijan
 :slug: about-hr
 :lang: hr
+:status: hidden
 
 
 Marijan Svalina nije dobar pisac. `Sam Harris`_ je napisao `pet bestselera`_.

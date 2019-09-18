@@ -35,7 +35,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 10
+#DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -127,7 +127,7 @@ AUTHORS_BIO = {
         "image": "assets/images/msvalina-avatar.jpg",
         "github": "msvalina",
         "twitter": "msvalina",
-        "website": "http://msvalina.org",
+        "website": "http://msvalina.org/about/",
         "location": "Osijek",
         "bio": u"Programer. Bitcoiner. Meditator. Majstor svih zanata, najbolji u ni jednom.🧘🏻‍♂️ ₿  💻"
     }

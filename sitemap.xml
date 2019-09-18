@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://msvalina.org/</loc>
-<lastmod>2019-09-17T14:09:54-00:00</lastmod>
+<lastmod>2019-09-18T12:07:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://msvalina.org/archives.html</loc>
-<lastmod>2019-09-17T14:09:54-00:00</lastmod>
+<lastmod>2019-09-18T12:07:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://msvalina.org/tags.html</loc>
-<lastmod>2019-09-17T14:09:54-00:00</lastmod>
+<lastmod>2019-09-18T12:07:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://msvalina.org/categories.html</loc>
-<lastmod>2019-09-17T14:09:54-00:00</lastmod>
+<lastmod>2019-09-18T12:07:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -39,7 +39,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://msvalina.org/pages/about-hr-hr.html</loc>
+<loc>https://msvalina.org/pages/contact/</loc>
+<lastmod>2019-09-18T10:14:00+02:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://msvalina.org/pages/technical-background/</loc>
 <lastmod>2019-09-05T10:14:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>

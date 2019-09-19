@@ -4,105 +4,105 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://msvalina.org/</loc>
-<lastmod>2019-09-18T12:07:02-00:00</lastmod>
+<loc>https://msvalina.github.io/</loc>
+<lastmod>2019-09-19T12:42:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://msvalina.org/archives.html</loc>
-<lastmod>2019-09-18T12:07:02-00:00</lastmod>
+<loc>https://msvalina.github.io/archives.html</loc>
+<lastmod>2019-09-19T12:42:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://msvalina.org/tags.html</loc>
-<lastmod>2019-09-18T12:07:02-00:00</lastmod>
+<loc>https://msvalina.github.io/tags.html</loc>
+<lastmod>2019-09-19T12:42:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://msvalina.org/categories.html</loc>
-<lastmod>2019-09-18T12:07:02-00:00</lastmod>
+<loc>https://msvalina.github.io/categories.html</loc>
+<lastmod>2019-09-19T12:42:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://msvalina.org/pages/about/</loc>
+<loc>https://msvalina.github.io/pages/about/</loc>
 <lastmod>2019-09-05T10:14:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://msvalina.org/pages/contact/</loc>
+<loc>https://msvalina.github.io/pages/contact/</loc>
 <lastmod>2019-09-18T10:14:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://msvalina.org/pages/technical-background/</loc>
-<lastmod>2019-09-05T10:14:00+02:00</lastmod>
+<loc>https://msvalina.github.io/pages/expertise/</loc>
+<lastmod>2019-09-18T10:14:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://msvalina.org/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html</loc>
+<loc>https://msvalina.github.io/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html</loc>
 <lastmod>2019-09-08T10:45:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://msvalina.org/category/programming</loc>
+<loc>https://msvalina.github.io/category/programming</loc>
 <lastmod>2019-09-08T10:45:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://msvalina.org/tag/bitcoin</loc>
+<loc>https://msvalina.github.io/tag/bitcoin</loc>
 <lastmod>2019-09-08T10:45:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://msvalina.org/tag/gnucash</loc>
+<loc>https://msvalina.github.io/tag/gnucash</loc>
 <lastmod>2019-09-08T10:45:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://msvalina.org/tag/ubuntu</loc>
+<loc>https://msvalina.github.io/tag/ubuntu</loc>
 <lastmod>2019-09-08T10:45:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://msvalina.org/tag/linux</loc>
+<loc>https://msvalina.github.io/tag/linux</loc>
 <lastmod>2019-09-08T10:45:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://msvalina.org/tag/docker</loc>
+<loc>https://msvalina.github.io/tag/docker</loc>
 <lastmod>2019-09-08T10:45:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://msvalina.org/author/marijan</loc>
+<loc>https://msvalina.github.io/author/marijan</loc>
 <lastmod>2019-09-08T10:45:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

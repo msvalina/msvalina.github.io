@@ -58,5 +58,5 @@ Feel free to `say hi\!`_
 
 More about Marijan's `technical background.`_
 
-.. _say hi!: 
-.. _technical background.: 
+.. _say hi!:  {filename}/pages/contact.rst
+.. _technical background.:  {filename}/pages/expertise.rst

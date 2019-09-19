@@ -37,9 +37,6 @@ Harris and Peterson. More by Harris. For other big upgrades the blame is on
 
 Marijan is jack of all trades, and master of none.
 
-Marijan is always searching to feel heartfelt wisdom. While standing at the
-edge of order an chaos.
-
 Marijan is also not a great runner. But this is cool photo of him.
 
 .. image:: |static|/assets/images/msvalina-running-btc2.jpg
@@ -48,5 +45,18 @@ Marijan is also not a great runner. But this is cool photo of him.
    :align: center
    :alt: Marijan running on bridge with flying hands
 
+
+Marijan is always searching to feel heartfelt wisdom. While standing at the
+edge of order an chaos.
+
 Marijan is still not a good writer. But you made it down here. Thank you.
 Have a nice day. 💗
+
+--------------
+
+Feel free to `say hi\!`_
+
+More about Marijan's `technical background.`_
+
+.. _say hi!: 
+.. _technical background.: 

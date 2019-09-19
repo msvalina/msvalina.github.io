@@ -4,7 +4,7 @@ O meni
 
 :date: 2019-09-05 10:14
 :author: marijan
-:slug: about-hr
+:slug: o-meni
 :lang: hr
 :status: hidden
 
@@ -38,17 +38,19 @@ Harrari`_, `Andreas M. Antonopulos`_ i `Saifedean Ammouse`_.
 
 Marijan je majstor svih zanata, najbolji ni u jednom.
 
-Marijanu je dosta samo učiti. Sad želi bit `Kreator, kako Edo kaže: slušaj
-Mater! Sine...  <https://youtu.be/_d0uhSsmUDs>`_
-
-Marijan stalno traži ritam unutarnje ugođenosti. Dok stoji na rubu reda i
-kaosa.
+Marijan nije odličan trkač. Ali ovo je kul fotka s njim.
 
 .. image:: |static|/assets/images/msvalina-running-btc2.jpg
    :height: 501 px
    :width: 403 px
    :align: center
    :alt: Marijan running on bridge with flying hands
+
+Marijanu je dosta samo učiti. Sad želi bit `Kreator, kako Edo kaže: slušaj
+Mater! Sine...  <https://youtu.be/_d0uhSsmUDs>`_
+
+Marijan stalno traži ritam unutarnje ugođenosti. Dok stoji na rubu reda i
+kaosa.
 
 Marijan još uvijek nije dobar pisac. Ali dostigli ste do ovdje. Hvala Vam.
 Želim vam lijep dan. 💗

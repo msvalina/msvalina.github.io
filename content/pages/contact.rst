@@ -19,7 +19,15 @@ You can `download the key here`_ or from the key public servers.
 
 Thank you for your time.
 
-Please excuse me if I don't respond to you right away.
+.. image:: |static|/assets/images/you-will-reply.jpg
+   :height: 500 px
+   :width: 500 px
+   :align: center
+   :alt: MEME: Third World Skeptical Kid: You mean if I write to you, You will reply? Hmmm.
+
+
+You will never know if you don't try.
+Don't expect quick reply. 🙂 💗
 
 .. _Write to me via email:  marijan.svalina@gmail.com
 .. _download the key here:  |static|/assets/msvalina-pgp.asc

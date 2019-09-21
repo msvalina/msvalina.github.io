@@ -127,9 +127,11 @@ AUTHORS_BIO = {
         "image": "assets/images/msvalina-avatar.jpg",
         "github": "msvalina",
         "twitter": "msvalina",
+        "facebook": "svalina.marijan",
+        "linkedin": "marijansvalina",
+        "instagram": "makimindmonkey",
         "website": "http://msvalina.org/pages/about/",
         "location": "Osijek",
-        #"bio": u"Programer. Bitcoiner. Meditator. Majstor svih zanata, najbolji u ni jednom.🧘🏻‍♂️ ₿  💻"
         "bio": u"Programmer. Bitcoiner. Meditator. Jack of all trades master of none.🧘🏻‍♂️ ₿  💻"
     }
 }

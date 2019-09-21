@@ -14,14 +14,15 @@ Signaling, and jargon talk incoming, prepare yourself
 
 It's 2014, and a thought comes. It's time to get serious about money. I
 will finally give Bitcoin a chance. Ok, I need Bitcoin habits. First
-habit: Read every day r/bitcoin for 2 minutes. Next, buy `Andreas
+habit: Read every day `r\/bitcoin`_ for 2 minutes. Next, buy `Andreas
 Antonopulos book Mastering Bitcoin`_. After 50 pages my mind blew away!
-Since, my professional, and personal life is haunted by Bitcoin opsession.
+Since, I'm haunted by Bitcoin obsession in my professional, and personal life
 
 First part of the page highlights crypto projects. Second starts with CV.
-It's long and borring list of things I worked on. You will get an idea about my
+It's long and boring list of things I worked on. You will get an idea about my
 experience, and expertise.
 
+.. _r/bitcoin: https://www.reddit.com/r/Bitcoin/
 .. _Andreas Antonopulos book Mastering Bitcoin:  https://aantonop.com/books/
 
 Crypto side projects
@@ -32,31 +33,31 @@ HODLing, and buying Bitcoin since 2015.
 Advocating, and educating on every opportunity
 -----------------------------------------------
  
-* `Introduction to Bitcoin Talk at GreenRoom Festival`_, Valpovo
+* `Introduction to Bitcoin Talk. GreenRoom Festival`_, Valpovo, 2017 August
 
-* `Introduction to Bitcoin Talk at Economics High School`_, Valpovo, 2016 September 
+* `Introduction to Bitcoin Talk. Economics High School`_, Valpovo, 2017 October
 
-* `Bitcoin Basic Concepts Technical talk about technology underlying Bitcoin`_, at Osijek
-  Software City event, 2017 December
+* Bitcoin Guest on show Labirint. Croatian National Television, Zagreb, 2018 January 
 
-* Bitcoin Guest on show Labirint on Croatian National Television, Zagreb, 2018 January 
+* `Bitcoin Basic Concepts Technical talk about technology underlying Bitcoin`_. Osijek
+  Software City event, 2018 April
 
 * Short videos on Instagram and Facebook 
 
-.. _Introduction to Bitcoin Talk at GreenRoom Festival: |static|/assets/images/talk-green-room.jpeg
-.. _Introduction to Bitcoin Talk at Economics High School:  |static|/assets/images/talk-high-school.jpg
+.. _Introduction to Bitcoin Talk. GreenRoom Festival: |static|/assets/images/talk-green-room.jpeg
+.. _Introduction to Bitcoin Talk. Economics High School:  |static|/assets/images/talk-high-school.jpg
 .. _Bitcoin Basic Concepts Technical talk about technology underlying Bitcoin: |static|/assets/images/talk-osc.jpg
 
-Running full nodes. Currently behind NAT
+Running full nodes
 -----------------------------------------
 
 * Bitcoin full node on rpi (bitcoind)
 * Lightning network node on rpi (lnd)
 * Bitcoin and Lightning testnet nodes.
 
-Always trying to learn more about applied cryptography tools and
-understanding. On next ATH one more Raspberry PI and Monero full node is
-online.
+Nodes are behind NAT. They will be soon public. Always trying to learn more
+about applied cryptography tools and understanding. On next ATH one more
+Raspberry PI and Monero full node is online.
 
 
 

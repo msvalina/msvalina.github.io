@@ -106,10 +106,10 @@ SITEMAP = {
 
 
 # Comments
-#DISQUS_SITENAME = "attilademo"
+DISQUS_SITENAME = "msvalina-org"
 
 # Analytics
-#GOOGLE_ANALYTICS = "UA-3546274-12"
+GOOGLE_ANALYTICS = "UA-48468274-1"
 
 THEME = 'attila'
 

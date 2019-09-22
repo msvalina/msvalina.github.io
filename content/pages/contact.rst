@@ -20,10 +20,9 @@ You can `download the key here`_ or from the key public servers.
 Thank you for your time.
 
 .. image:: |static|/assets/images/you-will-reply.jpg
-   :height: 500 px
-   :width: 500 px
-   :align: center
-   :alt: MEME: Third World Skeptical Kid: You mean if I write to you, You will reply? Hmmm.
+    :width: 65%
+    :align: center
+    :alt: MEME: Third World Skeptical Kid: You mean if I write to you, You will reply? Hmmm.
 
 
 You will never know if you don't try.

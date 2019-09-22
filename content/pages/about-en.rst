@@ -40,8 +40,7 @@ Marijan is jack of all trades, and master of none.
 Marijan is also not a great runner. But this is cool photo of him.
 
 .. image:: |static|/assets/images/msvalina-running-btc2.jpg
-   :height: 501 px
-   :width: 403 px
+   :width: 75 % 
    :align: center
    :alt: Marijan running on bridge with flying hands
 

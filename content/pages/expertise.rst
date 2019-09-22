@@ -6,7 +6,7 @@ Expertise
 :author: marijan
 :slug: expertise
 :lang: en
-:cover: assets/images/header_doggy_three.jpg
+:cover: assets/images/header_doggy_teacher.jpg
 
 
 Signaling, and jargon talk incoming, prepare yourself

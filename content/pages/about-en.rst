@@ -6,7 +6,7 @@ About
 :author: marijan
 :slug: about
 :lang: en
-:cover: assets/images/header_doggy_three.jpg
+:cover: assets/images/header_doggy_cool.jpg
 
 Marijan Svalina is not a good writer. `Sam Harris`_ wrote 
 `five bestsellers`_. When Harris says: `\"Okaaaay. A little housekeeping\"`_.

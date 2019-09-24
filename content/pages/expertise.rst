@@ -69,25 +69,39 @@ Raspberry PI and Monero full node is online.
 ------------------
 
 
+`Current CV PDF`_
+
+.. _Current CV PDF: |static|/assets/pdfs/marijan-svalina-latest-developer-cv.pdf
+
+
+------------------
+
+
 
 CV
 **
+
+`PDF of CV that follows`_
+
+.. _PDF of CV that follows: |static|/assets/pdfs/marijan-svalina-old-modern-cv.pdf
 
 About
 #####
 
 Marijan is DevOps Engineer with professional experience in different fields.
-More then 10 years in Linux operating systems and networks. More then 3 years with
-python development, and 2 years with web development. He worked in various
-working environments. From corporate to startup including remote freelancing.
-He is conscientious and extroverted, and can work both alone and in teams.
+More then 10 years in Linux and networks. More then 3
+years with Python development. More then and 2 years with backend, and
+frontend web development. He worked in various working environments.
+From corporate to startup including remote freelancing. He is conscientious
+and extroverted, and can work both alone and in teams. He is constantly
+pushing him self in new areas.
 
 
 Education
 #########
 
-* Graduate Study Program in Computer Engineering, branch: Process Compu-
-  ting , Josip Juraj Strossmayer University Of Osijek, Faculty of Electrical Engineering.
+* Graduate Study Program in Computer Engineering, branch: Process Computing,
+  Josip Juraj Strossmayer University Of Osijek, Faculty of Electrical Engineering.
   mag. ing. comp, 2014
 * Undergraduate Study Program in Computer Engineering, branch: Compu-
   ting , Sveučilište J.J. Strossmayera, Faculty of Electrical Engineering.

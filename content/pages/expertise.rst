@@ -44,6 +44,11 @@ Advocating, and educating on every opportunity
 
 * Short videos on Instagram and Facebook 
 
+.. image:: |static|/assets/images/talk-montage.png
+   :width: 85 %
+   :align: center
+   :alt: Collage image of Marijan lecturing about Bitcoin
+
 .. _Introduction to Bitcoin Talk. GreenRoom Festival: |static|/assets/images/talk-green-room.jpeg
 .. _Introduction to Bitcoin Talk. Economics High School:  |static|/assets/images/talk-high-school.jpg
 .. _Bitcoin Basic Concepts Technical talk about technology underlying Bitcoin: |static|/assets/images/talk-osc.jpg

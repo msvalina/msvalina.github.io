@@ -74,6 +74,8 @@ Raspberry PI and Monero full node is online.
 Behavior Design Workshop with `BJ Fogg <https://www.bjfogg.com/>`_
 ###################################################################
 
+I attended virtual Workshop from Standfor University Behavior Desing Lab
+
 * 10 Powerful Ways to Apply Behavior Design at Work with BJ Fogg
 
 .. image:: |static|/assets/images/hello-bjfogg.jpg

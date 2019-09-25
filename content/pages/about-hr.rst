@@ -30,10 +30,10 @@ iako stalno pričao o meditaciji.
 
 Operacijski sustav Marijanovog uma nadogradili su najviše pogađate Harris i
 Peterson. Više Harris. Za druge velike nadogradnje su krivi `Yuval Noah
-Harrari`_, `Andreas M. Antonopulos`_ i `Saifedean Ammouse`_.
+Harrari`_, `BJ Fogg`_, i `Saifedean Ammouse`_.
 
 .. _Yuval Noah Harrari:  https://www.ynharari.com/
-.. _Andreas M. Antonopulos:  https://aantonop.com/
+.. _BJ Fogg:  https://www.bjfogg.com/
 .. _Saifedean Ammouse:  https://saifedean.com/
 
 Marijan je majstor svih zanata, najbolji ni u jednom.

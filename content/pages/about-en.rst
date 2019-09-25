@@ -29,10 +29,10 @@ non-stop about meditation.
 
 Operating system in Marijan's mind is upgraded mostly by, you're guessing,
 Harris and Peterson. More by Harris. For other big upgrades the blame is on
-`Yuval Noah Harrari`_, `Andreas M. Antonopulos`_ and `Saifedean Ammouse`_.
+`Yuval Noah Harrari`_, `BJ Fogg`_, and `Saifedean Ammouse`_.
 
 .. _Yuval Noah Harrari:  https://www.ynharari.com/
-.. _Andreas M. Antonopulos:  https://aantonop.com/
+.. _BJ Fogg:  https://www.bjfogg.com/
 .. _Saifedean Ammouse:  https://saifedean.com/
 
 Marijan is jack of all trades, and master of none.
@@ -42,7 +42,7 @@ Marijan is also not a great runner. But this is cool photo of him.
 .. image:: |static|/assets/images/msvalina-running-btc2.jpg
    :width: 75 %
    :align: center
-   :alt: Marijan running on bridge with flying hands
+   :alt: Marijan running on bridge with flying hands going torward bitcoin man-horse
 
 
 Marijan is always searching to feel heartfelt wisdom. While standing at the
@@ -59,3 +59,5 @@ More about Marijan's `technical background.`_
 
 .. _say hi!:  {filename}/pages/contact.rst
 .. _technical background.:  {filename}/pages/expertise.rst
+
+`This page in Croatian <{filename}/pages/about-hr.rst>`_.

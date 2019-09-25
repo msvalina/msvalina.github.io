@@ -15,10 +15,10 @@ Signaling, and jargon talk incoming, prepare yourself
 It's 2014, and a thought comes. It's time to get serious about money. I
 will finally give Bitcoin a chance. Ok, I need Bitcoin habits. First
 habit: Read every day `r\/bitcoin`_ for 2 minutes. Next, buy `Andreas
-Antonopulos book Mastering Bitcoin`_. After 50 pages my mind blew away!
+Antonopulos book Mastering Bitcoin`_. 50 pages later my mind blew away!
 Since, I'm haunted by Bitcoin obsession in my professional, and personal life
 
-First part of the page highlights crypto projects. Second starts with CV.
+First part of the page highlights important projects. Second starts with CV.
 It's long and boring list of things I worked on. You will get an idea about my
 experience, and expertise.
 
@@ -71,11 +71,28 @@ about applied cryptography tools and understanding. On next ATH one more
 Raspberry PI and Monero full node is online.
 
 
+Behavior Design Workshop with `BJ Fogg <https://www.bjfogg.com/>`_
+###################################################################
+
+* 10 Powerful Ways to Apply Behavior Design at Work with BJ Fogg
+
+.. image:: |static|/assets/images/hello-bjfogg.jpg
+   :width: 85 %
+   :align: center
+   :target: https://www.bjfogg.com/
+   :alt: BJ Fogg smiling with two stuffed animals
+
+Models and methods about behavior. Models explain how behavior works. Methods
+how to design behavior for change.
+The best money -- 899$ -- I've ever spent! Even better then Bitcoin at 100$.
+
+
 
 ------------------
 
 
 `Current CV PDF`_
+##################
 
 .. _Current CV PDF: |static|/assets/pdfs/marijan-svalina-latest-developer-cv.pdf
 
@@ -87,9 +104,9 @@ Raspberry PI and Monero full node is online.
 CV
 **
 
-`PDF of CV that follows`_
+`Old style CV PDF of what follows here`_
 
-.. _PDF of CV that follows: |static|/assets/pdfs/marijan-svalina-old-modern-cv.pdf
+.. _Old style CV PDF of what follows here: |static|/assets/pdfs/marijan-svalina-old-modern-cv.pdf
 
 About
 #####

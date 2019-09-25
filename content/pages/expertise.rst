@@ -28,7 +28,13 @@ experience, and expertise.
 Crypto side projects
 ####################
 
-HODLing, and buying Bitcoin since 2015. 
+Buying and HODLing Bitcoin since 2015. 
+
+.. image:: |static|/assets/images/just-hodl-it.jpeg
+   :width: 85 %
+   :align: center
+   :alt: Just HODL it nike style sign
+
 
 Advocating, and educating on every opportunity
 -----------------------------------------------

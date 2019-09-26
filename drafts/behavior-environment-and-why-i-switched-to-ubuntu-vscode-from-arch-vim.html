@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>Role of environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+<link href="https://msvalina.github.io/drafts/behavior-environment-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html" rel="canonical" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://msvalina.github.io/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://msvalina.github.io/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://msvalina.github.io/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="https://msvalina.github.io/assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="https://msvalina.github.io/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Feed -->
+        <link href="https://msvalina.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Here Be Dragons Full Atom Feed" />
+          <link href="https://msvalina.github.io/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="Here Be Dragons Categories Atom Feed" />
+
+  <link href="https://msvalina.github.io/theme/css/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="https://msvalina.github.io/theme/css/code_blocks/github.css" rel="stylesheet">
+
+    <!-- CSS specified by the user -->
+
+
+    <link href="https://msvalina.github.io/assets/css/override.css" type="text/css" rel="stylesheet" />
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+    <meta name="description" content="TLDR With better tools in your environment your output will be higher. This will lead to doing more which will in turn give you more...">
+
+    <meta name="author" content="marijan">
+
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="Here Be Dragons"/>
+<meta property="og:title" content="Role of environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM"/>
+<meta property="og:description" content="TLDR With better tools in your environment your output will be higher. This will lead to doing more which will in turn give you more..."/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://msvalina.github.io/drafts/behavior-environment-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2019-09-26 10:49:00+02:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://msvalina.github.io/author/marijan">
+<meta property="article:section" content="misc"/>
+<meta property="og:image" content="https://msvalina.github.io/assets/images/header_doggy_teacher.jpg">
+
+<!-- Twitter Card -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "Role of environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM",
+  "headline": "Role of environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM",
+  "datePublished": "2019-09-26 10:49:00+02:00",
+  "dateModified": "",
+  "author": {
+    "@type": "Person",
+    "name": "marijan",
+    "url": "https://msvalina.github.io/author/marijan"
+  },
+  "image": "https://msvalina.github.io/assets/images/header_doggy_teacher.jpg",
+  "url": "https://msvalina.github.io/drafts/behavior-environment-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html",
+  "description": "TLDR With better tools in your environment your output will be higher. This will lead to doing more which will in turn give you more..."
+}
+</script>
+</head>
+<!-- TODO : Body class -->
+<body class="home-template">
+
+<nav id="menu">
+  <a class="close-button">Close</a>
+  <div class="nav-wrapper">
+    <p class="nav-label">Menu</p>
+    <ul>
+
+              <li role="presentation"><a href="https://msvalina.github.io/pages/about/">About</a></li>
+              <li role="presentation"><a href="https://msvalina.github.io/pages/contact/">Contact</a></li>
+              <li role="presentation"><a href="https://msvalina.github.io/pages/expertise/">Expertise</a></li>
+
+    </ul>
+  </div>
+</nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header id="post-header" class="has-cover">
+      <div class="inner">
+        <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="https://msvalina.github.io/" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
+          <span id="menu-button" class="nav-button">
+            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+          </span>
+        </nav>
+        <h1 class="post-title">Role of environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="https://msvalina.github.io/author/marijan">Marijan Svalina</a>
+            | <time datetime="26 ruj 2019">26 ruj 2019</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <div class="post-cover cover" style="background-image: url('https://msvalina.github.io/assets/images/header_doggy_teacher.jpg')">
+      </div>
+    </header>
+
+  <section id="wrapper">
+    <a class="hidden-close"></a>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <div class="section" id="tldr">
+<h2>TLDR</h2>
+<ul class="simple">
+<li>With better tools in your environment your output will be higher. This will
+lead to doing more which will in turn give you more actual skills and
+it will be easier to that behaviors in future even without tools.</li>
+<li>With Arch the focus was to learn the building blocks of Operating System (OS).</li>
+<li>With Ubuntu focus is on solving other problems.</li>
+</ul>
+<p>This is a story about role of environment in our behavior.</p>
+<p>It's year 2009, Satoshi Nakamoto just gave birth to Bitcoin. It's third
+semester at my University journey. I'm more happy about running Ubuntu then
+learning. Most importantly, slowely but surely, I'm on path to say good bye
+to my childhod developmental trauma.</p>
+<p>As I breath more fully I'm more open to new experiences. Soon after friend of
+mine suggests and helps me install Arch Linux OS. It's the coolest operating
+system for wannabe hacker at the time. Cool thing about it is that you have
+to construct it by yourself. Like Lego's.</p>
+<p>This was huge change! Until that moment my knowledge about Linux like
+OS was more theoretical then practical. That started to change
+because every thing I wanted and needed for my assignments I
+had to setup by my own. That meant a lot of tries and errors, and getting
+hands dirty to actually understand the underlying technologies and concepts.
+It was very painful and frustrating at times. But I had no fallback computer.
+I gave away my laptop to parents more accidentally then purposely to change
+environment.</p>
+<img alt="My small room with PC, laptop and a bed." class="align-center" src="https://msvalina.github.io/assets/images/university-apartment.jpg" style="width: 85%;" />
+<p>I got a lot from Linux world.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="biljeske">
+<h2>BILJEŠKE</h2>
+<p>I got some half formed opinions and half backed ethics. Better half backed then none.
+Mostly because of my lack of general knowledge in ethics.</p>
+<p>Some dogmas that I hold on to then:</p>
+<p>I need to cone</p>
+</div>
+<div class="section" id="goal">
+<h2>Goal</h2>
+<p>Cilj mi je pokazati kako znam modele i metode mjenjanja ponašanja</p>
+<p>ne informirano mišljenje</p>
+<p>bojanje od kodiranja</p>
+<p>stavovi izrađeni</p>
+<p>vrijednosti utemeljene</p>
+<p>ne više fokus na učenje</p>
+<p>nego pisanje</p>
+<p>cypherphunks write code</p>
+<p>očite stvari?
+- alati su bitni
+-</p>
+<p>ne očite
+- alati su bitniji nego što mislite</p>
+</div>
+
+            </section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=Role of environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM&amp;url=https://msvalina.github.io/drafts/behavior-environment-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://msvalina.github.io/drafts/behavior-environment-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+
+                <div class="clear"></div>
+
+                <aside class="post-author">
+
+
+                        <figure class="post-author-avatar">
+                            <img src="https://msvalina.github.io/assets/images/msvalina-avatar.jpg" alt="Marijan Svalina" />
+                        </figure>
+                    <div class="post-author-bio">
+                        <h4 class="post-author-name"><a href="https://msvalina.github.io/author/marijan">Marijan Svalina</a></h4>
+                            <p class="post-author-about">Programmer. Bitcoiner. Meditator. Jack of all trades master of none.🧘🏻‍♂️ ₿  💻</p>
+                            <span class="post-author-location"><i class="ic ic-location"></i> Osijek</span>
+                            <span class="post-author-website"><a href="http://msvalina.org/pages/about/"><i class="ic ic-link"></i> Website</a></span>
+                        <!-- Social linkes in alphabet order. -->
+                            <span class="post-author-github"><a target="_blank" href="https://github.com/msvalina"><i class="ic ic-link"></i> GitHub</a></span>
+                            <span class="post-author-twitter"><a target="_blank" href="https://twitter.com/msvalina"><i class="ic ic-twitter"></i> Twitter</a></span>
+                            <span class="post-author-facebook"><a target="_blank" href="https://facebook.com/svalina.marijan"><i class="ic ic-facebook"></i> Facebook</a></span>
+                            <span class="post-author-instagram"><a target="_blank" href="https://www.instagram.com/makimindmonkey"><i class="ic ic-link"></i> Instagram</a></span>
+                            <span class="post-author-linkedin"><a target="_blank" href="https://www.linkedin.com/in/marijansvalina"><i class="ic ic-link"></i> LinkedIn</a></span>
+                    </div>
+                    <div class="clear"></div>
+                </aside>
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
+      <!-- TODO : Body class -->
+    <div id="body-class" style="display: none;" class=""></div>
+
+    <footer id="footer">
+      <div class="inner">
+        <section class="credits">
+
+
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
+        </section>
+      </div>
+    </footer>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://msvalina.github.io/theme/js/script.js"></script>
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48468274-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-48468274-1', { 'anonymize_ip': true });
+    </script>
+<script type="text/javascript">
+    var disqus_shortname = 'msvalina-org';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+</body>
+</html>

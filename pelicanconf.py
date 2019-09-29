@@ -130,6 +130,7 @@ AUTHORS_BIO = {
         "facebook": "svalina.marijan",
         "linkedin": "marijansvalina",
         "instagram": "makimindmonkey",
+        "keybase": "msvalina",
         "website": "http://msvalina.org/pages/about/",
         "location": "Osijek",
         "bio": u"Programmer. Bitcoiner. Meditator. Jack of all trades master of none.🧘🏻‍♂️ ₿  💻"

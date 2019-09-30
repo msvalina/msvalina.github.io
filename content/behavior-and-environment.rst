@@ -6,6 +6,7 @@ Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode f
 :author: marijan
 :slug: role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim
 :lang: en
+:tags: bitcoin, behavior, environment, values, trauma
 :cover: assets/images/header_doggy_teacher.jpg
 :status: published
 

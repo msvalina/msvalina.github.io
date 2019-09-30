@@ -8,3 +8,8 @@
 a.reference.external {
   line-height: normal;
 }
+
+blockquote {
+  font-style: normal !important;
+  font-weight: bolder !important;
+}

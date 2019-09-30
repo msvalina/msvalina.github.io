@@ -157,22 +157,23 @@ Let's fight! Back to values
 
 I started with Bitcoin because it is really important. **Bitcoin is as
 important as Internet is.** That's why I'm steering my carrier in Bitcoin
-direction. Important thing about it is what are values of people that created
-it. What does it represent? What does it enable people to do?
+direction. Important thing about it is what are the values of people that created
+it? What does it represent? What does it enable people to do?
 
 Here are some of these values:
 
 * Right to privacy
 
-* Censorship resistance
+* Freedom of expression (which money is form of)
 
 * Right to alternative neutral economic system
+
+* Censorship resistance
 
 * The sovereignty of individual
 
 * Fighiting chance against digital age dictatorship
 
-* Freedom of expression (which money is form of)
 
 
 Bitcoin isn't created in vacuum. It was built on shoulders of giants.
@@ -191,8 +192,8 @@ for help, and treat yourself kindly. Use this new found knowledge.
 
 For the rest of us, this is a call to action. We should collectively 
 always strive to make our environment better. So we don't have to be saints
-to do the right thing. Let's use this knowledge about behavior, find good values to
+to do the right thing. Lets use this new knowledge about behavior, find good values to
 fight for, form strong opinions on most important things. Act in good faith.
-Live life wort living. Be willing to change when reason tells us. Live long
-and prosper 💗
+Live life worth living. Be willing to change when reason tells us. Live long
+and prosper. 💗
 

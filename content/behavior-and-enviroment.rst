@@ -7,7 +7,7 @@ Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode f
 :slug: role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim
 :lang: en
 :cover: assets/images/header_doggy_teacher.jpg
-:status: draft
+:status: published
 
 Takeaway
 ========

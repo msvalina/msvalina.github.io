@@ -22,7 +22,7 @@ Takeaway
 
 
 This is a story about role of environment in our behavior. It's written
-through my personal journey. Lot if it can be looked like and is bragging.
+through my personal journey. Lot if it can be `looked like and is bragging`_.
 **Hope is though that you will get some useful info out of it.**
 For not geeks to understand this article here are crude definitions of
 technologies. They are all free and open source technologies:
@@ -31,6 +31,8 @@ technologies. They are all free and open source technologies:
 - VSCode: text editor with very easy learning curve and many great extensions.
 - Arch Linux: Linux OS for die hard geeks and hackers with hard learning curve.
 - VIM: text editor for die hard geeks and hacker with hard learning curve.
+
+.. _looked like and is bragging: https://www.lesspenguiny.com/articles/best-article-on-bragging
 
 Accidentall success
 =====================
@@ -126,10 +128,10 @@ Tools are important
 More important then you think
 -----------------------------
 
-With better tools or resources in your environment or context your ability
+**With better tools or resources in your environment or context your ability
 will be higher. This will lead to doing more which will in turn give you more
 actual skills. Then it will be easier to do that behaviors in future even
-without tools. And in different environments.
+without tools. And in different environments.**
 
 That is the reason why I'm very deliberate about everything in my environment.
 And why I switched Arch Linux for Ubuntu. And VIM for VSCode. And why I
@@ -138,7 +140,7 @@ the benefits of having more stable OS and text editor with such an easy
 learning curve, great user experiences, and powerfull exttensions will
 increase my skills even more. As they already did.
 
-This ideas about behavior desing comes from `Standford professor 
+This ideas about behavior design comes from `Standford professor
 BJ Fogg`_. This is a `tiny part of BJ's work`_ go and learn everything about it
 will change your life forever! `Preorder his book on Tiny Habits`_.
 
@@ -161,7 +163,7 @@ important as Internet is.** That's why I'm steering my carrier in Bitcoin
 direction. Important thing about it is what are the values of people that created
 it? What does it represent? What does it enable people to do?
 
-Here are some of these values:
+Here are some of these:
 
 * Right to privacy
 

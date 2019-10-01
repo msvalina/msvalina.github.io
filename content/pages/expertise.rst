@@ -3,6 +3,7 @@ Expertise
 #####################
 
 :date: 2019-09-18 10:14
+:modified: 2019-10-01 10:13
 :author: marijan
 :slug: expertise
 :lang: en

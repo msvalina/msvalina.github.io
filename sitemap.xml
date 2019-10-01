@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://msvalina.github.io/</loc>
-<lastmod>2019-10-01T10:12:20-00:00</lastmod>
+<lastmod>2019-10-01T10:13:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://msvalina.github.io/archives.html</loc>
-<lastmod>2019-10-01T10:12:20-00:00</lastmod>
+<lastmod>2019-10-01T10:13:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://msvalina.github.io/tags.html</loc>
-<lastmod>2019-10-01T10:12:20-00:00</lastmod>
+<lastmod>2019-10-01T10:13:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://msvalina.github.io/categories.html</loc>
-<lastmod>2019-10-01T10:12:20-00:00</lastmod>
+<lastmod>2019-10-01T10:13:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -47,7 +47,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://msvalina.github.io/pages/expertise/</loc>
-<lastmod>2019-09-18T10:14:00+02:00</lastmod>
+<lastmod>2019-10-01T10:13:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>

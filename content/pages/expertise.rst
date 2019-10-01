@@ -113,13 +113,13 @@ CV
 About
 #####
 
-Marijan is DevOps Engineer with professional experience in different fields.
-More then 10 years in Linux and networks. More then 3
-years with Python development. More then and 2 years with backend, and
-frontend web development. He worked in various working environments.
-From corporate to startup including remote freelancing. He is conscientious
-and extroverted, and can work both alone and in teams. He is constantly
-pushing him self in new areas.
+Marijan is DevOps Engineer with professional experience in different
+fields. More then 10 years in Linux and networks, more then 8 years
+professionally. More then 3 years with Python development. More then
+2 years with backend, and frontend web development. He worked in various
+working environments. From corporate to startup including remote
+freelancing. He is conscientious and extroverted, and can work both alone
+and in teams. He is constantly pushing him self in new areas.
 
 
 Education

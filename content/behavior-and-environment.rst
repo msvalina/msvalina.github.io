@@ -100,7 +100,7 @@ Lets take for example donating to your favorite charity. If somebody asks you
 to donate 1000$, and you don't have that money with you or it is too much for
 you. Your Ability will be very low and if you don't have huge Motivation you
 wont do that Behavior. But if they ask for 10$ and you want to do it, and you
-have the money with you, Behavior will happen. The take a way here is that
+have the money with you, Behavior will happen. The takeaway here is that
 Motivation is like a wave. It comes and goes, everybody knows that. But where
 great idea is, is that **by making things simplier or more easy to do we
 don't have to rely on Motivation.**
@@ -138,7 +138,7 @@ That is the reason why I'm very deliberate about everything in my environment.
 And why I switched Arch Linux for Ubuntu. And VIM for VSCode. And why I
 bought three different chairs, and a standing desk, and so on. I'm sure that
 the benefits of having more stable OS and text editor with such an easy
-learning curve, great user experiences, and powerfull exttensions will
+learning curve, great user experiences, and powerfull extensions will
 increase my skills even more. As they already did.
 
 This ideas about behavior design comes from `Standford professor

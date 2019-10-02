@@ -3,7 +3,7 @@ Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode f
 #############################################################################################
 
 :date: 2019-09-26 10:49
-:modified: 2019-10-01 08:28:15
+:modified: 2019-10-01 11:54:15
 :author: marijan
 :slug: role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim
 :lang: en
@@ -25,6 +25,8 @@ Takeaway
 This is a story about role of environment in our behavior. It's written
 through my personal journey. Lot of it can be `looked like and is bragging`_.
 **Hope is though, that you will get some useful info out of it.**
+There is one more little story in here. One about my overcoming of
+developmental trauma. Which I will expand in full later, here are just glimpses.
 For other then geeks to understand this article here are crude definitions of
 technologies. They are all free and open source technologies:
 
@@ -34,6 +36,11 @@ technologies. They are all free and open source technologies:
 - VIM: text editor for die hard geeks and hacker with hard learning curve.
 
 .. _looked like and is bragging: https://www.lesspenguiny.com/articles/best-article-on-bragging
+
+.. image:: |static|/assets/images/vim-in-vscode.png
+   :width: 85 %
+   :align: center
+   :alt: VIM inside VSCode
 
 Accidentall success
 =====================
@@ -96,7 +103,7 @@ be no Behavior.
    :alt: Meme - Well... thank you captain obvious
 
 
-Lets take for example donating to your favorite charity. If somebody asks you
+Let's take for example donating to your favorite charity. If somebody asks you
 to donate 1000$, and you don't have that money with you or it is too much for
 you. Your Ability will be very low and if you don't have huge Motivation you
 wont do that Behavior. But if they ask for 10$ and you want to do it, and you
@@ -156,6 +163,11 @@ will change your life forever! `Preorder his book on Tiny Habits`_.
 .. _Standford professor BJ Fogg: https://www.bjfogg.com
 .. _Preorder his book on Tiny Habits:  https://www.tinyhabits.com/book
 
+BJ's ideas did change my life. Because as most of us I also new what would be
+and what is good for me. But the problem was how to change habits. How to
+change childhod conditioning. How to change lifestyle, how to make healthy
+habbits.
+
 Let's fight! Back to values
 =============================
 
@@ -191,13 +203,19 @@ And `cypherpunks write code\!`_
 Conclusion
 ===========
 
-If you are dealing with some form of trauma. Please first help your self. Ask
-for help, and treat yourself kindly. Use this new found knowledge.
+Switching to VSCode and Ubuntu is a way to sharpen my tools. To highten my
+abilities by changing environment. So I can work more successfully in Bitcoin
+space. Hope you also see the arguments for importance of tools.
+
+For you out there who are dealing with some form of trauma. Please first help
+your self. Ask for help, and treat yourself kindly. Use this new found
+knowledge.
 
 For the rest of us, this is a call to action. We should collectively 
-always strive to make our environment better. So we don't have to be saints
-to do the right thing. Lets use this new knowledge about behavior, find good values to
-fight for, form strong opinions on most important things. Act in good faith.
-Live life worth living. Be willing to change when reason tells us. Live long
-and prosper. 💗
+always be aware how our our environment steers our behavior and focus on
+conscionsly designing it. So we don't have to be saints to do the right
+thing. Let's use this new knowledge about behavior, find good values to fight
+for, form strong opinions on most important things. Act in good faith. Live
+life worth living. Be willing to change when reason tells us. Live long and
+prosper. 💗
 

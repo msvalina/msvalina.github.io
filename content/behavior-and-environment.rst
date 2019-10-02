@@ -3,6 +3,7 @@ Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode f
 #############################################################################################
 
 :date: 2019-09-26 10:49
+:modified: 2019-10-01 08:28:15
 :author: marijan
 :slug: role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim
 :lang: en
@@ -22,9 +23,9 @@ Takeaway
 
 
 This is a story about role of environment in our behavior. It's written
-through my personal journey. Lot if it can be `looked like and is bragging`_.
-**Hope is though that you will get some useful info out of it.**
-For not geeks to understand this article here are crude definitions of
+through my personal journey. Lot of it can be `looked like and is bragging`_.
+**Hope is though, that you will get some useful info out of it.**
+For other then geeks to understand this article here are crude definitions of
 technologies. They are all free and open source technologies:
 
 - Ubuntu: Linux Operating System (OS) for PCs built for regular people.

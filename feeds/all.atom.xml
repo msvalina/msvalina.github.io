@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Here Be Dragons</title><link href="https://msvalina.github.io/" rel="alternate"></link><link href="https://msvalina.github.io/feeds/all.atom.xml" rel="self"></link><id>https://msvalina.github.io/</id><updated>2019-09-26T10:49:00+02:00</updated><subtitle>Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.</subtitle><entry><title>Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM</title><link href="https://msvalina.github.io/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html" rel="alternate"></link><published>2019-09-26T10:49:00+02:00</published><updated>2019-09-26T10:49:00+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.github.io,2019-09-26:/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html</id><summary type="html">&lt;div class="section" id="takeaway"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Here Be Dragons</title><link href="https://msvalina.github.io/" rel="alternate"></link><link href="https://msvalina.github.io/feeds/all.atom.xml" rel="self"></link><id>https://msvalina.github.io/</id><updated>2019-10-01T08:28:15+02:00</updated><subtitle>Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.</subtitle><entry><title>Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM</title><link href="https://msvalina.github.io/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html" rel="alternate"></link><published>2019-09-26T10:49:00+02:00</published><updated>2019-10-01T08:28:15+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.github.io,2019-09-26:/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html</id><summary type="html">&lt;div class="section" id="takeaway"&gt;
 &lt;h2&gt;Takeaway&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;ul class="simple"&gt;
@@ -20,9 +20,9 @@ it will be easier to do that behaviors in future even without tools.&lt;/li&gt;
 &lt;/blockquote&gt;
 &lt;hr class="docutils" /&gt;
 &lt;p&gt;This is a story about role of environment in our behavior. It's written
-through my personal journey. Lot if it can be &lt;a class="reference external" href="https://www.lesspenguiny.com/articles/best-article-on-bragging"&gt;looked like and is bragging&lt;/a&gt;.
-&lt;strong&gt;Hope is though that you will get some useful info out of it.&lt;/strong&gt;
-For not geeks to understand this article here are crude definitions of
+through my personal journey. Lot of it can be &lt;a class="reference external" href="https://www.lesspenguiny.com/articles/best-article-on-bragging"&gt;looked like and is bragging&lt;/a&gt;.
+&lt;strong&gt;Hope is though, that you will get some useful info out of it.&lt;/strong&gt;
+For other then geeks to understand this article here are crude definitions of
 technologies. They are all free and open source technologies:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Ubuntu: Linux Operating System (OS) for PCs built for regular people.&lt;/li&gt;

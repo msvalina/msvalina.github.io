@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Here Be Dragons - misc</title><link href="https://msvalina.github.io/" rel="alternate"></link><link href="https://msvalina.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://msvalina.github.io/</id><updated>2019-10-01T08:28:15+02:00</updated><subtitle>Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.</subtitle><entry><title>Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM</title><link href="https://msvalina.github.io/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html" rel="alternate"></link><published>2019-09-26T10:49:00+02:00</published><updated>2019-10-01T08:28:15+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.github.io,2019-09-26:/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html</id><summary type="html">&lt;div class="section" id="takeaway"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Here Be Dragons - misc</title><link href="https://msvalina.github.io/" rel="alternate"></link><link href="https://msvalina.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://msvalina.github.io/</id><updated>2019-10-01T11:54:15+02:00</updated><subtitle>Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.</subtitle><entry><title>Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM</title><link href="https://msvalina.github.io/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html" rel="alternate"></link><published>2019-09-26T10:49:00+02:00</published><updated>2019-10-01T11:54:15+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.github.io,2019-09-26:/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html</id><summary type="html">&lt;div class="section" id="takeaway"&gt;
 &lt;h2&gt;Takeaway&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;ul class="simple"&gt;
@@ -22,6 +22,8 @@ it will be easier to do that behaviors in future even without tools.&lt;/li&gt;
 &lt;p&gt;This is a story about role of environment in our behavior. It's written
 through my personal journey. Lot of it can be &lt;a class="reference external" href="https://www.lesspenguiny.com/articles/best-article-on-bragging"&gt;looked like and is bragging&lt;/a&gt;.
 &lt;strong&gt;Hope is though, that you will get some useful info out of it.&lt;/strong&gt;
+There is one more little story in here. One about my overcoming of
+developmental trauma. Which I will expand in full later, here are just glimpses.
 For other then geeks to understand this article here are crude definitions of
 technologies. They are all free and open source technologies:&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -30,6 +32,7 @@ technologies. They are all free and open source technologies:&lt;/p&gt;
 &lt;li&gt;Arch Linux: Linux OS for die hard geeks and hackers with hard learning curve.&lt;/li&gt;
 &lt;li&gt;VIM: text editor for die hard geeks and hacker with hard learning curve.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;img alt="VIM inside VSCode" class="align-center" src="https://msvalina.github.io/assets/images/vim-in-vscode.png" style="width: 85%;" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="accidentall-success"&gt;
 &lt;h2&gt;Accidentall success&lt;/h2&gt;
@@ -73,11 +76,11 @@ between Motivation and Ability which is &lt;strong&gt;Action Line&lt;/strong&gt;
 Motivation and Ability is bellow Action Line when Prompt happens there will
 be no Behavior.&lt;/p&gt;
 &lt;a class="reference external image-reference" href="https://www.behaviormodel.org/"&gt;&lt;img alt="Meme - Well... thank you captain obvious" class="align-center" src="https://msvalina.github.io/assets/images/fogg-behavior-model-graphic-2019.webp" /&gt;&lt;/a&gt;
-&lt;p&gt;Lets take for example donating to your favorite charity. If somebody asks you
+&lt;p&gt;Let's take for example donating to your favorite charity. If somebody asks you
 to donate 1000$, and you don't have that money with you or it is too much for
 you. Your Ability will be very low and if you don't have huge Motivation you
 wont do that Behavior. But if they ask for 10$ and you want to do it, and you
-have the money with you, Behavior will happen. The take a way here is that
+have the money with you, Behavior will happen. The takeaway here is that
 Motivation is like a wave. It comes and goes, everybody knows that. But where
 great idea is, is that &lt;strong&gt;by making things simplier or more easy to do we
 don't have to rely on Motivation.&lt;/strong&gt;&lt;/p&gt;
@@ -105,12 +108,16 @@ without tools. And in different environments.&lt;/strong&gt;&lt;/p&gt;
 And why I switched Arch Linux for Ubuntu. And VIM for VSCode. And why I
 bought three different chairs, and a standing desk, and so on. I'm sure that
 the benefits of having more stable OS and text editor with such an easy
-learning curve, great user experiences, and powerfull exttensions will
+learning curve, great user experiences, and powerfull extensions will
 increase my skills even more. As they already did.&lt;/p&gt;
 &lt;p&gt;This ideas about behavior design comes from &lt;a class="reference external" href="https://www.bjfogg.com"&gt;Standford professor
 BJ Fogg&lt;/a&gt;. This is a &lt;a class="reference external" href="https://www.tinyhabits.com"&gt;tiny part of BJ's work&lt;/a&gt; go and learn everything about it
 will change your life forever! &lt;a class="reference external" href="https://www.tinyhabits.com/book"&gt;Preorder his book on Tiny Habits&lt;/a&gt;.&lt;/p&gt;
 &lt;a class="reference external image-reference" href="https://www.tinyhabits.com/book"&gt;&lt;img alt="Tiny Habits book cover photo" class="align-center" src="https://msvalina.github.io/assets/images/tiny-habits-book.webp" style="width: 75%;" /&gt;&lt;/a&gt;
+&lt;p&gt;BJ's ideas did change my life. Because as most of us I also new what would be
+and what is good for me. But the problem was how to change habits. How to
+change childhod conditioning. How to change lifestyle, how to make healthy
+habbits.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="let-s-fight-back-to-values"&gt;
@@ -134,13 +141,18 @@ And &lt;a class="reference external" href="https://www.activism.net/cypherpunk/m
 &lt;/div&gt;
 &lt;div class="section" id="conclusion"&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;If you are dealing with some form of trauma. Please first help your self. Ask
-for help, and treat yourself kindly. Use this new found knowledge.&lt;/p&gt;
+&lt;p&gt;Switching to VSCode and Ubuntu is a way to sharpen my tools. To highten my
+abilities by changing environment. So I can work more successfully in Bitcoin
+space. Hope you also see the arguments for importance of tools.&lt;/p&gt;
+&lt;p&gt;For you out there who are dealing with some form of trauma. Please first help
+your self. Ask for help, and treat yourself kindly. Use this new found
+knowledge.&lt;/p&gt;
 &lt;p&gt;For the rest of us, this is a call to action. We should collectively
-always strive to make our environment better. So we don't have to be saints
-to do the right thing. Lets use this new knowledge about behavior, find good values to
-fight for, form strong opinions on most important things. Act in good faith.
-Live life worth living. Be willing to change when reason tells us. Live long
-and prosper. 💗&lt;/p&gt;
+always be aware how our our environment steers our behavior and focus on
+conscionsly designing it. So we don't have to be saints to do the right
+thing. Let's use this new knowledge about behavior, find good values to fight
+for, form strong opinions on most important things. Act in good faith. Live
+life worth living. Be willing to change when reason tells us. Live long and
+prosper. 💗&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="bitcoin"></category><category term="behavior"></category><category term="environment"></category><category term="values"></category><category term="trauma"></category></entry></feed>

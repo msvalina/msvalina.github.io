@@ -1,13 +1,13 @@
-#############################################################################################
-Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM
-#############################################################################################
+###########################################################################################################
+Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM after 8 years
+###########################################################################################################
 
 :date: 2019-09-26 10:49
-:modified: 2019-10-01 11:54:15
+:modified: 2019-10-19 10:36
 :author: marijan
 :slug: role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim
 :lang: en
-:tags: bitcoin, behavior, environment, values, trauma
+:tags: tools, behavior, environment, bitcoin, values
 :cover: assets/images/header_doggy_teacher.jpg
 :status: published
 
@@ -23,19 +23,18 @@ Takeaway
 
 
 This is a story about role of environment in our behavior. It's written
-through my personal journey. Lot of it can be `looked like and is bragging`_.
+through my personal journey. Lot of it can be `looked like and probably is
+bragging`_.
 **Hope is though, that you will get some useful info out of it.**
-There is one more little story in here. One about my overcoming of
-developmental trauma. Which I will expand in full later, here are just glimpses.
-For other then geeks to understand this article here are crude definitions of
-technologies. They are all free and open source technologies:
+For regular people -- not geeks -- to understand this article here are crude
+descriptions of tools used. They are all free and open source technologies:
 
 - Ubuntu: Linux Operating System (OS) for PCs built for regular people.
 - VSCode: text editor with very easy learning curve and many great extensions.
-- Arch Linux: Linux OS for die hard geeks and hackers with hard learning curve.
-- VIM: text editor for die hard geeks and hacker with hard learning curve.
+- Arch Linux: Linux OS for die hard geeks with hard learning curve.
+- VIM: text editor for die hard geeks with hard learning curve.
 
-.. _looked like and is bragging: https://www.lesspenguiny.com/articles/best-article-on-bragging
+.. _looked like and probably is bragging: https://www.lesspenguiny.com/articles/best-article-on-bragging
 
 .. image:: |static|/assets/images/vim-in-vscode.png
    :width: 85 %
@@ -47,13 +46,11 @@ Accidentall success
 
 It's year 2009, Satoshi Nakamoto just gave birth to Bitcoin. It's third
 semester at my University journey. I'm more happy about running Ubuntu then
-learning. Most importantly, slowely but surely, I'm on path to say good bye
-to my childhod developmental trauma.
+learning. 
 
-As I breath more fully I'm more open to new experiences. Soon after friend of
-mine suggests and helps me install Arch Linux OS. It's the coolest operating
-system for wannabe hacker at the time. Cool thing about it is that you have
-to construct it by yourself. Like Lego's. 
+Around that time friend of mine suggests and helps me install Arch Linux OS.
+It's the coolest operating system for wannabe hacker at the time. Cool thing
+about it is that you have to construct it by yourself. Like Lego's.
 
 This was huge change! Until that moment my knowledge about Linux like
 OS was more theoretical then practical. That started to change
@@ -70,7 +67,7 @@ though, then purposely to change environment.
    :alt: My small room with PC, laptop and a bed.
 
 
-**Success** was sticking with Arch for first year. That only happend **because
+**Success was sticking with Arch for first year. That only happend because
 there were no fallback**. After that my skills were much better and sticking
 with all the housekeeping that needs to be done when running Arch was not a
 big deal.
@@ -163,9 +160,9 @@ will change your life forever! `Preorder his book on Tiny Habits`_.
 .. _Standford professor BJ Fogg: https://www.bjfogg.com
 .. _Preorder his book on Tiny Habits:  https://www.tinyhabits.com/book
 
-BJ's ideas did change my life. Because as most of us I also new what would be
+BJ's ideas did change my life. Because as most of us I also knew what would be
 and what is good for me. But the problem was how to change habits. How to
-change childhod conditioning. How to change lifestyle, how to make healthy
+change childhood conditioning. How to change lifestyle, how to make healthy
 habbits.
 
 Let's fight! Back to values
@@ -173,16 +170,16 @@ Let's fight! Back to values
 
 I started with Bitcoin because it is really important. **Bitcoin is as
 important as Internet is.** That's why I'm steering my carrier in Bitcoin
-direction. Important thing about it is what are the values of people that created
+direction. Important questions about it are: what are the values of people that created
 it? What does it represent? What does it enable people to do?
 
-Here are some of these:
+Here are some answers:
 
 * Right to privacy
 
 * Freedom of expression (which money is form of)
 
-* Right to alternative neutral economic system
+* Alternative neutral economic system
 
 * Censorship resistance
 
@@ -192,9 +189,9 @@ Here are some of these:
 
 
 
-Bitcoin isn't created in vacuum. It was built on shoulders of giants.
-Most technologies used to create Bitcoin come from cypherpunks culture.
-And `cypherpunks write code\!`_
+Bitcoin isn't created in vacuum. As is with everything else. It is built on
+shoulders of giants. Most technologies used to create Bitcoin come from
+cypherpunks culture. And `cypherpunks write code\!`_
 
 
 .. _cypherpunks write code!:  https://www.activism.net/cypherpunk/manifesto.html
@@ -203,19 +200,11 @@ And `cypherpunks write code\!`_
 Conclusion
 ===========
 
-Switching to VSCode and Ubuntu is a way to sharpen my tools. To highten my
+Switching to VSCode and Ubuntu is my way to sharpen my tools. To highten my
 abilities by changing environment. So I can work more successfully in Bitcoin
 space. Hope you also see the arguments for importance of tools.
 
-For you out there who are dealing with some form of trauma. Please first help
-your self. Ask for help, and treat yourself kindly. Use this new found
-knowledge.
-
-For the rest of us, this is a call to action. We should collectively 
+For all of us, this is a call to action. We should collectively 
 always be aware how our our environment steers our behavior and focus on
 conscionsly designing it. So we don't have to be saints to do the right
-thing. Let's use this new knowledge about behavior, find good values to fight
-for, form strong opinions on most important things. Act in good faith. Live
-life worth living. Be willing to change when reason tells us. Live long and
-prosper. 💗
-
+thing. Live long and prosper. Thank you. Have a nice day. 💗

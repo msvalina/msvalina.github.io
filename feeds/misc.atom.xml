@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Here Be Dragons - misc</title><link href="https://msvalina.github.io/" rel="alternate"></link><link href="https://msvalina.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://msvalina.github.io/</id><updated>2019-10-01T11:54:15+02:00</updated><subtitle>Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.</subtitle><entry><title>Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM</title><link href="https://msvalina.github.io/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html" rel="alternate"></link><published>2019-09-26T10:49:00+02:00</published><updated>2019-10-01T11:54:15+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.github.io,2019-09-26:/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html</id><summary type="html">&lt;div class="section" id="takeaway"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Here Be Dragons - misc</title><link href="https://msvalina.github.io/" rel="alternate"></link><link href="https://msvalina.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://msvalina.github.io/</id><updated>2019-10-19T10:36:00+02:00</updated><subtitle>Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.</subtitle><entry><title>Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM after 8 years</title><link href="https://msvalina.github.io/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html" rel="alternate"></link><published>2019-09-26T10:49:00+02:00</published><updated>2019-10-19T10:36:00+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.github.io,2019-09-26:/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html</id><summary type="html">&lt;div class="section" id="takeaway"&gt;
 &lt;h2&gt;Takeaway&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;ul class="simple"&gt;
@@ -20,17 +20,16 @@ it will be easier to do that behaviors in future even without tools.&lt;/li&gt;
 &lt;/blockquote&gt;
 &lt;hr class="docutils" /&gt;
 &lt;p&gt;This is a story about role of environment in our behavior. It's written
-through my personal journey. Lot of it can be &lt;a class="reference external" href="https://www.lesspenguiny.com/articles/best-article-on-bragging"&gt;looked like and is bragging&lt;/a&gt;.
+through my personal journey. Lot of it can be &lt;a class="reference external" href="https://www.lesspenguiny.com/articles/best-article-on-bragging"&gt;looked like and probably is
+bragging&lt;/a&gt;.
 &lt;strong&gt;Hope is though, that you will get some useful info out of it.&lt;/strong&gt;
-There is one more little story in here. One about my overcoming of
-developmental trauma. Which I will expand in full later, here are just glimpses.
-For other then geeks to understand this article here are crude definitions of
-technologies. They are all free and open source technologies:&lt;/p&gt;
+For regular people -- not geeks -- to understand this article here are crude
+descriptions of tools used. They are all free and open source technologies:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Ubuntu: Linux Operating System (OS) for PCs built for regular people.&lt;/li&gt;
 &lt;li&gt;VSCode: text editor with very easy learning curve and many great extensions.&lt;/li&gt;
-&lt;li&gt;Arch Linux: Linux OS for die hard geeks and hackers with hard learning curve.&lt;/li&gt;
-&lt;li&gt;VIM: text editor for die hard geeks and hacker with hard learning curve.&lt;/li&gt;
+&lt;li&gt;Arch Linux: Linux OS for die hard geeks with hard learning curve.&lt;/li&gt;
+&lt;li&gt;VIM: text editor for die hard geeks with hard learning curve.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;img alt="VIM inside VSCode" class="align-center" src="https://msvalina.github.io/assets/images/vim-in-vscode.png" style="width: 85%;" /&gt;
 &lt;/div&gt;
@@ -38,12 +37,10 @@ technologies. They are all free and open source technologies:&lt;/p&gt;
 &lt;h2&gt;Accidentall success&lt;/h2&gt;
 &lt;p&gt;It's year 2009, Satoshi Nakamoto just gave birth to Bitcoin. It's third
 semester at my University journey. I'm more happy about running Ubuntu then
-learning. Most importantly, slowely but surely, I'm on path to say good bye
-to my childhod developmental trauma.&lt;/p&gt;
-&lt;p&gt;As I breath more fully I'm more open to new experiences. Soon after friend of
-mine suggests and helps me install Arch Linux OS. It's the coolest operating
-system for wannabe hacker at the time. Cool thing about it is that you have
-to construct it by yourself. Like Lego's.&lt;/p&gt;
+learning.&lt;/p&gt;
+&lt;p&gt;Around that time friend of mine suggests and helps me install Arch Linux OS.
+It's the coolest operating system for wannabe hacker at the time. Cool thing
+about it is that you have to construct it by yourself. Like Lego's.&lt;/p&gt;
 &lt;p&gt;This was huge change! Until that moment my knowledge about Linux like
 OS was more theoretical then practical. That started to change
 because everything I wanted and needed for my assignments I
@@ -53,7 +50,7 @@ That process is and was very painful and frustrating at times. &lt;strong&gt;But
 fallback computer&lt;/strong&gt;. I gave away my laptop to parents. More accidentally
 though, then purposely to change environment.&lt;/p&gt;
 &lt;img alt="My small room with PC, laptop and a bed." class="align-center" src="https://msvalina.github.io/assets/images/university-apartment.jpg" style="width: 85%;" /&gt;
-&lt;p&gt;&lt;strong&gt;Success&lt;/strong&gt; was sticking with Arch for first year. That only happend &lt;strong&gt;because
+&lt;p&gt;&lt;strong&gt;Success was sticking with Arch for first year. That only happend because
 there were no fallback&lt;/strong&gt;. After that my skills were much better and sticking
 with all the housekeeping that needs to be done when running Arch was not a
 big deal.&lt;/p&gt;
@@ -114,9 +111,9 @@ increase my skills even more. As they already did.&lt;/p&gt;
 BJ Fogg&lt;/a&gt;. This is a &lt;a class="reference external" href="https://www.tinyhabits.com"&gt;tiny part of BJ's work&lt;/a&gt; go and learn everything about it
 will change your life forever! &lt;a class="reference external" href="https://www.tinyhabits.com/book"&gt;Preorder his book on Tiny Habits&lt;/a&gt;.&lt;/p&gt;
 &lt;a class="reference external image-reference" href="https://www.tinyhabits.com/book"&gt;&lt;img alt="Tiny Habits book cover photo" class="align-center" src="https://msvalina.github.io/assets/images/tiny-habits-book.webp" style="width: 75%;" /&gt;&lt;/a&gt;
-&lt;p&gt;BJ's ideas did change my life. Because as most of us I also new what would be
+&lt;p&gt;BJ's ideas did change my life. Because as most of us I also knew what would be
 and what is good for me. But the problem was how to change habits. How to
-change childhod conditioning. How to change lifestyle, how to make healthy
+change childhood conditioning. How to change lifestyle, how to make healthy
 habbits.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -124,35 +121,29 @@ habbits.&lt;/p&gt;
 &lt;h2&gt;Let's fight! Back to values&lt;/h2&gt;
 &lt;p&gt;I started with Bitcoin because it is really important. &lt;strong&gt;Bitcoin is as
 important as Internet is.&lt;/strong&gt; That's why I'm steering my carrier in Bitcoin
-direction. Important thing about it is what are the values of people that created
+direction. Important questions about it are: what are the values of people that created
 it? What does it represent? What does it enable people to do?&lt;/p&gt;
-&lt;p&gt;Here are some of these:&lt;/p&gt;
+&lt;p&gt;Here are some answers:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Right to privacy&lt;/li&gt;
 &lt;li&gt;Freedom of expression (which money is form of)&lt;/li&gt;
-&lt;li&gt;Right to alternative neutral economic system&lt;/li&gt;
+&lt;li&gt;Alternative neutral economic system&lt;/li&gt;
 &lt;li&gt;Censorship resistance&lt;/li&gt;
 &lt;li&gt;The sovereignty of individual&lt;/li&gt;
 &lt;li&gt;Fighiting chance against digital age dictatorship&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Bitcoin isn't created in vacuum. It was built on shoulders of giants.
-Most technologies used to create Bitcoin come from cypherpunks culture.
-And &lt;a class="reference external" href="https://www.activism.net/cypherpunk/manifesto.html"&gt;cypherpunks write code!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Bitcoin isn't created in vacuum. As is with everything else. It is built on
+shoulders of giants. Most technologies used to create Bitcoin come from
+cypherpunks culture. And &lt;a class="reference external" href="https://www.activism.net/cypherpunk/manifesto.html"&gt;cypherpunks write code!&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="conclusion"&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;Switching to VSCode and Ubuntu is a way to sharpen my tools. To highten my
+&lt;p&gt;Switching to VSCode and Ubuntu is my way to sharpen my tools. To highten my
 abilities by changing environment. So I can work more successfully in Bitcoin
 space. Hope you also see the arguments for importance of tools.&lt;/p&gt;
-&lt;p&gt;For you out there who are dealing with some form of trauma. Please first help
-your self. Ask for help, and treat yourself kindly. Use this new found
-knowledge.&lt;/p&gt;
-&lt;p&gt;For the rest of us, this is a call to action. We should collectively
+&lt;p&gt;For all of us, this is a call to action. We should collectively
 always be aware how our our environment steers our behavior and focus on
 conscionsly designing it. So we don't have to be saints to do the right
-thing. Let's use this new knowledge about behavior, find good values to fight
-for, form strong opinions on most important things. Act in good faith. Live
-life worth living. Be willing to change when reason tells us. Live long and
-prosper. 💗&lt;/p&gt;
+thing. Live long and prosper. Thank you. Have a nice day. 💗&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="bitcoin"></category><category term="behavior"></category><category term="environment"></category><category term="values"></category><category term="trauma"></category></entry></feed>
+</content><category term="tools"></category><category term="behavior"></category><category term="environment"></category><category term="bitcoin"></category><category term="values"></category></entry></feed>

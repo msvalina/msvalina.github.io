@@ -44,15 +44,13 @@ descriptions of tools used. They are all free and open source technologies:
 Accidentall success
 =====================
 
-It's year 2009, Satoshi Nakamoto just gave birth to Bitcoin. It's third
-semester at my University journey. I'm more happy about running Ubuntu then
-learning. 
+It's year 2009, it's third semester at my University journey. I'm more happy
+about running Ubuntu then learning. Around that time friend of mine suggests
+and helps me install Arch Linux OS. It's the coolest operating system for
+wannabe hacker at the time. Cool thing about it is that you have to construct
+it by yourself. Like Lego's.
 
-Around that time friend of mine suggests and helps me install Arch Linux OS.
-It's the coolest operating system for wannabe hacker at the time. Cool thing
-about it is that you have to construct it by yourself. Like Lego's.
-
-This was huge change! Until that moment my knowledge about Linux like
+This was huge change. Until that moment my knowledge about Linux like
 OS was more theoretical then practical. That started to change
 because everything I wanted and needed for my assignments I
 had to setup by my self. That meant a lot of tries and errors, and getting
@@ -165,46 +163,30 @@ and what is good for me. But the problem was how to change habits. How to
 change childhood conditioning. How to change lifestyle, how to make healthy
 habbits.
 
-Let's fight! Back to values
-=============================
-
-I started with Bitcoin because it is really important. **Bitcoin is as
-important as Internet is.** That's why I'm steering my carrier in Bitcoin
-direction. Important questions about it are: what are the values of people that created
-it? What does it represent? What does it enable people to do?
-
-Here are some answers:
-
-* Right to privacy
-
-* Freedom of expression (which money is form of)
-
-* Alternative neutral economic system
-
-* Censorship resistance
-
-* The sovereignty of individual
-
-* Fighiting chance against digital age dictatorship
-
-
-
-Bitcoin isn't created in vacuum. As is with everything else. It is built on
-shoulders of giants. Most technologies used to create Bitcoin come from
-cypherpunks culture. And `cypherpunks write code\!`_
-
-
-.. _cypherpunks write code!:  https://www.activism.net/cypherpunk/manifesto.html
-
-
 Conclusion
 ===========
 
 Switching to VSCode and Ubuntu is my way to sharpen my tools. To highten my
-abilities by changing environment. So I can work more successfully in Bitcoin
-space. Hope you also see the arguments for importance of tools.
+abilities by changing environment. So I can work more successfully on things
+that I value. Hope is that you also see the arguments for importance of tools.
 
 For all of us, this is a call to action. We should collectively 
 always be aware how our our environment steers our behavior and focus on
 conscionsly designing it. So we don't have to be saints to do the right
 thing. Live long and prosper. Thank you. Have a nice day. 💗
+
+
+-------------
+
+  **Modification notes**
+
+  My friends rightly noted that I was jamming too much of my intrest in one
+  article. Thank you guys for honest criticism.
+
+  2019 Oct 19
+
+  * Remove parts about personal trauma, and behavior.
+
+  2019 Oct 21   
+  
+  * Remove parts about Bitcoin. 

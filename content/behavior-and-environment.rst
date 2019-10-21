@@ -3,11 +3,11 @@ Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode f
 ###########################################################################################################
 
 :date: 2019-09-26 10:49
-:modified: 2019-10-19 10:36
+:modified: 2019-10-21 12:04
 :author: marijan
 :slug: role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim
 :lang: en
-:tags: tools, behavior, environment, bitcoin, values
+:tags: tools, behavior, environment 
 :cover: assets/images/header_doggy_teacher.jpg
 :status: published
 

@@ -10,7 +10,13 @@ SITEURL = 'https://msvalina.org'
 
 DEFAULT_DATE = 'fs'
 
-DEFAULT_DATE_FORMAT = '%d %b %Y'
+LOCALE = ('en_US.utf8', 'hr_HR.utf8')
+
+DATE_FORMATS = {
+    'en': ('en_US.utf8','%a %d %b %Y'),
+    'hr': ('hr_HR.utf8','%A %d. %b %Y.'),
+}
+
 
 PATH = 'content'
 
@@ -79,8 +85,7 @@ PLUGINS = [
     'sitemap',
     'neighbors',
     'assets',
-    'i18n_subsites',
-    'gist_directive'
+    'i18n_subsites'
 ]
 
 # I18N_SUBSITES = {

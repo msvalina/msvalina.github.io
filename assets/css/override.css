@@ -9,7 +9,7 @@ a.reference.external {
   line-height: normal;
 }
 
-blockquote {
+blockquote ul {
   font-style: normal !important;
   font-weight: bolder !important;
 }

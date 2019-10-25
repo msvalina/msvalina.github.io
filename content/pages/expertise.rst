@@ -9,19 +9,39 @@ Expertise
 :lang: en
 :cover: assets/images/header_doggy_teacher.jpg
 
+Here is a list of my formal experiences and informal, learning, education, and
+projects. It's ordered by what is most valueable to me. Formal stuff is
+written in more professional tone, while informal in more causal.
+You will get an idea about my experience, and expertise.
+
+.. contents:: **Content**
+   :backlinks: top
+   :depth: 3
+
+Values
+*******
+
+I hold many different values. Some of them are even in contradiction.
+These are also dear to my heart and mind:
+
+- Freedom of speech
+- Right to privacy
+- Radical Transparency / No lying
+- Civil rights
+- Rule of law
+- Sovereignty of the individual
+
+Informal learning and projects
+********************************
 
 Signaling, and jargon talk incoming, prepare yourself
-**************************************************************
+######################################################
 
 It's 2014, and a thought comes. It's time to get serious about money. I
 will finally give Bitcoin a chance. Ok, I need Bitcoin habits. First
 habit: Read every day `r\/bitcoin`_ for 2 minutes. Next, buy `Andreas
 Antonopulos book Mastering Bitcoin`_. 50 pages later my mind blew away!
 Since, I'm haunted by Bitcoin obsession in my professional, and personal life
-
-First part of the page highlights important projects. Second starts with CV.
-It's long and boring list of things I worked on. You will get an idea about my
-experience, and expertise.
 
 .. _r/bitcoin: https://www.reddit.com/r/Bitcoin/
 .. _Andreas Antonopulos book Mastering Bitcoin:  https://aantonop.com/books/
@@ -71,6 +91,14 @@ Nodes are behind NAT. They will be soon public. Always trying to learn more
 about applied cryptography tools and understanding. On next ATH one more
 Raspberry PI and Monero full node is online.
 
+React workout app
+#################
+
+Read about my experience with React in
+`Reflections and lessons from failed React workout app`_
+
+.. _Reflections and lessons from failed React workout app: {filename}/marketing-failures.rst
+
 
 Behavior Design Workshop with `BJ Fogg <https://www.bjfogg.com/>`_
 ###################################################################
@@ -95,7 +123,7 @@ The best money -- 899$ -- I've ever spent! Even better then Bitcoin at 100$.
 
 
 `Current CV PDF`_
-##################
+******************
 
 .. _Current CV PDF: |static|/assets/pdfs/marijan-svalina-latest-developer-cv.pdf
 
@@ -104,12 +132,12 @@ The best money -- 899$ -- I've ever spent! Even better then Bitcoin at 100$.
 
 
 
-CV
-**
+Formal Experience
+******************
 
-`Old style CV PDF of what follows here`_
+`Old Long CV PDF of what follows here`_
 
-.. _Old style CV PDF of what follows here: |static|/assets/pdfs/marijan-svalina-old-modern-cv.pdf
+.. _Old Long CV PDF of what follows here: |static|/assets/pdfs/marijan-svalina-old-modern-cv.pdf
 
 About
 #####

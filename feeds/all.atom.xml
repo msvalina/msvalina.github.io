@@ -1,5 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Here Be Dragons</title><link href="https://msvalina.github.io/" rel="alternate"></link><link href="https://msvalina.github.io/feeds/all.atom.xml" rel="self"></link><id>https://msvalina.github.io/</id><updated>2019-10-19T10:36:00+02:00</updated><subtitle>Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.</subtitle><entry><title>Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM after 8 years</title><link href="https://msvalina.github.io/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html" rel="alternate"></link><published>2019-09-26T10:49:00+02:00</published><updated>2019-10-19T10:36:00+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.github.io,2019-09-26:/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html</id><summary type="html">&lt;div class="section" id="takeaway"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Here Be Dragons</title><link href="https://msvalina.github.io/" rel="alternate"></link><link href="https://msvalina.github.io/feeds/all.atom.xml" rel="self"></link><id>https://msvalina.github.io/</id><updated>2019-10-25T10:49:00+02:00</updated><subtitle>Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.</subtitle><entry><title>Reflections and lessons from failed React workout app</title><link href="https://msvalina.github.io/2019/10/reflections-and-lessons-from-failed-react-workout-app.html" rel="alternate"></link><published>2019-10-25T10:49:00+02:00</published><updated>2019-10-25T10:49:00+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.github.io,2019-10-25:/2019/10/reflections-and-lessons-from-failed-react-workout-app.html</id><summary type="html">&lt;p&gt;This story is about failed personal project I took between jobs. &lt;strong&gt;How
+microscopic end result I have to show. But still got something valuable, or
+not, you be the judge.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="section" id="background"&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;It's fall of 2015. Four years ago. I quit my job as Magento backend
+developer. It lasted only three …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;This story is about failed personal project I took between jobs. &lt;strong&gt;How
+microscopic end result I have to show. But still got something valuable, or
+not, you be the judge.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="section" id="background"&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;It's fall of 2015. Four years ago. I quit my job as Magento backend
+developer. It lasted only three months... Preparation for position took
+learning PHP for a year, and some months. On mornings before daily
+programing job. But that is a different story. So I need a new job, but I
+don't have to rush it. I'm thinking to myself. Let's build simple workout app
+for exercise routine I'm doing. Let's build it with some new technology that
+will help me land a new job.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="app-and-technology"&gt;
+&lt;h2&gt;App and technology&lt;/h2&gt;
+&lt;blockquote&gt;
+Workout routine for app is from &lt;a class="reference external" href="http://www.startbodyweight.com/2014/01/basic-routine-infographic-poster.html"&gt;StartBodyweight.com&lt;/a&gt;, it's simple and
+good for beginners starting bodyweight exercises. It's based on this infographic poster.&lt;/blockquote&gt;
+&lt;a class="reference external image-reference" href="http://www.startbodyweight.com/2014/01/basic-routine-infographic-poster.html"&gt;&lt;img alt="Start bodyweight poster" class="align-center" src="https://msvalina.github.io/assets/images/startbodyweight-com-poster.jpg" style="width: 75%;" /&gt;&lt;/a&gt;
+&lt;p&gt;Web is not going anywhere. JavaScript is not going anywhere. I should orient
+toward them, is my thought stream. It's new beginning and I'm choosing
+to learn new — as some would describe — revolutionary technology. It's
+React — A JavaScript library for building user interfaces — invented at
+Facebook.&lt;/p&gt;
+&lt;p&gt;As it is with paradigm shifts, new tech, best practices are not
+established for some time after invention. And in React case from start it is
+explicitly minimal in nature. Also, Facebook did not lead the way at the time
+with supporting frameworks, tools, and practices.&lt;/p&gt;
+&lt;p&gt;That left a lot of space for enthusiast developers to fill the gaps needed to
+make complete application with React. &lt;strong&gt;Explosion of boilerplates code
+happened.&lt;/strong&gt; Small frameworks that provide scaffolding code.&lt;/p&gt;
+&lt;p&gt;There are many questions in front of me. Can I build something useful only
+with React? Which boilerplate to choose? Should I build only client side
+application? Why not build backend in JS also? I should go with express,
+right? How good is that MongoDB that everyone is talking about? Why not use
+JSON Web Token for authentication? Why not use Server Side Rendering to speed
+up loading time? What about latest ECMA script standard? Of course I should
+use webpack, right? And so on...&lt;/p&gt;
+&lt;p&gt;These questions lead me to try and experiment with different approaches.
+A lot of research, and not so much development.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="result"&gt;
+&lt;h2&gt;Result&lt;/h2&gt;
+&lt;p&gt;I spent two and a half months on project. On backend side, we can say that
+minimal viable product, working API is done. It support users, authentication,
+progressions, progression entries, and workout sessions.&lt;/p&gt;
+&lt;p&gt;From the design side. What I have to show are this half baked wireframes:&lt;/p&gt;
+&lt;img alt="Start bodyweight app wireframes" class="align-center" src="https://msvalina.github.io/assets/images/sbw-wireframe.jpg" style="width: 95%;" /&gt;
+&lt;p&gt;And from frontend there is almost nothing. I tried to use, many different boilerplates.
+Started with simple.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;react + webpack + babel&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/kriasoft/react-starter-kit/compare/v0.4.0...v0.4.1"&gt;react + react-router + react-hot-loader&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then figured I wanted state management. I tried three different redux
+implementations, with all latest bells and whistles.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/bdefore/universal-redux-jwt"&gt;universal-redux-jwt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/joshgeller/react-redux-jwt-auth-example"&gt;react-redux-jwt-auth-example&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/erikras/react-redux-universal-hot-example"&gt;react-redux-universal-hot-example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So that in the end I would settle on react-redux-universal-hot-example.
+And my time expired because I got new job offer. Which I took.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mistakes"&gt;
+&lt;h2&gt;Mistakes&lt;/h2&gt;
+&lt;p&gt;Why did I do so little?&lt;/p&gt;
+&lt;p&gt;Part of story can be describe as distraction...&lt;/p&gt;
+&lt;img alt="Distracted boyfriend meme looking at new boilerplate" class="align-center" src="https://msvalina.github.io/assets/images/boilerplate-distracion.jpg" style="width: 80%;" /&gt;
+&lt;p&gt;Part of the plan was to do everything by myself.&lt;/p&gt;
+&lt;p&gt;But that is also part of the problem.&lt;/p&gt;
+&lt;p&gt;I thought I have time.&lt;/p&gt;
+&lt;p&gt;I had time, just not as much as I needed.&lt;/p&gt;
+&lt;p&gt;The ever present problem of estimation in software development...&lt;/p&gt;
+&lt;p&gt;Trying to use every possible cutting edge technology at the time...&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="leesons"&gt;
+&lt;h2&gt;Leesons&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;New technology and fast results are not good combination.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It's easy to underestimate complexity of simple applications.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;R&amp;amp;D is not development.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Minimum viable product. Repeat MVP, MVP, MVP.&lt;/p&gt;
+&lt;div class="section" id="on-javascript-fatigue"&gt;
+&lt;h3&gt;On JavaScript fatigue&lt;/h3&gt;
+&lt;p&gt;Many before me have identified this phenomenon as &lt;a class="reference external" href="https://www.quora.com/Why-is-Javascript-Framework-fatigue-considered-a-big-problem"&gt;JavaScript fatigue&lt;/a&gt;. I
+would not say this is that big of problem. Yes it would be easier if there
+were standards, best practices and less choices.
+But bigger problem in my case is that &lt;strong&gt;I was learning too many things at
+once.&lt;/strong&gt; I'm not seasoned JavaScript developer. That meant, a lot of catching
+up, and a lot of unsuccessful pitfall avoidance.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-did-i-get-from-all-this-boilerplates"&gt;
+&lt;h3&gt;What did I get from all this boilerplates?&lt;/h3&gt;
+&lt;p&gt;Well I did actually bother to understand every boilerplate that I used. I did
+my homework on understanding nodejs, express, mongoose, babel, on the backend side.
+And on frontend side react, webpack, SSR, babel, redux. My head was not in the sand.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;It's blast from the past. My broken truth with reflections. A way to draw
+leassons from failed project. Showcase of my current abilities. Failed
+showcase, but still. It should at least shed some light at my skill as
+Frontend DevOps Engineer, or as failed Full Stack Developer. Thank you for
+reading. Have a nice day. 💗&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="freelancing"></category><category term="skills"></category></entry><entry><title>Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM after 8 years</title><link href="https://msvalina.github.io/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html" rel="alternate"></link><published>2019-09-26T10:49:00+02:00</published><updated>2019-10-21T12:04:00+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.github.io,2019-09-26:/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html</id><summary type="html">&lt;div class="section" id="takeaway"&gt;
 &lt;h2&gt;Takeaway&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;ul class="simple"&gt;
@@ -140,7 +252,7 @@ article. Thank you guys for honest criticism.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;/div&gt;
-</content><category term="tools"></category><category term="behavior"></category><category term="environment"></category><category term="bitcoin"></category><category term="values"></category></entry><entry><title>How to patch with Bitcoin, build and deploy GnuCash in Docker on Ubuntu PPA</title><link href="https://msvalina.github.io/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html" rel="alternate"></link><published>2019-09-08T10:45:00+02:00</published><updated>2019-09-08T10:45:00+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.github.io,2019-09-08:/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html</id><summary type="html">&lt;p&gt;Main goal of this article is to document high level steps. Steps
+</content><category term="tools"></category><category term="behavior"></category><category term="environment"></category></entry><entry><title>How to patch with Bitcoin, build and deploy GnuCash in Docker on Ubuntu PPA</title><link href="https://msvalina.github.io/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html" rel="alternate"></link><published>2019-09-08T10:45:00+02:00</published><updated>2019-09-08T10:45:00+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.github.io,2019-09-08:/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html</id><summary type="html">&lt;p&gt;Main goal of this article is to document high level steps. Steps
 to patch, build, and deploy &lt;a class="reference external" href="https://www.gnucash.org/"&gt;GnuCash&lt;/a&gt; on Ubuntu PPA (Personal Package
 Archive). Targeted audience is mid-level technical people. Also others who
 want to learn more about package building, Docker practices, and Linux.&lt;/p&gt;

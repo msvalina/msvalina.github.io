@@ -9,7 +9,7 @@ Expertise
 :lang: en
 :cover: assets/images/header_doggy_teacher.jpg
 
-Here is a list of my formal experiences and informal, learning, education, and
+Here is a list of my formal experiences and informal learning, education, and
 projects. It's ordered by what is most valueable to me. Formal stuff is
 written in more professional tone, while informal in more causal.
 You will get an idea about my experience, and expertise.

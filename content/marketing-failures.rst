@@ -6,7 +6,7 @@ Reflections and lessons from failed React workout app
 :author: marijan
 :slug: reflections-and-lessons-from-failed-react-workout-app
 :lang: en
-:tags: freelancing, skills
+:tags: freelancing, skills, frontend, react
 :cover: assets/images/header_doggy_teacher.jpg
 :status: published
 

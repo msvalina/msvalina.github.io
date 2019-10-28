@@ -47,25 +47,25 @@ find `Ubuntu PPA packages`_ and install them right away.
 .. _code on github repo:  https://github.com/msvalina/ppa-gnucash-xbt
 .. _Ubuntu PPA packages:  https://launchpad.net/~msvalina/+archive/ubuntu/gnucash
 
-What puzzle pieces did you use? 
+What puzzle pieces did you use?
 ===============================
 
 Thanks goes to all this work before mine. It was much easier to solve all the
 problems because of these people 💗
 
 - Benedykt Przybyło (b3niup) for original Archlinux AUR pkgbuild
-  `gnucash-xbt`_ and xbt.patch 
+  `gnucash-xbt`_ and xbt.patch
 - Dmitry Smirnov for maintaining `Debian GnuCash dpkgbuild`_
 - Dale Phurrough for nice GnuCash Dockerfile starting point
   `diablodale/gnucash-dev-docker`_
-- Sicklylife for maintaining `vanilla GnuCash Ubuntu PPA`_. 
+- Sicklylife for maintaining `vanilla GnuCash Ubuntu PPA`_.
 - Andrey Arapov of nixaid.com for writing: `Using GPG inside a docker
   container`_
 
 .. _gnucash-xbt:  https://aur.archlinux.org/packages/gnucash-xbt/
 .. _Debian GnuCash dpkgbuild:  https://salsa.debian.org/debian/gnucash/
 .. _diablodale/gnucash-dev-docker:  https://github.com/diablodale/gnucash-dev-docker/
-.. _vanilla GnuCash Ubuntu PPA:  https://launchpad.net/~sicklylife/+archive/ubuntu/gnucash3.6 
+.. _vanilla GnuCash Ubuntu PPA:  https://launchpad.net/~sicklylife/+archive/ubuntu/gnucash3.6
 .. _Using GPG inside a docker container:  https://nixaid.com/using-gpg-inside-a-docker-container/
 
 What prerequisites understanding is necessary?
@@ -87,19 +87,19 @@ Debian packager way
 
 `Quoting from askubuntu`_::
 
-  > In the normal workflow, packager starts by 
-  > downloading *.orig.tar.gz archive then 
-  > extracting. 
-  > 
-  >    Debian packages can be split into two kinds: 
-  >    -  native '3.0 (native)' and 
+  > In the normal workflow, packager starts by
+  > downloading *.orig.tar.gz archive then
+  > extracting.
+  >
+  >    Debian packages can be split into two kinds:
+  >    -  native '3.0 (native)' and
   >    -  non-native '3.0 (quilt)'.
-  >    They have a slight different way in building. 
+  >    They have a slight different way in building.
 
 Check DebianMentorsFaq_ for difference between native and non-native.
 This project uses Debian packager way with non-native(quilt) type.
 
-.. _Ubuntu Packaging Guide:  http://packaging.ubuntu.com/html/index.html 
+.. _Ubuntu Packaging Guide:  http://packaging.ubuntu.com/html/index.html
 .. _building using bzr-build:  https://jameswestby.net/bzr/builddeb/user_manual/
 .. _building using git-buildpackage:  https://wiki.debian.org/PackagingWithGit
 .. _Quoting from askubuntu:  https://askubuntu.com/questions/1087569/deploying-own-debian-package-to-launchpad
@@ -181,14 +181,14 @@ Interesting parts: build.sh script
 
 In current form build.sh only builds debian source package. It doesn't
 compile GnuCash itself. To build it for local use and testing run container
-with bash and issue after runing build.sh
+with bash and issue after running build.sh
 
 .. code-block:: shell
 
     cd ppa_builddir
     dpkg-buildpackage --build=binary
 
-How long will I maintaine PPA?
+How long will I maintain PPA?
 ===============================
 
 I will maintain it as long as I use GnuCash. I used it for last 5

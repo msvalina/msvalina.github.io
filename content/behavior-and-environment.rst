@@ -7,14 +7,14 @@ Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode f
 :author: marijan
 :slug: role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim
 :lang: en
-:tags: tools, behavior, environment 
+:tags: tools, behavior, environment
 :cover: assets/images/header_doggy_teacher.jpg
 :status: published
 
 Takeaway
 ========
 
- - With better tools in your environment your ability will be higher. This will 
+ - With better tools in your environment your ability will be higher. This will
    lead to doing more which will in turn give you more actual skills. Then
    it will be easier to do that behaviors in future even without tools.
 
@@ -41,7 +41,7 @@ descriptions of tools used. They are all free and open source technologies:
    :align: center
    :alt: VIM inside VSCode
 
-Accidentall success
+Accidental success
 =====================
 
 It's year 2009, it's third semester at my University journey. I'm more happy
@@ -65,7 +65,7 @@ though, then purposely to change environment.
    :alt: My small room with PC, laptop and a bed.
 
 
-**Success was sticking with Arch for first year. That only happend because
+**Success was sticking with Arch for first year. That only happened because
 there were no fallback**. After that my skills were much better and sticking
 with all the housekeeping that needs to be done when running Arch was not a
 big deal.
@@ -76,8 +76,8 @@ general. But also insights about different Free and Open Source Software --
 FOSS -- community cultures and benevolent dictators. On the bad side, I
 formed some half baked opinions and values. Mostly held dogmatically as would
 describe well my personal development at that time. Which can be summarized
-as: open source is the only way to go. I was missing that **these are just means
-in bigger fight for values in this universe.**
+as: open source is the only way to go. I was missing that **these are just
+means in bigger fight for values in this universe.**
 
 Analysis of behaviors, tools, skills and environment
 ====================================================
@@ -104,7 +104,7 @@ you. Your Ability will be very low and if you don't have huge Motivation you
 wont do that Behavior. But if they ask for 10$ and you want to do it, and you
 have the money with you, Behavior will happen. The takeaway here is that
 Motivation is like a wave. It comes and goes, everybody knows that. But where
-great idea is, is that **by making things simplier or more easy to do we
+great idea is, is that **by making things simpler or more easy to do we
 don't have to rely on Motivation.**
 
 
@@ -140,7 +140,7 @@ That is the reason why I'm very deliberate about everything in my environment.
 And why I switched Arch Linux for Ubuntu. And VIM for VSCode. And why I
 bought three different chairs, and a standing desk, and so on. I'm sure that
 the benefits of having more stable OS and text editor with such an easy
-learning curve, great user experiences, and powerfull extensions will
+learning curve, great user experiences, and powerful extensions will
 increase my skills even more. As they already did.
 
 This ideas about behavior design comes from `Stanford professor
@@ -154,25 +154,25 @@ will change your life forever! `Preorder his book on Tiny Habits`_.
     :alt: Tiny Habits book cover photo
 
 
-.. _tiny part of BJ's work:  https://www.tinyhabits.com 
+.. _tiny part of BJ's work:  https://www.tinyhabits.com
 .. _Stanford professor BJ Fogg: https://www.bjfogg.com
 .. _Preorder his book on Tiny Habits:  https://www.tinyhabits.com/book
 
 BJ's ideas did change my life. Because as most of us I also knew what would be
 and what is good for me. But the problem was how to change habits. How to
 change childhood conditioning. How to change lifestyle, how to make healthy
-habbits.
+habits.
 
 Conclusion
 ===========
 
-Switching to VSCode and Ubuntu is my way to sharpen my tools. To highten my
+Switching to VSCode and Ubuntu is my way to sharpen my tools. To heighten my
 abilities by changing environment. So I can work more successfully on things
 that I value. Hope is that you also see the arguments for importance of tools.
 
-For all of us, this is a call to action. We should collectively 
+For all of us, this is a call to action. We should collectively
 always be aware how our our environment steers our behavior and focus on
-conscionsly designing it. So we don't have to be saints to do the right
+consciously designing it. So we don't have to be saints to do the right
 thing. Live long and prosper. Thank you. Have a nice day. 💗
 
 
@@ -180,13 +180,13 @@ thing. Live long and prosper. Thank you. Have a nice day. 💗
 
   **Modification notes**
 
-  My friends rightly noted that I was jamming too much of my intrest in one
+  My friends rightly noted that I was jamming too much of my interest in one
   article. Thank you guys for honest criticism.
 
   2019 Oct 19
 
   * Remove parts about personal trauma, and behavior.
 
-  2019 Oct 21   
-  
-  * Remove parts about Bitcoin. 
+  2019 Oct 21
+
+  * Remove parts about Bitcoin.

@@ -145,8 +145,8 @@ descriptions of tools used. They are all free and open source technologies:&lt;/
 &lt;/ul&gt;
 &lt;img alt="VIM inside VSCode" class="align-center" src="https://msvalina.github.io/assets/images/vim-in-vscode.png" style="width: 85%;" /&gt;
 &lt;/div&gt;
-&lt;div class="section" id="accidentall-success"&gt;
-&lt;h2&gt;Accidentall success&lt;/h2&gt;
+&lt;div class="section" id="accidental-success"&gt;
+&lt;h2&gt;Accidental success&lt;/h2&gt;
 &lt;p&gt;It's year 2009, it's third semester at my University journey. I'm more happy
 about running Ubuntu then learning. Around that time friend of mine suggests
 and helps me install Arch Linux OS. It's the coolest operating system for
@@ -161,7 +161,7 @@ That process is and was very painful and frustrating at times. &lt;strong&gt;But
 fallback computer&lt;/strong&gt;. I gave away my laptop to parents. More accidentally
 though, then purposely to change environment.&lt;/p&gt;
 &lt;img alt="My small room with PC, laptop and a bed." class="align-center" src="https://msvalina.github.io/assets/images/university-apartment.jpg" style="width: 85%;" /&gt;
-&lt;p&gt;&lt;strong&gt;Success was sticking with Arch for first year. That only happend because
+&lt;p&gt;&lt;strong&gt;Success was sticking with Arch for first year. That only happened because
 there were no fallback&lt;/strong&gt;. After that my skills were much better and sticking
 with all the housekeeping that needs to be done when running Arch was not a
 big deal.&lt;/p&gt;
@@ -171,8 +171,8 @@ general. But also insights about different Free and Open Source Software --
 FOSS -- community cultures and benevolent dictators. On the bad side, I
 formed some half baked opinions and values. Mostly held dogmatically as would
 describe well my personal development at that time. Which can be summarized
-as: open source is the only way to go. I was missing that &lt;strong&gt;these are just means
-in bigger fight for values in this universe.&lt;/strong&gt;&lt;/p&gt;
+as: open source is the only way to go. I was missing that &lt;strong&gt;these are just
+means in bigger fight for values in this universe.&lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="analysis-of-behaviors-tools-skills-and-environment"&gt;
 &lt;h2&gt;Analysis of behaviors, tools, skills and environment&lt;/h2&gt;
@@ -190,7 +190,7 @@ you. Your Ability will be very low and if you don't have huge Motivation you
 wont do that Behavior. But if they ask for 10$ and you want to do it, and you
 have the money with you, Behavior will happen. The takeaway here is that
 Motivation is like a wave. It comes and goes, everybody knows that. But where
-great idea is, is that &lt;strong&gt;by making things simplier or more easy to do we
+great idea is, is that &lt;strong&gt;by making things simpler or more easy to do we
 don't have to rely on Motivation.&lt;/strong&gt;&lt;/p&gt;
 &lt;div class="section" id="simplicity-changes-behavior"&gt;
 &lt;h3&gt;Simplicity changes Behavior&lt;/h3&gt;
@@ -216,7 +216,7 @@ without tools. And in different environments.&lt;/strong&gt;&lt;/p&gt;
 And why I switched Arch Linux for Ubuntu. And VIM for VSCode. And why I
 bought three different chairs, and a standing desk, and so on. I'm sure that
 the benefits of having more stable OS and text editor with such an easy
-learning curve, great user experiences, and powerfull extensions will
+learning curve, great user experiences, and powerful extensions will
 increase my skills even more. As they already did.&lt;/p&gt;
 &lt;p&gt;This ideas about behavior design comes from &lt;a class="reference external" href="https://www.bjfogg.com"&gt;Stanford professor
 BJ Fogg&lt;/a&gt;. This is a &lt;a class="reference external" href="https://www.tinyhabits.com"&gt;tiny part of BJ's work&lt;/a&gt; go and learn everything about it
@@ -225,22 +225,22 @@ will change your life forever! &lt;a class="reference external" href="https://ww
 &lt;p&gt;BJ's ideas did change my life. Because as most of us I also knew what would be
 and what is good for me. But the problem was how to change habits. How to
 change childhood conditioning. How to change lifestyle, how to make healthy
-habbits.&lt;/p&gt;
+habits.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="conclusion"&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;Switching to VSCode and Ubuntu is my way to sharpen my tools. To highten my
+&lt;p&gt;Switching to VSCode and Ubuntu is my way to sharpen my tools. To heighten my
 abilities by changing environment. So I can work more successfully on things
 that I value. Hope is that you also see the arguments for importance of tools.&lt;/p&gt;
 &lt;p&gt;For all of us, this is a call to action. We should collectively
 always be aware how our our environment steers our behavior and focus on
-conscionsly designing it. So we don't have to be saints to do the right
+consciously designing it. So we don't have to be saints to do the right
 thing. Live long and prosper. Thank you. Have a nice day. 💗&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Modification notes&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;My friends rightly noted that I was jamming too much of my intrest in one
+&lt;p&gt;My friends rightly noted that I was jamming too much of my interest in one
 article. Thank you guys for honest criticism.&lt;/p&gt;
 &lt;p&gt;2019 Oct 19&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -388,13 +388,13 @@ sha256 checksum of that source need modification. Other steps are automatic.&lt;
 &lt;h2&gt;Interesting parts: build.sh script&lt;/h2&gt;
 &lt;p&gt;In current form build.sh only builds debian source package. It doesn't
 compile GnuCash itself. To build it for local use and testing run container
-with bash and issue after runing build.sh&lt;/p&gt;
+with bash and issue after running build.sh&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ppa_builddir
 dpkg-buildpackage --build&lt;span class="o"&gt;=&lt;/span&gt;binary
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="section" id="how-long-will-i-maintaine-ppa"&gt;
-&lt;h2&gt;How long will I maintaine PPA?&lt;/h2&gt;
+&lt;div class="section" id="how-long-will-i-maintain-ppa"&gt;
+&lt;h2&gt;How long will I maintain PPA?&lt;/h2&gt;
 &lt;p&gt;I will maintain it as long as I use GnuCash. I used it for last 5
 years. So if we go by &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Lindy_effect"&gt;Lindy Effect&lt;/a&gt; I will maintain it for 5 more years.
 But beware I'm looking at &lt;a class="reference external" href="https://hledger.org/"&gt;HLedger&lt;/a&gt; as a replacement.

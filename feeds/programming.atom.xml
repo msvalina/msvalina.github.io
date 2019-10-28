@@ -135,13 +135,13 @@ sha256 checksum of that source need modification. Other steps are automatic.&lt;
 &lt;h2&gt;Interesting parts: build.sh script&lt;/h2&gt;
 &lt;p&gt;In current form build.sh only builds debian source package. It doesn't
 compile GnuCash itself. To build it for local use and testing run container
-with bash and issue after runing build.sh&lt;/p&gt;
+with bash and issue after running build.sh&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ppa_builddir
 dpkg-buildpackage --build&lt;span class="o"&gt;=&lt;/span&gt;binary
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="section" id="how-long-will-i-maintaine-ppa"&gt;
-&lt;h2&gt;How long will I maintaine PPA?&lt;/h2&gt;
+&lt;div class="section" id="how-long-will-i-maintain-ppa"&gt;
+&lt;h2&gt;How long will I maintain PPA?&lt;/h2&gt;
 &lt;p&gt;I will maintain it as long as I use GnuCash. I used it for last 5
 years. So if we go by &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Lindy_effect"&gt;Lindy Effect&lt;/a&gt; I will maintain it for 5 more years.
 But beware I'm looking at &lt;a class="reference external" href="https://hledger.org/"&gt;HLedger&lt;/a&gt; as a replacement.

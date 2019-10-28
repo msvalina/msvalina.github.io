@@ -143,7 +143,7 @@ the benefits of having more stable OS and text editor with such an easy
 learning curve, great user experiences, and powerfull extensions will
 increase my skills even more. As they already did.
 
-This ideas about behavior design comes from `Standford professor
+This ideas about behavior design comes from `Stanford professor
 BJ Fogg`_. This is a `tiny part of BJ's work`_ go and learn everything about it
 will change your life forever! `Preorder his book on Tiny Habits`_.
 
@@ -155,7 +155,7 @@ will change your life forever! `Preorder his book on Tiny Habits`_.
 
 
 .. _tiny part of BJ's work:  https://www.tinyhabits.com 
-.. _Standford professor BJ Fogg: https://www.bjfogg.com
+.. _Stanford professor BJ Fogg: https://www.bjfogg.com
 .. _Preorder his book on Tiny Habits:  https://www.tinyhabits.com/book
 
 BJ's ideas did change my life. Because as most of us I also knew what would be

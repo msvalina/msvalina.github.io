@@ -10,7 +10,7 @@ Expertise
 :cover: assets/images/header_doggy_teacher.jpg
 
 Here is a list of my formal experiences and informal learning, education, and
-projects. It's ordered by what is most valueable to me. Formal stuff is
+projects. It's ordered by what is most valuable to me. Formal stuff is
 written in more professional tone, while informal in more causal.
 You will get an idea about my experience, and expertise.
 
@@ -49,7 +49,7 @@ Since, I'm haunted by Bitcoin obsession in my professional, and personal life
 Crypto side projects
 ####################
 
-Buying and HODLing Bitcoin since 2015. 
+Buying and HODLing Bitcoin since 2015.
 
 .. image:: |static|/assets/images/just-hodl-it.jpeg
    :width: 85 %
@@ -59,17 +59,18 @@ Buying and HODLing Bitcoin since 2015.
 
 Advocating, and educating on every opportunity
 -----------------------------------------------
- 
+
 * `Introduction to Bitcoin Talk. GreenRoom Festival`_, Valpovo, 2017 August
 
 * `Introduction to Bitcoin Talk. Economics High School`_, Valpovo, 2017 October
 
-* Bitcoin Guest on show Labirint. Croatian National Television, Zagreb, 2018 January 
+* Bitcoin Guest on show Labirint. Croatian National Television, Zagreb, 2018
+  January
 
-* `Bitcoin Basic Concepts Technical talk about technology underlying Bitcoin`_. Osijek
-  Software City event, 2018 April
+* `Bitcoin Basic Concepts Technical talk about technology underlying Bitcoin`_.
+  Osijek Software City event, 2018 April
 
-* Short videos on Instagram and Facebook 
+* Short videos on Instagram and Facebook
 
 .. image:: |static|/assets/images/talk-montage.png
    :width: 85 %
@@ -103,7 +104,7 @@ Read about my experience with React in
 Behavior Design Workshop with `BJ Fogg <https://www.bjfogg.com/>`_
 ###################################################################
 
-I attended virtual Workshop from Standfor University Behavior Desing Lab
+I attended virtual Workshop from Stanford University Behavior Design Lab
 
 * 10 Powerful Ways to Apply Behavior Design at Work with BJ Fogg
 
@@ -155,10 +156,10 @@ Education
 #########
 
 * Graduate Study Program in Computer Engineering, branch: Process Computing,
-  Josip Juraj Strossmayer University Of Osijek, Faculty of Electrical Engineering.
-  mag. ing. comp, 2014
-* Undergraduate Study Program in Computer Engineering, branch: Compu-
-  ting , Sveučilište J.J. Strossmayera, Faculty of Electrical Engineering.
+  Josip Juraj Strossmayer University Of Osijek, Faculty of Electrical
+  Engineering. mag. ing. comp, 2014
+* Undergraduate Study Program in Computer Engineering, branch: Computing ,
+  Sveučilište J.J. Strossmayera, Faculty of Electrical Engineering.
   univ. bacc. ing. comp, 2010
 * CCNA Cisco Certified Network Associate Algebra, Osijek, 21.03.2013
 
@@ -219,7 +220,7 @@ Technologies:
 2015 Junior Software Engineer, Inchoo d.o.o, Osijek, inchoo.net
 --------------------------------------------------------------------------------------
 
-Webshop application development based on Magento platfrom.
+Web shop application development based on Magento platform.
 
 Projects:
 
@@ -235,8 +236,8 @@ Technologies:
 -------------------------------------------------------------------------------
 
 Server room, network and servers administration and maintenance.
-Enterprise AAA - Authentication, Authorization and Accounting software development and
-testing.
+Enterprise AAA - Authentication, Authorization and Accounting software
+development and testing.
 
 Projects:
 
@@ -253,13 +254,14 @@ Technologies:
 2008–2014 IT Support, Notary office Zdenka Pavelić-Musa, Osijek
 ----------------------------------------------------------------
 
-PCs, software, network, archives, printers: support, maintenance and administration.
+PCs, software, network, archives, printers: support, maintenance and
+administration.
 
 Projects:
 
 * Automated backup implementation.
 
-2009–2012 Helpdesk Callcentar Agent, T-Com, Osijek
+2009–2012 Helpdesk Call center Agent, T-Com, Osijek
 ---------------------------------------------------
 
 DSL, VoIP, IPTV technical customer support for Internet Service Provider.

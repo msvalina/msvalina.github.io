@@ -164,8 +164,45 @@ Education
 * CCNA Cisco Certified Network Associate Algebra, Osijek, 21.03.2013
 
 
-Experience
-##########
+Master's Thesis: 3D model reconstruction with 3D camera
+-------------------------------------------------------
+
+3D model reconstruction using 3D camera is a process that relies on a few
+complementary technologies. This thesis presents a developed application for
+triangle mesh reconstruction from acquired point cloud. The thesis also
+examines quality and functionality of the de- veloped method by
+reconstructing few 3D models of objects and scenes. Scene recording is
+performed using RGBDSlam application with a Microsoft Kinect camera. RGBDSlam
+controls acquisition of RGB-D images and assembles point cloud representing
+the observed 3D scene by fusion of the acquired images using SLAM technique.
+The Program is based on ROS framework and OpenCV library. The obtained point
+cloud is used for 3D mesh re- construction using developed program
+mesh-reconstruction. The program is based on PCL library which contains an
+implementation of Poisson algorithm for mesh reconstruction. It has a
+graphical user interface developed in Qt which features functions for
+downsampling and removing outliers from captured point clouds, it also oers
+Poisson parameters configuration and has functions for reconstruction and
+visualization of constructed triangle mesh. 
+
+Technologies:
+
+* C++, Poisson, Qt Kinect, point cloud, 3D modelling, RGBDSlam, ROS, OpenCV, SLAM,
+  PCL 
+
+`Full thesis in Croatian PDF.`_
+
+`Thesis Github repo.`_
+
+.. image:: |static|/assets/images/master-thesis-3d-model-reconstruction.png
+   :width: 85 %
+   :align: center
+   :alt: 3D model reconstruction with 3D camera GUI app and diagram of process
+
+.. _Full thesis in Croatian PDF.: https://github.com/msvalina/pcl-surface-mesh-reconstruction/blob/master/latex/draft/last-draft.pdf?raw=true
+.. _Thesis Github repo.: https://github.com/msvalina/pcl-surface-mesh-reconstruction/
+
+Professional Experience
+########################
 
 2016–2019 Developer, DevOps, HyHelp AG, Frankfurt, hyhelp.de
 --------------------------------------------------------------------------------------

@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = u'Marijan Svalina'
 SITENAME = u'Here Be Dragons'
 SITESUBTITLE = u'Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.' 
-SITEURL = 'https://msvalina.org'
-#SITEURL = ''
+if os.environ.get("DEVSERVER") == "True":
+    DEVPORT=os.environ.get("DEVPORT")
+    SITEURL = 'http://msvalina.loc:%s' % DEVPORT
+else:
+    SITEURL = 'https://msvalina.org'
 
 DEFAULT_DATE = 'fs'
 

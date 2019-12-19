@@ -1,6 +1,7 @@
 PY?=python3
 PELICAN?=pelican
 PELICANOPTS=
+DEVPORT=7000
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
@@ -31,7 +32,7 @@ help:
 	@echo '   make publish                        generate using production settings '
 	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
 	@echo '   make serve-global [SERVER=0.0.0.0]  serve (as root) to $(SERVER):80    '
-	@echo '   make devserver [PORT=8000]          serve and regenerate together      '
+	@echo '   make devserver [PORT=7000]          serve and regenerate together      '
 	@echo '   make ssh_upload                     upload the web site via SSH        '
 	@echo '   make rsync_upload                   upload the web site via rsync+ssh  '
 	@echo '   make github                         upload the web site via gh-pages   '
@@ -63,12 +64,11 @@ else
 	$(PELICAN) -l $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -p $(PORT) -b 0.0.0.0
 endif
 
-
 devserver:
-ifdef PORT
-	$(PELICAN) -lr $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -p $(PORT)
+ifdef DEVPORT
+	DEVSERVER=True DEVPORT=$(DEVPORT) $(PELICAN) -lr $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -p $(DEVPORT)
 else
-	$(PELICAN) -lr $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	DEVSERVER=True DEVPORT=$(DEVPORT) $(PELICAN) -lr $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 endif
 
 publish:

@@ -83,7 +83,8 @@ def livereload(c):
     build(c)
     server = Server()
     # Watch the base settings file
-    server.watch(CONFIG['settings_base'], lambda: build(c))
+    # server.watch(CONFIG['settings_base'], lambda: build(c))
+    server.watch("./content/", lambda: build(c))
     # Watch content source files
     content_file_extensions = ['.md', '.rst']
     for extension in content_file_extensions:
@@ -97,7 +98,8 @@ def livereload(c):
         static_file = '{0}/static/**/*{1}'.format(theme_path, extension)
         server.watch(static_file, lambda: build(c))
     # Serve output path on configured port
-    server.serve(port=CONFIG['port'], root=CONFIG['deploy_path'])
+    # server.serve(port=CONFIG['port'], root=CONFIG['deploy_path'])
+    server.serve(host="0.0.0.0", port="8000", root=CONFIG['deploy_path'])
 
 
 @task

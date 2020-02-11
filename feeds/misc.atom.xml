@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Here Be Dragons - misc</title><link href="https://msvalina.github.io/" rel="alternate"></link><link href="https://msvalina.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://msvalina.github.io/</id><updated>2019-10-25T10:49:00+02:00</updated><subtitle>Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.</subtitle><entry><title>Reflections and lessons from failed React workout app</title><link href="https://msvalina.github.io/2019/10/reflections-and-lessons-from-failed-react-workout-app.html" rel="alternate"></link><published>2019-10-25T10:49:00+02:00</published><updated>2019-10-25T10:49:00+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.github.io,2019-10-25:/2019/10/reflections-and-lessons-from-failed-react-workout-app.html</id><summary type="html">&lt;p&gt;This story is about failed personal project I took between jobs. &lt;strong&gt;How
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Here Be Dragons - misc</title><link href="https://msvalina.org/" rel="alternate"></link><link href="https://msvalina.org/feeds/misc.atom.xml" rel="self"></link><id>https://msvalina.org/</id><updated>2019-10-25T10:49:00+02:00</updated><subtitle>Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.</subtitle><entry><title>Reflections and lessons from failed React workout app</title><link href="https://msvalina.org/2019/10/reflections-and-lessons-from-failed-react-workout-app.html" rel="alternate"></link><published>2019-10-25T10:49:00+02:00</published><updated>2019-10-25T10:49:00+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.org,2019-10-25:/2019/10/reflections-and-lessons-from-failed-react-workout-app.html</id><summary type="html">&lt;p&gt;This story is about failed personal project I took between jobs. &lt;strong&gt;How
 microscopic end result I have to show. But still got something valuable, or
 not, you be the judge.&lt;/strong&gt;&lt;/p&gt;
 &lt;div class="section" id="background"&gt;
@@ -23,7 +23,7 @@ will help me land a new job.&lt;/p&gt;
 &lt;blockquote&gt;
 Workout routine for app is from &lt;a class="reference external" href="http://www.startbodyweight.com/2014/01/basic-routine-infographic-poster.html"&gt;StartBodyweight.com&lt;/a&gt;, it's simple and
 good for beginners starting bodyweight exercises. It's based on this infographic poster.&lt;/blockquote&gt;
-&lt;a class="reference external image-reference" href="http://www.startbodyweight.com/2014/01/basic-routine-infographic-poster.html"&gt;&lt;img alt="Start bodyweight poster" class="align-center" src="https://msvalina.github.io/assets/images/startbodyweight-com-poster.jpg" style="width: 75%;" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="http://www.startbodyweight.com/2014/01/basic-routine-infographic-poster.html"&gt;&lt;img alt="Start bodyweight poster" class="align-center" src="https://msvalina.org/assets/images/startbodyweight-com-poster.jpg" style="width: 75%;" /&gt;&lt;/a&gt;
 &lt;p&gt;Web is not going anywhere. JavaScript is not going anywhere. I should orient
 toward them, is my thought stream. It's new beginning and I'm choosing
 to learn new — as some would describe — revolutionary technology. It's
@@ -52,7 +52,7 @@ A lot of research, and not so much development.&lt;/p&gt;
 minimal viable product, working API is done. It support users, authentication,
 progressions, progression entries, and workout sessions.&lt;/p&gt;
 &lt;p&gt;From the design side. What I have to show are this half baked wireframes:&lt;/p&gt;
-&lt;img alt="Start bodyweight app wireframes" class="align-center" src="https://msvalina.github.io/assets/images/sbw-wireframe.jpg" style="width: 95%;" /&gt;
+&lt;img alt="Start bodyweight app wireframes" class="align-center" src="https://msvalina.org/assets/images/sbw-wireframe.jpg" style="width: 95%;" /&gt;
 &lt;p&gt;And from frontend there is almost nothing. I tried to use, many different boilerplates.
 Started with simple.&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -73,7 +73,7 @@ And my time expired because I got new job offer. Which I took.&lt;/p&gt;
 &lt;h2&gt;Mistakes&lt;/h2&gt;
 &lt;p&gt;Why did I do so little?&lt;/p&gt;
 &lt;p&gt;Part of story can be describe as distraction...&lt;/p&gt;
-&lt;img alt="Distracted boyfriend meme looking at new boilerplate" class="align-center" src="https://msvalina.github.io/assets/images/boilerplate-distracion.jpg" style="width: 80%;" /&gt;
+&lt;img alt="Distracted boyfriend meme looking at new boilerplate" class="align-center" src="https://msvalina.org/assets/images/boilerplate-distracion.jpg" style="width: 80%;" /&gt;
 &lt;p&gt;Part of the plan was to do everything by myself.&lt;/p&gt;
 &lt;p&gt;But that is also part of the problem.&lt;/p&gt;
 &lt;p&gt;I thought I have time.&lt;/p&gt;
@@ -111,7 +111,7 @@ showcase, but still. It should at least shed some light at my skill as
 Frontend DevOps Engineer, or as failed Full Stack Developer. Thank you for
 reading. Have a nice day. 💗&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="freelancing"></category><category term="skills"></category><category term="frontend"></category><category term="react"></category></entry><entry><title>Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM after 8 years</title><link href="https://msvalina.github.io/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html" rel="alternate"></link><published>2019-09-26T10:49:00+02:00</published><updated>2019-10-21T12:04:00+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.github.io,2019-09-26:/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html</id><summary type="html">&lt;div class="section" id="takeaway"&gt;
+</content><category term="misc"></category><category term="freelancing"></category><category term="skills"></category><category term="frontend"></category><category term="react"></category></entry><entry><title>Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM after 8 years</title><link href="https://msvalina.org/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html" rel="alternate"></link><published>2019-09-26T10:49:00+02:00</published><updated>2019-10-21T12:04:00+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.org,2019-09-26:/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html</id><summary type="html">&lt;div class="section" id="takeaway"&gt;
 &lt;h2&gt;Takeaway&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;ul class="simple"&gt;
@@ -143,7 +143,7 @@ descriptions of tools used. They are all free and open source technologies:&lt;/
 &lt;li&gt;Arch Linux: Linux OS for die hard geeks with hard learning curve.&lt;/li&gt;
 &lt;li&gt;VIM: text editor for die hard geeks with hard learning curve.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img alt="VIM inside VSCode" class="align-center" src="https://msvalina.github.io/assets/images/vim-in-vscode.png" style="width: 85%;" /&gt;
+&lt;img alt="VIM inside VSCode" class="align-center" src="https://msvalina.org/assets/images/vim-in-vscode.png" style="width: 85%;" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="accidental-success"&gt;
 &lt;h2&gt;Accidental success&lt;/h2&gt;
@@ -160,7 +160,7 @@ hands dirty to actually understand the underlying technologies and concepts.
 That process is and was very painful and frustrating at times. &lt;strong&gt;But I had no
 fallback computer&lt;/strong&gt;. I gave away my laptop to parents. More accidentally
 though, then purposely to change environment.&lt;/p&gt;
-&lt;img alt="My small room with PC, laptop and a bed." class="align-center" src="https://msvalina.github.io/assets/images/university-apartment.jpg" style="width: 85%;" /&gt;
+&lt;img alt="My small room with PC, laptop and a bed." class="align-center" src="https://msvalina.org/assets/images/university-apartment.jpg" style="width: 85%;" /&gt;
 &lt;p&gt;&lt;strong&gt;Success was sticking with Arch for first year. That only happened because
 there were no fallback&lt;/strong&gt;. After that my skills were much better and sticking
 with all the housekeeping that needs to be done when running Arch was not a
@@ -183,7 +183,7 @@ come at &lt;strong&gt;the same time&lt;/strong&gt;. Prompt says do the thing now
 between Motivation and Ability which is &lt;strong&gt;Action Line&lt;/strong&gt;. If combination of
 Motivation and Ability is bellow Action Line when Prompt happens there will
 be no Behavior.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://www.behaviormodel.org/"&gt;&lt;img alt="Meme - Well... thank you captain obvious" class="align-center" src="https://msvalina.github.io/assets/images/fogg-behavior-model-graphic-2019.webp" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://www.behaviormodel.org/"&gt;&lt;img alt="Meme - Well... thank you captain obvious" class="align-center" src="https://msvalina.org/assets/images/fogg-behavior-model-graphic-2019.webp" /&gt;&lt;/a&gt;
 &lt;p&gt;Let's take for example donating to your favorite charity. If somebody asks you
 to donate 1000$, and you don't have that money with you or it is too much for
 you. Your Ability will be very low and if you don't have huge Motivation you
@@ -204,7 +204,7 @@ behaviors. So how can we increase our abilities you ask?&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="tools-are-important"&gt;
 &lt;h3&gt;Tools are important&lt;/h3&gt;
-&lt;img alt="Meme - Well... thank you captain obvious" class="align-center" src="https://msvalina.github.io/assets/images/thank-you-captain-obvious.png" style="width: 85%;" /&gt;
+&lt;img alt="Meme - Well... thank you captain obvious" class="align-center" src="https://msvalina.org/assets/images/thank-you-captain-obvious.png" style="width: 85%;" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="more-important-then-you-think"&gt;
 &lt;h3&gt;More important then you think&lt;/h3&gt;
@@ -221,7 +221,7 @@ increase my skills even more. As they already did.&lt;/p&gt;
 &lt;p&gt;This ideas about behavior design comes from &lt;a class="reference external" href="https://www.bjfogg.com"&gt;Stanford professor
 BJ Fogg&lt;/a&gt;. This is a &lt;a class="reference external" href="https://www.tinyhabits.com"&gt;tiny part of BJ's work&lt;/a&gt; go and learn everything about it
 will change your life forever! &lt;a class="reference external" href="https://www.tinyhabits.com/book"&gt;Preorder his book on Tiny Habits&lt;/a&gt;.&lt;/p&gt;
-&lt;a class="reference external image-reference" href="https://www.tinyhabits.com/book"&gt;&lt;img alt="Tiny Habits book cover photo" class="align-center" src="https://msvalina.github.io/assets/images/tiny-habits-book.webp" style="width: 75%;" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://www.tinyhabits.com/book"&gt;&lt;img alt="Tiny Habits book cover photo" class="align-center" src="https://msvalina.org/assets/images/tiny-habits-book.webp" style="width: 75%;" /&gt;&lt;/a&gt;
 &lt;p&gt;BJ's ideas did change my life. Because as most of us I also knew what would be
 and what is good for me. But the problem was how to change habits. How to
 change childhood conditioning. How to change lifestyle, how to make healthy
@@ -252,4 +252,4 @@ article. Thank you guys for honest criticism.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;/div&gt;
-</content><category term="tools"></category><category term="behavior"></category><category term="environment"></category></entry></feed>
+</content><category term="misc"></category><category term="tools"></category><category term="behavior"></category><category term="environment"></category></entry></feed>

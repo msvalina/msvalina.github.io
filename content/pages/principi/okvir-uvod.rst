@@ -1,64 +1,128 @@
-####################
-Uvjerenja i Principi
-####################
+################################
+Uvjerenja, principi i ponašanje
+################################
 
 :date: 2019-09-05 10:14
 :author: marijan
-:slug: uvjerenja-i-principi
+:slug: uvjerenja-principi-i-ponasanje
 :lang: hr
-:cover: assets/images/principles/header-monkey.jpg
+:cover: assets/images/principles/header-doggy.jpg
 :status: draft
 
-Uvod, okvir i definicije
-*************************
+Uvod
+=====
 
-Misija mi je živjeti u skladu sa svojim uvjerenjima. Ovdje pokušavam sebi
-bolje objasniti koje to vrijednosti me vode u životu, te pružiti drugima
-priliku da bolje razumiju čime se vodim. Slijede definicije uvjerenja i
-principa, te okvir za snalaženje kroz ovu seriju tekstova.
+Misija mi je živjeti u što većem skladu sa svojim osnovnim uvjerenjima.
+Zato ovdje pokušavam istražiti, sebi objasniti, te nadograditi vrijednosti koje me
+vode u životu, i pružiti prozor onima koji žele u moj pogled na svijet.
+Prvo ću se osvrnuti na motivaciju, zatim ću dati definicije uvjerenja,
+principa i ponašanja, te objasniti formu za snalaženje kroz ovu seriju
+tekstova.
 
-**Uvjerenje je osnovna vrijednost koja nas upućuje da prosudimo što je
-dobro, a što loše.**
+Motivacija
+=============
 
-**Princip proizlazi iz uvjerenja i pravilo je ponašanja, protokol, ili navika
-za donošenje životnih, odnosno poslovnih, privatnih i drugih odluka.**
+Možda najdubulja motivacija je zapravo samopromocija, marketinški
+trik, koji ima za cilj privući bolje prilike u svim životnim sferama.
+Time mislim na smislen rad, smislene odnose, i više vrijednosti za svakoga.
+Dio razloga je i veća samoregulacija, koja bi trebala slijediti zbog
+javnog istupanja. Osim toga postoji i želja za društvenim statusom,
+socijalnim kapitalom, kojeg bi nadam se trebao steći iskrenošću,
+autentičnosti, i **davanjem vrijednosti drugima**. Dio je sigurno i zato jer
+se dobro osjećam kad se ponašam u skladu sa svojim uvjerenjima.
+**U svakom slučaju uvjerenja daju smjer i smisao**.
+Iz društvene perspektive mislim da je to dobar početni primjer za druge, koji
+žele sebi objasniti što ih to vodi u životu, ili možda promotriti neku novu
+spoznaju, ideju, ili uvjerenje.
 
-Uvjerenje se nekad neće podudarati s drugim uvjerenjem. To je za očekivati,
-zato obrati pozornost na prioritete između uvjerenja u konkretnim
-situacijama.
+Definicije
+=============
+
+**Uvjerenje je fundamentalna vrijednost koja nas upućuje da prosudimo što je
+dobro, a što loše, važno ili nevažno.** Uvjerenja su
+kao one pozadinske, ali i duboko skrivene aplikacije na mobitelu. One koje
+omogućuju, rad i dodavanje drugih aplikacija, ali i ograničavanje rada
+ostalih aplikacija.
+
+**Princip proizlazi iz uvjerenja i pravilo je ponašanja, protokol,
+ili težnja, koja informira donošenje privatnih, poslovnih i općenito životnih
+odluka.** Dobri principi su oni koji su jasno iskazani do krajnjih granica.
+Preslikano na analogiju s mobitelom, dobri principi su onda one aplikacije
+koje smo potpuno sami odabrali dodati i koristiti iz nama poznatih konkretnih
+razloga koji su u skladu s našim uvjerenjima.
+
+Definicija ponašanja proizlazi iz `Fogg-ovog modela ponašanja`_. Koji
+skraćeno kaže:
+**Ponašanje se dogodi kad se motivacija, sposobnost i okidač
+sastanu u istom trenutku.** Okidač, je ono što nam kaže učini radnju baš
+sada.
+
+**Ne proizlazi svako ponašanje iz osnovnih uvjerenja**. Ako zamislimo da
+uvjerenje dolazi s motivacijom i tu motivaciju nazovemo unutarnjom. Tada se
+možemo zapitati koja bi to bila vanjska motivacija? Pa ona koja dolazi iz
+okruženja, okolnosti, konteksta. Recimo da je Marku važno položiti ispiti i
+želi provjeriti jesu li kolege s faksa u njihovoj Facebook grupi stavili nove
+informacije o zadacima s predavanja. On otvori Facebook i prvo što vidi je
+smiješni popularni klip, umire od smijeha i brzo zaboravlja početnu namjeru s
+kojom je otvorio aplikaciju. Zatim pada u crnu rupu drugih zabavnih klipova.
+Prolazi pola sata, te se javlja Markov unutarnji kritičar: **– Opet zabušavam...
+Što nije uredu samnom? Zašto ne mogu ništa obaviti iz prve? –** tokom, a često
+i poslije se javljaju briga, tjeskoba i druge negativne emocije.
+
+**Kontinuirana ponašanja mogu stvoriti uvjerenja**. U ovom dobu društvenih
+mreža većina nas smo bili u sličnoj situaciji crne rupe interneta. Opasnost
+leži u tome da ako dovoljno puta ponovimo takva ponašanja, lako ćemo stvoriti
+negativna uvjerenja. Razlika između postupanja u skladu s fundamentalnim
+uvjerenjima ili ne, čini se leži u pozornosti, fokusu, snazi volje. Ali to su,
+iako važni, zapravo ograničeni resursi te vidimo iz primjera studenta kako
+naša okolina lagano utječe na naše ponašanje, a time možda i na uvjerenja.
+
 
 **Ovo su moja uvjerenja i principi**. Svatko prolazi svijetom sa
 skupom uvjerenja, bez obzira znao ih objasniti ili ne. Bitno je zapamtiti da
-imati različita uvjerenja od ovih ne znači imati lošija uvjerenja. Iako
-mislim da mora postojati minimalno podudaranje oko osnovnih vrijednosti za
-uspješan suživot.
+imati različita uvjerenja od ovih ne znači imati lošija, kriva ili netočna
+uvjerenja. Iako mislim da mora postojati minimalno podudaranje oko osnovnih
+vrijednosti za dugoročno uspješan suživot.
 
-Postoje brojna uvjerenja. Izdvojiti ću meni tri najvažnija ovdje.
-To su ona koja mi daju najviše smisla, mira i zadovoljstva.
-Lista ostalih će biti tu.
+**Tri različite razine uvjerenja**. Mi smo i individualna i kolektivna bića
+stoga je korisno razmišljati o uvjerenjima na tri različite razine. Razine su
+individualna, uže kolektivna (obiteljska, prijateljska, organizacijska), i
+šire društvena (religije, nacije, korporacije, industrije).
 
-I za kraj važno je razlikovati različite razine uvjerenja. Razine su
-individualna, kolektivna (organizacijska), društvena (nacije, religije,
-industrije).
+**Sukob principa**. Principi se nekad neće podudarati s drugim principima. To
+je za očekivati, zato treba obratiti pozornost na prioritete između principa
+u konkretnim situacijama.
+
+
+Forma
+=====
+
+Moje najvažnije uvjerenje je mudrost, ali mudrost ide ruku uz ruku uz niz
+drugih uvjerenja. Najviše uz milosti (suosjećanje), i jasnoću (jasan pogled).
+Stoga ću u tekstovima grupirati uvjerenja koja po meni pripadaju zajedno.
+Zatim iz tih uvjerenja će slijediti principi sa specifičnom težnjom,
+aspiracijom, rezultatom, ili protokolom. Te nakon toga ću iz aspekta
+bihevioralnog dizajna, dati nekoliko primjera kako metodom sitnih navika,
+promjenom okruženja, ili spoznajama promijeniti ponašanje u skladu s
+principom, odnosno uvjerenjem.
 
 
 Individualna uvjerenja
-***********************
+=========================
 
-`1. Radikalna milost prema i radikalna odgovornost za majmunski um`_
----------------------------------------------------------------------
+`1. Majmunski um, mudrost, milost i jasnoća`_
+----------------------------------------------
 
 - `Princip 1 Kontrola emocija i sabranost`_
 
-.. _1. Radikalna milost prema i radikalna odgovornost za majmunski um:  {filename}/pages/principi/majmunski-um.rst
-.. _Princip 1 Kontrola emocija i sabranost:  {filename}/pages/principi/dobra-vjera.rst#princip-1-kontrola-emocija-i-sabranost
-
+.. _1. Majmunski um, mudrost, milost i jasnoća:  {filename}/pages/principi/individualni/majmunski-um.rst
+.. _Princip 1 Kontrola emocija i sabranost:  {filename}/pages/principi/individualni/majmunski-um.rst#princip-1-kontroliraj-emocije-prakticiranjem-sabranosti-i-milosti
 
 --------------
 
 
 Inspiracija
-************
+=============
 
 Pokretač za pisanje ovih tekstova dolazi sasvim slučajno. U trenutku prepreke
 (čitaj konflikta uvjerenja) u rad s prijateljima na jednom projektu, stigne
@@ -74,3 +138,41 @@ i njihove mentalne modele koji su inspiracija za formu tekstova.
 .. _Ray Dalio's Principles: https://www.principles.com/
 .. _Stanford Innovator's Guide to Ethics webinar: http://learn.stanford.edu/ethics-webinar-on-demand-registration-19-12.html
 .. _Farnam Street Mental Models: https://fs.blog/mental-models/
+
+
+---------------
+
+Za klaune, cinike, trolove
+=============================
+
+One koji uglavnom imaju opaku, bezosjećajnu, negativnu, a često presmješnu
+perspektivu na tuđi rad. Barem i dalje smišljajte dobre fore 😜.
+
+Nabijem i ja vas 💩 sa ❤️.
+
+Šalu na stranu, zapravo je nužno i "normalno" da javno istupanje
+nosi i negativni dio. Da je sve savršeno oko nas nitko ne bi imao potrebu za
+mijenjanjem ičega. A i promjena zbog same promjene nije dobra, stoga mora
+postojati kritika. Doduše konstruktivna kritika je bolja od trolanja, ali
+i trolanje nosi sa sobom neke informacije, možda su korisne. Stoga čini mi se
+da svatko treba razviti debelu kožu, ako želi istupati javno.
+
+Pitanja i odgovori
+-------------------
+
+Koliko sam siguran u svoja uvjerenja?
+_______________________________________
+
+Živiš li zaista u skladu sa svojim uvjerenjima?
+________________________________________________
+
+Kako si pronašao svoja uvjerenja?
+__________________________________
+
+Što s kolektivnim uvjerenjima šire obitelji i prijatelja koja su različita od mojih?
+____________________________________________________________________________________
+
+Nije li to licemjerno i kukavički ne izreći svoje mišljenje?
+_____________________________________________________________
+
+.. _Fogg-ovog modela ponašanja: https://www.behaviormodel.org/

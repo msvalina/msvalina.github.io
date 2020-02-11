@@ -18,11 +18,14 @@ Okvir, uvod i definicije
 
 .. _Više o okviru, uvodu i definicijima uvjerenja i principa: {filename}/pages/principi/okvir-uvod.rst
 
-Dobra vjera
-*************
+Dobra vjera - dobar uvjerenje za kompanije
+********************************************
 
 ## Ovo je čini se više moja projekcija kako se drugi odnose prema meni nego kako
 ## da se ja odnosim prema drugima
+
+##
+
 Traži dobru vjeru. Postupaj u uvjerenju da te druga strana ne želi poraziti već
 razgovorom doći bliže do stvarnosti. Radi se o davanju dara osnovnog
 povjerenja u humanost. Dar pozitivne pretpostavke. Izazov s ovim uvjerenjem

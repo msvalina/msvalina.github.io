@@ -11,6 +11,7 @@ if os.environ.get("DEVSERVER") == "True":
     SITEURL = 'http://msvalina.loc:%s' % DEVPORT
 else:
     SITEURL = 'https://msvalina.org'
+SITEURL = 'http://msvalina.loc:8000'
 
 DEFAULT_DATE = 'fs'
 
@@ -61,6 +62,7 @@ EXTRA_PATH_METADATA = {
 # Post and Pages path
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
+PAGE_PATHS = ['pages']
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
 YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
@@ -115,10 +117,10 @@ SITEMAP = {
 
 
 # Comments
-DISQUS_SITENAME = "msvalina-org"
+#DISQUS_SITENAME = "msvalina-org"
 
 # Analytics
-GOOGLE_ANALYTICS = "UA-48468274-1"
+#GOOGLE_ANALYTICS = "UA-48468274-1"
 
 THEME = 'attila'
 
@@ -140,7 +142,7 @@ AUTHORS_BIO = {
         "linkedin": "marijansvalina",
         "instagram": "makimindmonkey",
         "keybase": "msvalina",
-        "website": "http://msvalina.org/pages/about/",
+        "website": "https://msvalina.org/pages/about/",
         "location": "Osijek",
         "bio": u"Programmer. Bitcoiner. Meditator. Jack of all trades master of none.🧘🏻‍♂️ ₿  💻"
     }

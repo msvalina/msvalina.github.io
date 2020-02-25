@@ -21,8 +21,10 @@ You will get an idea about my experience, and expertise.
 Values
 *******
 
-I hold many different values. Some of them are even in contradiction.
-These are also dear to my heart and mind:
+On the individual level from positive psychology perspective
+`these are my Valuse in Action.`_
+
+From larger society level these are dear to my heart and mind:
 
 - Freedom of speech
 - Right to privacy
@@ -30,6 +32,9 @@ These are also dear to my heart and mind:
 - Civil rights
 - Rule of law
 - Sovereignty of the individual
+
+.. _these are my Valuse in Action.: |static|/assets/pdfs/StrengthsProfile-Marijan-Svalina.pdf
+
 
 Informal learning and projects
 ********************************

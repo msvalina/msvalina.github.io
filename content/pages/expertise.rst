@@ -123,10 +123,12 @@ The best money -- 899$ -- I've ever spent! Even better then Bitcoin at 100$.
 ------------------
 
 
-`Current CV PDF`_
-******************
+Current CV PDF
+****************
 
-.. _Current CV PDF: |static|/assets/pdfs/marijan-svalina-latest-developer-cv.pdf
+`New current short CV find here`_
+
+.. _New current short CV find here: |static|/assets/pdfs/marijan-svalina-latest-developer-cv.pdf
 
 
 ------------------

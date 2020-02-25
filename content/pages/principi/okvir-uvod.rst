@@ -12,12 +12,25 @@ Uvjerenja, principi i ponašanje
 Uvod
 =====
 
-Misija mi je živjeti u što većem skladu sa svojim osnovnim uvjerenjima.
-Zato ovdje pokušavam istražiti, sebi objasniti, te nadograditi vrijednosti koje me
-vode u životu, i pružiti prozor onima koji žele u moj pogled na svijet.
-Prvo ću se osvrnuti na motivaciju, zatim ću dati definicije uvjerenja,
-principa i ponašanja, te objasniti formu za snalaženje kroz ovu seriju
-tekstova.
+Općenita misija mi je živjeti u što većem skladu sa svojim osnovnim
+uvjerenjima. Zato ovdje pokušavam istražiti, sebi objasniti, te nadograditi
+vrijednosti koje me vode u životu, i pružiti prozor onima koji žele u moj
+pogled na svijet. Prvo ću se osvrnuti na motivaciju, zatim ću dati definicije
+uvjerenja, principa i ponašanja, te objasniti formu za snalaženje kroz ovu
+seriju tekstova.
+
+– Marijane prestani filozofirati i reci mi što da radim –
+==========================================================
+
+ - Ako nemaš vremena upiši se na `besplatni petodnevni tečaj sitnih navika.`_
+ - Ako imaš nekoliko sati pri ruci `pronađi svoja osnovna uvjerenja prateći
+   ovaj priručnik`_ i upiši se na `besplatni petodnevni tečaj sitnih navika.`_
+ - Ako trebaš vođenje kroz postupak ili imaš pitanja `rezerviraj 15 minutni
+   besplatni sastanak.`_
+
+.. _besplatni petodnevni tečaj sitnih navika.: https://www.tinyhabits.com/join
+.. _pronađi svoja osnovna uvjerenja prateći ovaj priručnik: http://www.merryck.com/wp-content/uploads/2016/04/MERRYCK-520-Inventory-of-Tools-Your-Positive-and-Negative-Values.pdf
+.. _rezerviraj 15 minutni besplatni sastanak.: https://calendly.com/marijan-svalina/15min
 
 Motivacija
 =============
@@ -39,12 +52,12 @@ Definicije
 =============
 
 **Uvjerenje je fundamentalna vrijednost koja nas upućuje da prosudimo što je
-dobro, a što loše, važno ili nevažno.** Uvjerenja su
-kao one pozadinske, ali i duboko skrivene aplikacije na mobitelu. One koje
-omogućuju, rad i dodavanje drugih aplikacija, ali i ograničavanje rada
-ostalih aplikacija.
+dobro, a što loše, ispravno ili neispravno, važno ili nevažno.** Uvjerenja su
+često kao one pozadinske, ali i duboko skrivene aplikacije na mobitelu. One
+koje omogućuju, rad i dodavanje drugih aplikacija, ali i ograničavanje rada
+ostalih aplikacija. Ipak sam samo programer...
 
-**Princip proizlazi iz uvjerenja i pravilo je ponašanja, protokol,
+**Princip proizlazi iz uvjerenja i pravilo je ponašanja, načelo, protokol,
 ili težnja, koja informira donošenje privatnih, poslovnih i općenito životnih
 odluka.** Dobri principi su oni koji su jasno iskazani do krajnjih granica.
 Preslikano na analogiju s mobitelom, dobri principi su onda one aplikacije
@@ -54,33 +67,35 @@ razloga koji su u skladu s našim uvjerenjima.
 Definicija ponašanja proizlazi iz `Fogg-ovog modela ponašanja`_. Koji
 skraćeno kaže:
 **Ponašanje se dogodi kad se motivacija, sposobnost i okidač
-sastanu u istom trenutku.** Okidač, je ono što nam kaže učini radnju baš
-sada.
+sastanu u istom trenutku.** Motivacija i sposobnost imaju kompenzacijski
+odnos. Okidač, je ono što nam kaže učini radnju baš sada.
 
-**Ne proizlazi svako ponašanje iz osnovnih uvjerenja**. Ako zamislimo da
-uvjerenje dolazi s motivacijom i tu motivaciju nazovemo unutarnjom. Tada se
+**Ne proizlazi svako ponašanje iz osnovnih uvjerenja**. Uvjerenje još
+možemo nazvati unutarnjom motivacijom. Tada se
 možemo zapitati koja bi to bila vanjska motivacija? Pa ona koja dolazi iz
-okruženja, okolnosti, konteksta. Recimo da je Marku važno položiti ispiti i
-želi provjeriti jesu li kolege s faksa u njihovoj Facebook grupi stavili nove
-informacije o zadacima s predavanja. On otvori Facebook i prvo što vidi je
-smiješni popularni klip, umire od smijeha i brzo zaboravlja početnu namjeru s
-kojom je otvorio aplikaciju. Zatim pada u crnu rupu drugih zabavnih klipova.
-Prolazi pola sata, te se javlja Markov unutarnji kritičar: **– Opet zabušavam...
-Što nije uredu samnom? Zašto ne mogu ništa obaviti iz prve? –** tokom, a često
-i poslije se javljaju briga, tjeskoba i druge negativne emocije.
+okruženja, okolnosti, društvenog pritiska. Recimo da je Marku važno položiti
+ispiti i želi provjeriti jesu li kolege s faksa u njihovoj Facebook grupi
+stavili nove informacije o zadacima s predavanja. On otvori Facebook i prvo
+što vidi je smiješni popularni klip, umire od smijeha, zatim gleda i sljedeći
+klip te ubrzo zaboravlja početnu namjeru s kojom je otvorio aplikaciju. Zatim
+pada u crnu rupu drugih zabavnih klipova. Prolazi pola sata, te se javlja
+Markov unutarnji kritičar: **– Opet zabušavam... Što nije uredu samnom? Zašto
+ne mogu ništa obaviti iz prve? –** tokom, a često i poslije se javljaju
+briga, tjeskoba i druge negativne emocije.
 
 **Kontinuirana ponašanja mogu stvoriti uvjerenja**. U ovom dobu društvenih
 mreža većina nas smo bili u sličnoj situaciji crne rupe interneta. Opasnost
 leži u tome da ako dovoljno puta ponovimo takva ponašanja, lako ćemo stvoriti
-negativna uvjerenja. Razlika između postupanja u skladu s fundamentalnim
-uvjerenjima ili ne, čini se leži u pozornosti, fokusu, snazi volje. Ali to su,
-iako važni, zapravo ograničeni resursi te vidimo iz primjera studenta kako
-naša okolina lagano utječe na naše ponašanje, a time možda i na uvjerenja.
+neprilagođene navike i nećemo razviti naša uvjerenja. Razlika između
+postupanja u skladu s fundamentalnim uvjerenjima ili ne, čini se leži u
+pozornosti, fokusu, snazi volje; ali to su, iako važni, zapravo ograničeni
+resursi te vidimo iz primjera studenta kako naša okolina lagano utječe na
+naše ponašanje, a time možda i na uvjerenja.
 
 
 **Ovo su moja uvjerenja i principi**. Svatko prolazi svijetom sa
 skupom uvjerenja, bez obzira znao ih objasniti ili ne. Bitno je zapamtiti da
-imati različita uvjerenja od ovih ne znači imati lošija, kriva ili netočna
+imati različita uvjerenja od ovih ne znači imati lošija, kriva ili nevažna
 uvjerenja. Iako mislim da mora postojati minimalno podudaranje oko osnovnih
 vrijednosti za dugoročno uspješan suživot.
 

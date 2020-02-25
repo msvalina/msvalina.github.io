@@ -8,3 +8,13 @@ Uvjerenja i Principi: Evolucija
 :lang: hr
 :cover: assets/images/principles/header-monkey.jpg
 :status: draft
+
+
+Rast i razvoj
+==============
+
+Promijena je.
+Razvoj.
+Razvoj ne znači nužno rast.
+
+Razvoj je možda samo prihvaćanje

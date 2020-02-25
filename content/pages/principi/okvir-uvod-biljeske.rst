@@ -126,3 +126,94 @@ Milosrđe
  * osjećaj sućuti, sažaljenja prema onom tko pati 
 
 Milost
+
+-------------
+
+Radikalna odgovornost za majmunski um
+#######################################
+
+Mi smo društvene životinje jer živimo, komuniciramo s i pričamo priče
+drugima. Ali čak i da ostane čovjek sam na svijetu bio bi životinja koja
+priča priče, ovaj put samo sebi. Iako meditacija je alat koji nam na dubljoj
+razini pomaže da vidimo ispraznost naših priča te nam daje ogromnu moć,
+objektivnost, otpuštanje i balansiranje. Postoji i ogromna moć u pričama koje
+si pričamo kao na primjer ova o uvjerenjima. Zato ovako javno istupam sa
+svojim uvjerenjima jer želim iskoristiti taj dio sebe. Drugim riječima želim
+iskoristiti svoj identitet osobe od riječi za to da radikalno preuzmem
+odgovornost za svoja uvjerenja, u ovom slučaju majmunski um.
+**Nezbrinut majmunski um je siguran put do negativnih emocija.** Ali isto tako
+može dovesti i do prividno pozitivnih emocija. Recimo osjećaj dominacije koji
+je vjerojatno potaknut skrivenom nesigurnosti i možda je dobar za mene
+kratkoročno ali često negativne za druge.
+
+
+
+Princip 1 - Kontroliraj emocije prakticiranjem sabranosti i milosti
+####################################################################
+
+Ovo načelo i težnja, dolazi direktno iz budizma 
+
+Princip 2 - Kontroliraj emocije promijenom perspektive
+#######################################################
+
+
+Princip 3 - Izbjegavaj nepotrebne sukobe
+##########################################
+
+---
+
+---
+
+Navike:
+
+Protokol:
+
+Pravila:
+
+Njegovati i kultivirati navike: 
+
+ * meditacije
+ * vježbanja
+ * refleksije
+ * znatiželje
+
+Pronaći način kroz meditaciju, vježbanje, umjetnost, refleksiju, znatiželju -
+kako god - kako kontrolirati, sabrati svoju pažnju i emocije kako bih mogao
+
+
+- Misli (Promatranje, otpuštanje, nevjerovanje)
+- Govor
+- Protokol
+
+
+
+
+Razvijati protokol, navike i pravila za nošenje s konfliktima.
+
+Odokativno pravilo:
+
+- Izbjegavaj teške razgovore u večernjim satima.
+  Emocije i umor bi mogle lagano dovesti do neproduktivnog konflikta.
+
+
+I should really be careful with my words when I'm dealing with other people.
+
+---
+
+Zbog tih spoznaja, osjećam odgovornost da nisam na teret ljudima oko sebe.
+Jer znam si pomoći.
+Ne želim biti teret ljudima oko sebe.
+
+Idealno bi bilo kad bih za što više ljudi imao pozitivan učinak.
+
+
+Borba s bivanjem najboljom verzijom sebe je puno lakša stvaranjem pravih,
+navika, protokola i okruženja
+
+Odluka vs navika
+#################
+
+Kad znaš svoja uvjerenja
+Znaš svoju motivaciju
+I onda je cilj to automatizirati
+Tako da se u većini slučajeva ponašaš u skladu sa svojim uvjerenjima

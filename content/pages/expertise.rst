@@ -46,7 +46,7 @@ It's 2014, and a thought comes. It's time to get serious about money. I
 will finally give Bitcoin a chance. Ok, I need Bitcoin habits. First
 habit: Read every day `r\/bitcoin`_ for 2 minutes. Next, buy `Andreas
 Antonopulos book Mastering Bitcoin`_. 50 pages later my mind blew away!
-Since, I'm haunted by Bitcoin obsession in my professional, and personal life
+Since, I'm haunted by Bitcoin obsession in my professional, and personal life.
 
 .. _r/bitcoin: https://www.reddit.com/r/Bitcoin/
 .. _Andreas Antonopulos book Mastering Bitcoin:  https://aantonop.com/books/
@@ -106,10 +106,11 @@ Read about my experience with React in
 .. _Reflections and lessons from failed React workout app: {filename}/marketing-failures.rst
 
 
-Behavior Design Workshop with `BJ Fogg <https://www.bjfogg.com/>`_
-###################################################################
+Behavior Design with BJ Fogg
+######################################
 
 I attended virtual Workshop from Stanford University Behavior Design Lab
+hosted by `BJ Fogg <https://www.bjfogg.com/>`_.
 
 * 10 Powerful Ways to Apply Behavior Design at Work with BJ Fogg
 
@@ -122,6 +123,14 @@ I attended virtual Workshop from Stanford University Behavior Design Lab
 Models and methods about behavior. Models explain how behavior works. Methods
 how to design behavior for change.
 The best money -- 899$ -- I've ever spent! Even better then Bitcoin at 100$.
+
+Since I also enrolled in `Tiny Habits Academy <https://www.tinyhabitsacademy.com>`_
+and I will probably be certified Tiny Habits Coach.
+Read more about some of my thoughts on behavior design in
+`Role of tools and environment in behavior, and why I switched to
+Ubuntu/VSCode from Arch/VIM after 8 years`_.
+
+.. _Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM after 8 years: {filename}/behavior-and-environment.rst
 
 
 

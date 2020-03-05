@@ -13,10 +13,10 @@ Uvjerenja i Principi: Dobra vjera
 Okvir, uvod i definicije
 ****************************
 
- - `Više o okviru, uvodu i definicijima uvjerenja i principa`_
- - Izmjeniti sam tekst ovo je forma
+ - `Više o okviru, uvodu i definicijama uvjerenja i principa`_
+ - Izmijeniti sam tekst ovo je forma
 
-.. _Više o okviru, uvodu i definicijima uvjerenja i principa: {filename}/pages/principi/okvir-uvod.rst
+.. _Više o okviru, uvodu i definicijama uvjerenja i principa: {filename}/pages/principi/okvir-uvod.rst
 
 Dobra vjera - dobar uvjerenje za kompanije
 ********************************************

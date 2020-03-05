@@ -1,6 +1,6 @@
-################################
+########################################
 Uvjerenja, principi i ponašanje
-################################
+########################################
 
 :date: 2019-09-05 10:14
 :author: marijan
@@ -12,24 +12,38 @@ Uvjerenja, principi i ponašanje
 Uvod
 =====
 
+Niz godina ameterski proučavam filozofiju i kontinuirano aktivno poboljšavam
+svoj život. Došao sam u fazu da razumijem važnost i da si želim preciznije pojasniti
+svoja osnovna uvjerenja i principe jer želim pametnije donositi odluke.
+Na tom putu sam postao i student B.J. Fogg-a, bihevioralnog znanstvenika sa
+Stanforda, koji je svojim modelima jasno objasnio kako bilo koje ponašanje
+funkcionira.
+
 Općenita misija mi je živjeti u što većem skladu sa svojim osnovnim
 uvjerenjima. Zato ovdje pokušavam istražiti, sebi objasniti, te nadograditi
 vrijednosti koje me vode u životu, i pružiti prozor onima koji žele u moj
-pogled na svijet. Prvo ću se osvrnuti na motivaciju, zatim ću dati definicije
-uvjerenja, principa i ponašanja, te objasniti formu za snalaženje kroz ovu
-seriju tekstova.
+pogled na svijet. Prvo ću se osvrnuti detaljnije na motivaciju, zatim ću dati
+definicije uvjerenja, principa i ponašanja, te objasniti formu za snalaženje
+kroz ovu seriju tekstova.
+
+Dvije stvari su me dovele do ovog mjesta
+znanje kako stvoriti navike i meditacija
 
 – Marijane prestani filozofirati i reci mi što da radim –
 ==========================================================
 
- - Ako nemaš vremena upiši se na `besplatni petodnevni tečaj sitnih navika.`_
- - Ako imaš nekoliko sati pri ruci `pronađi svoja osnovna uvjerenja prateći
-   ovaj priručnik`_ i upiši se na `besplatni petodnevni tečaj sitnih navika.`_
+ - Ako ne(im)maš vremena upiši se na `besplatni petodnevni tečaj sitnih
+   navika`_ uzeti će ti 20 minuta za početak i 20 minuta kroz tjedan dana.
+ - Ako imaš 40 minuta ili više `prođi ovaj besplatni upitnik VIA Instituta o
+   Karakteru`_.
+ - Ako imaš koji sat pri ruci `pronađi svoja osnovna pozitivna i negativna
+   uvjerenja prateći ovaj priručnik`_.
  - Ako trebaš vođenje kroz postupak ili imaš pitanja `rezerviraj 15 minutni
    besplatni sastanak.`_
 
-.. _besplatni petodnevni tečaj sitnih navika.: https://www.tinyhabits.com/join
-.. _pronađi svoja osnovna uvjerenja prateći ovaj priručnik: http://www.merryck.com/wp-content/uploads/2016/04/MERRYCK-520-Inventory-of-Tools-Your-Positive-and-Negative-Values.pdf
+.. _besplatni petodnevni tečaj sitnih navika: https://www.tinyhabits.com/join
+.. _prođi ovaj besplatni upitnik VIA Instituta o Karakteru: https://www.viacharacter.org/
+.. _pronađi svoja osnovna pozitivna i negativna uvjerenja prateći ovaj priručnik: http://www.merryck.com/wp-content/uploads/2016/04/MERRYCK-520-Inventory-of-Tools-Your-Positive-and-Negative-Values.pdf
 .. _rezerviraj 15 minutni besplatni sastanak.: https://calendly.com/marijan-svalina/15min
 
 Motivacija
@@ -52,17 +66,22 @@ Definicije
 =============
 
 **Uvjerenje je fundamentalna vrijednost koja nas upućuje da prosudimo što je
-dobro, a što loše, ispravno ili neispravno, važno ili nevažno.** Uvjerenja su
+dobro, a što loše, ispravno ili neispravno, važno ili nevažno.** Uvjerenja
+evoluiraju ali, su više statična i dugo ih držimo. Uvjerenja su
 često kao one pozadinske, ali i duboko skrivene aplikacije na mobitelu. One
 koje omogućuju, rad i dodavanje drugih aplikacija, ali i ograničavanje rada
 ostalih aplikacija. Ipak sam samo programer...
 
+
 **Princip proizlazi iz uvjerenja i pravilo je ponašanja, načelo, protokol,
 ili težnja, koja informira donošenje privatnih, poslovnih i općenito životnih
 odluka.** Dobri principi su oni koji su jasno iskazani do krajnjih granica.
+Principi su to da nam pomognu kod navigiranja kroz našu životnu misiju.
 Preslikano na analogiju s mobitelom, dobri principi su onda one aplikacije
 koje smo potpuno sami odabrali dodati i koristiti iz nama poznatih konkretnih
 razloga koji su u skladu s našim uvjerenjima.
+
+
 
 Definicija ponašanja proizlazi iz `Fogg-ovog modela ponašanja`_. Koji
 skraćeno kaže:
@@ -83,10 +102,10 @@ Markov unutarnji kritičar: **– Opet zabušavam... Što nije uredu samnom? Za�
 ne mogu ništa obaviti iz prve? –** tokom, a često i poslije se javljaju
 briga, tjeskoba i druge negativne emocije.
 
-**Kontinuirana ponašanja mogu stvoriti uvjerenja**. U ovom dobu društvenih
+**Kontinuirana ponašanja mogu mijenjati uvjerenja**. U ovom dobu društvenih
 mreža većina nas smo bili u sličnoj situaciji crne rupe interneta. Opasnost
 leži u tome da ako dovoljno puta ponovimo takva ponašanja, lako ćemo stvoriti
-neprilagođene navike i nećemo razviti naša uvjerenja. Razlika između
+neprilagođene navike i nećemo razviti naše karakterne snage. Razlika između
 postupanja u skladu s fundamentalnim uvjerenjima ili ne, čini se leži u
 pozornosti, fokusu, snazi volje; ali to su, iako važni, zapravo ograničeni
 resursi te vidimo iz primjera studenta kako naša okolina lagano utječe na
@@ -99,10 +118,14 @@ imati različita uvjerenja od ovih ne znači imati lošija, kriva ili nevažna
 uvjerenja. Iako mislim da mora postojati minimalno podudaranje oko osnovnih
 vrijednosti za dugoročno uspješan suživot.
 
-**Tri različite razine uvjerenja**. Mi smo i individualna i kolektivna bića
+**Tri razine uvjerenja**. Mi smo i individualna i kolektivna bića
 stoga je korisno razmišljati o uvjerenjima na tri različite razine. Razine su
-individualna, uže kolektivna (obiteljska, prijateljska, organizacijska), i
-šire društvena (religije, nacije, korporacije, industrije).
+individualna, uže kolektivna (obitelj, tim, organizacija), i
+šire društvena (religija, nacija, korporacije, industrije).
+
+Mi kao individualni ljudi, kroz naše gene, odgoj, društvo, etičke okvire, i
+sva naša iskustva imamo razvijene neke vrijednosti i principe o tome kako
+živjeti naš život.
 
 **Sukob principa**. Principi se nekad neće podudarati s drugim principima. To
 je za očekivati, zato treba obratiti pozornost na prioritete između principa

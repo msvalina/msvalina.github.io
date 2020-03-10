@@ -53,11 +53,19 @@ Have a nice day. 💗
 
 --------------
 
+Mission, vision and values
+###########################
+
+`Read here about my mission, vision and values.`_
+
+--------------
+
 Feel free to `say hi\!`_
 
 More about Marijan's `technical background.`_
 
 .. _say hi!:  {filename}/pages/contact.rst
 .. _technical background.:  {filename}/pages/expertise.rst
+.. _Read here about my mission, vision and values.:  {filename}/pages/mission.rst
 
 `This page in Croatian <{filename}/pages/about-hr.rst>`_.

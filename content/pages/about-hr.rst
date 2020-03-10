@@ -54,3 +54,14 @@ kaosa.
 
 Marijan još uvijek nije dobar pisac. Ali dostigli ste do ovdje. Hvala Vam.
 Želim vam lijep dan. 💗
+
+--------------
+
+Misija, vizija i uvjerenja
+###########################
+
+`Čitaj ovdje o mojoj misiji, viziji i uvjerenjima.`_
+
+--------------
+
+.. _Čitaj ovdje o mojoj misiji, viziji i uvjerenjima.:  {filename}/pages/misija.rst

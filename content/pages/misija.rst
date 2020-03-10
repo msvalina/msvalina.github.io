@@ -5,7 +5,7 @@ Misija, vizija i uvjerenja
 
 :date: 2020-03-05 10:14
 :author: marijan
-:slug: uvjerenja-principi-i-ponasanje
+:slug: misija-vizija-uvjerenja
 :lang: hr
 :cover: assets/images/principles/header-doggy.jpg
 :status: hidden
@@ -24,8 +24,8 @@ Misija
 Vizija
 =======
 
- - Pomoći svima koji žele (i sebi) **spoznati** zašto i onda **osjećati** ljubav,
-   milost, voljeti čitav **život**, sa svim iskustvima negativnim i pozitivnim.
+ - Pomoći svima koji žele (i sebi) **spoznati zašto** i onda **osjećati** ljubav,
+   milost, za sve aspekte **života**.
 
 
 .. image:: |static|/assets/images/misija/alan-king-KZv7w34tluA-unsplash.jpg
@@ -40,7 +40,7 @@ Osnovna Uvjerenja
 - **Jasan pogled**: sabranost, svjesna pažnja, iluzija ega, duhovnost
 - **Suosjećanje**: topla želja i briga za dobrobit drugih i sebe
 - **Radost**: oduševljenje i entuzijazam za tuđa i svoja djela, otpuštanje očekivanja
-- **Preispitan život**: kontinuirano etičko propitivanje, razmatranje i usavršavanje
+- **Preispitan život**: kontinuirano etičko propitivanje, razmatranje i refleksija
 
 
 Više o tome kako definiram uvjerenja, veza s principima i kako se u to sve

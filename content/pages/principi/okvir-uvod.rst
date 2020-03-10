@@ -16,8 +16,9 @@ Niz godina ameterski proučavam filozofiju i kontinuirano aktivno poboljšavam
 svoj život. Došao sam u fazu da razumijem važnost i da si želim preciznije pojasniti
 svoja osnovna uvjerenja i principe jer želim pametnije donositi odluke.
 Na tom putu sam postao i student B.J. Fogg-a, bihevioralnog znanstvenika sa
-Stanforda, koji je svojim modelima jasno objasnio kako bilo koje ponašanje
-funkcionira.
+Stanforda, te sam spoznao poveznicu i nedostatak iste između uvjerenja,
+principa i ponašanja.
+
 
 Općenita misija mi je živjeti u što većem skladu sa svojim osnovnim
 uvjerenjima. Zato ovdje pokušavam istražiti, sebi objasniti, te nadograditi
@@ -28,6 +29,7 @@ kroz ovu seriju tekstova.
 
 Dvije stvari su me dovele do ovog mjesta
 znanje kako stvoriti navike i meditacija
+trebam asterisk ako ljude zanima drama...
 
 – Marijane prestani filozofirati i reci mi što da radim –
 ==========================================================

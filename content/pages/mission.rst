@@ -13,19 +13,19 @@ Mision, vision, values
 Mission
 =======
 
-  - Every day I hope that what I said, wrote, did and how I live my
-    life that it helps others (and me):
+  - Every day I hope that what I did and what I will say, write, or do, and
+    how I live my life that it helps others (and me):
   - a) **to overcome life challenges** or at least **lessen unnecessary
     suffering** and:
   - b) **to feel adequate** for our life,
-    in this moment, here and know; even when we don't think that our selves.
+    in this moment, here and know; even when we don't think that for ourselves.
 
 
 Vision
 =======
 
  - Help everyone who wants (and myself) to **understand why** and  **feel love**,
-   compassion, for all **life**, with all experiences negative and positive.
+   compassion, **for all aspects of life**.
 
 
 .. image:: |static|/assets/images/misija/alan-king-KZv7w34tluA-unsplash.jpg

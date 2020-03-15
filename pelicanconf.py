@@ -140,7 +140,7 @@ AUTHORS_BIO = {
         "twitter": "msvalina",
         "facebook": "svalina.marijan",
         "linkedin": "marijansvalina",
-        "instagram": "makimindmonkey",
+        "instagram": "marijan.svalina",
         "keybase": "msvalina",
         "website": "https://msvalina.org/pages/about/",
         "location": "Osijek",

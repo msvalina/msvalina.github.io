@@ -14,6 +14,11 @@ This story is about failed personal project I took between jobs. **How
 microscopic end result I have to show. But still got something valuable, or
 not, you be the judge.**
 
+  - Update 25 Mar 2020. In the mean time I did "finish" `React Django GraphQL app`_ for
+    reporting wild dumps
+
+.. _React Django GraphQL app: https://github.com/msvalina/jun-a-k
+
 Background
 ====================
 

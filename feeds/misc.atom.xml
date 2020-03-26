@@ -2,12 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Here Be Dragons - misc</title><link href="https://msvalina.org/" rel="alternate"></link><link href="https://msvalina.org/feeds/misc.atom.xml" rel="self"></link><id>https://msvalina.org/</id><updated>2019-10-25T10:49:00+02:00</updated><subtitle>Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.</subtitle><entry><title>Reflections and lessons from failed React workout app</title><link href="https://msvalina.org/2019/10/reflections-and-lessons-from-failed-react-workout-app.html" rel="alternate"></link><published>2019-10-25T10:49:00+02:00</published><updated>2019-10-25T10:49:00+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.org,2019-10-25:/2019/10/reflections-and-lessons-from-failed-react-workout-app.html</id><summary type="html">&lt;p&gt;This story is about failed personal project I took between jobs. &lt;strong&gt;How
 microscopic end result I have to show. But still got something valuable, or
 not, you be the judge.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Update 25 Mar 2020. In the mean time I did &amp;quot;finish&amp;quot; &lt;a class="reference external" href="https://github.com/msvalina/jun-a-k"&gt;React Django GraphQL app&lt;/a&gt; for
+reporting wild dumps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;div class="section" id="background"&gt;
-&lt;h2&gt;Background&lt;/h2&gt;
-&lt;p&gt;It's fall of 2015. Four years ago. I quit my job as Magento backend
-developer. It lasted only three …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;This story is about failed personal project I took between jobs. &lt;strong&gt;How
+&lt;h2&gt;Background …&lt;/h2&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;This story is about failed personal project I took between jobs. &lt;strong&gt;How
 microscopic end result I have to show. But still got something valuable, or
 not, you be the judge.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Update 25 Mar 2020. In the mean time I did &amp;quot;finish&amp;quot; &lt;a class="reference external" href="https://github.com/msvalina/jun-a-k"&gt;React Django GraphQL app&lt;/a&gt; for
+reporting wild dumps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;div class="section" id="background"&gt;
 &lt;h2&gt;Background&lt;/h2&gt;
 &lt;p&gt;It's fall of 2015. Four years ago. I quit my job as Magento backend

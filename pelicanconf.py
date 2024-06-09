@@ -15,11 +15,14 @@ SITEURL = 'http://msvalina.loc:8000'
 
 DEFAULT_DATE = 'fs'
 
-LOCALE = ('en_US.utf8', 'hr_HR.utf8')
+# Linux
+#LOCALE = ('en_US.utf8', 'hr_HR.utf8')
+# macos
+LOCALE = ('en_US.UTF-8', 'hr_HR.UTF-8')
 
 DATE_FORMATS = {
-    'en': ('en_US.utf8','%a %d %b %Y'),
-    'hr': ('hr_HR.utf8','%A %d. %b %Y.'),
+    'en': ('en_US.UTF-8','%a %d %b %Y'),
+    'hr': ('hr_HR.UTF-8','%A %d. %b %Y.'),
 }
 
 
@@ -122,7 +125,9 @@ SITEMAP = {
 # Analytics
 #GOOGLE_ANALYTICS = "UA-48468274-1"
 
-THEME = 'attila'
+# git clone --recursive https://github.com/getpelican/pelican-themes
+#THEME = './pelican-themes/attila'
+THEME = './pelican-themes/attila-2.0'
 
 # To set background image for the home page.
 HEADER_COVER = 'assets/images/header_doggy_teacher.jpg'
@@ -157,7 +162,26 @@ JINJA_ENVIRONMENT = {
     'extensions': [
         'jinja2.ext.loopcontrols',
         'jinja2.ext.i18n',
-        'jinja2.ext.with_',
+#        'jinja2.ext.with_',
         'jinja2.ext.do'
     ]
 }
+
+# Disable automagically pages
+SHOW_PAGES_ON_MENU = False
+# Then control explicitly
+MENUITEMS = (('Home', '/'),
+             ('About', '/pages/about/'),
+             ('Contact', '/pages/contact/'),
+             ('Expertise', '/pages/expertise/'),
+             ('Side Projects', '/pages/side-projects/'),)
+
+SHOW_ARTICLE_MODIFIED_TIME = False
+SHOW_AUTHOR_BIO_IN_ARTICLE = False
+SHOW_CATEGORIES_ON_MENU = False
+SHOW_COMMENTS_COUNT_IN_ARTICLE_SUMMARY = False
+SHOW_CREDITS = False
+SHOW_FULL_ARTICLE_IN_SUMMARY = False
+SHOW_SITESUBTITLE_IN_HTML_TITLE = False
+SHOW_TAGS_IN_ARTICLE_SUMMARY = False
+

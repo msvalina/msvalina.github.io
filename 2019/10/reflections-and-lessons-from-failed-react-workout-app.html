@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>Reflections and lessons from failed React workout app</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+<link href="http://msvalina.loc:8000/2019/10/reflections-and-lessons-from-failed-react-workout-app.html" rel="canonical" />
+  <!-- Feed -->
+
+  <link href="http://msvalina.loc:8000/theme/css/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- CSS specified by the user -->
+
+
+  <link href="http://msvalina.loc:8000/assets/css/override.css" type="text/css" rel="stylesheet" />
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <script>
+    var siteUrl = 'http://msvalina.loc:8000';
+  </script>
+
+  <script>
+    var localTheme = localStorage.getItem('attila_theme');
+    switch (localTheme) {
+      case 'dark':
+        document.documentElement.classList.add('theme-dark');
+        break;
+      case 'light':
+        document.documentElement.classList.add('theme-light');
+        break;
+      default:
+        break;
+    }
+  </script>
+
+
+
+
+
+
+
+    <meta name="description" content="This story is about failed personal project I took between jobs. How microscopic end result I have to show. But still got something...">
+
+    <meta name="author" content="marijan">
+
+    <meta name="tags" content="freelancing">
+    <meta name="tags" content="skills">
+    <meta name="tags" content="frontend">
+    <meta name="tags" content="react">
+
+
+
+
+<!-- Open Graph -->
+<meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="Here Be Dragons"/>
+<meta prefix="og: http://ogp.me/ns#" property="og:title" content="Reflections and lessons from failed React workout app"/>
+<meta prefix="og: http://ogp.me/ns#" property="og:description" content="This story is about failed personal project I took between jobs. How microscopic end result I have to show. But still got something..."/>
+<meta prefix="og: http://ogp.me/ns#" property="og:locale" content="en_US"/>
+<meta prefix="og: http://ogp.me/ns#" property="og:url" content="http://msvalina.loc:8000/2019/10/reflections-and-lessons-from-failed-react-workout-app.html"/>
+<meta prefix="og: http://ogp.me/ns#" property="og:type" content="article"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:published_time" content="2019-10-25 10:49:00+02:00"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:modified_time" content="2024-08-04 10:30:24.469706+02:00"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:author" content="http://msvalina.loc:8000/author/marijan">
+<meta prefix="og: http://ogp.me/ns#" property="article:section" content="misc"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:tag" content="freelancing"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:tag" content="skills"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:tag" content="frontend"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:tag" content="react"/>
+<meta prefix="og: http://ogp.me/ns#" property="og:image" content="http://msvalina.loc:8000/assets/images/header_doggy_teacher.jpg">
+
+<!-- Twitter Card -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "Reflections and lessons from failed React workout app",
+  "headline": "Reflections and lessons from failed React workout app",
+  "datePublished": "2019-10-25 10:49:00+02:00",
+  "dateModified": "2024-08-04 10:30:24.469706+02:00",
+  "author": {
+    "@type": "Person",
+    "name": "Marijan",
+    "url": "http://msvalina.loc:8000/author/marijan"
+  },
+  "image": "http://msvalina.loc:8000/assets/images/header_doggy_teacher.jpg",
+  "url": "http://msvalina.loc:8000/2019/10/reflections-and-lessons-from-failed-react-workout-app.html",
+  "description": "This story is about failed personal project I took between jobs. How microscopic end result I have to show. But still got something..."
+}
+</script>
+</head>
+
+
+
+
+
+
+
+<body class="category-template">
+
+<div class="nav-header">
+  <nav class="nav-wrapper" aria-label="Main">
+<ul>
+
+    <li class="nav-Home " role="presentation"><a href="/"><span>Home</span></a></li>
+    <li class="nav-About " role="presentation"><a href="/pages/about/"><span>About</span></a></li>
+    <li class="nav-Contact " role="presentation"><a href="/pages/contact/"><span>Contact</span></a></li>
+    <li class="nav-Expertise " role="presentation"><a href="/pages/expertise/"><span>Expertise</span></a></li>
+    <li class="nav-Side Projects " role="presentation"><a href="/pages/side-projects/"><span>Side Projects</span></a></li>
+
+</ul>
+<ul class="nav-meta">
+  <li class="nav-search" style="display: none;">
+    <a title="Search">
+      <i class="icon icon-search" aria-hidden="true"></i>
+      <span>Search</span>
+    </a>
+  </li>
+</ul>  </nav>
+
+  <div class="nav-wrapper-control">
+    <div class="inner">
+      <a class="nav-menu" role="button"><i class="icon icon-menu" aria-hidden="true"></i>Menu</a>
+      <a class="nav-search" title="Search" role="button" style="display: none;"><i class="icon icon-search" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</div>
+<div class="nav-close" role="button" aria-label="Close"></div>
+  <section id="wrapper" class="page-wrapper">
+    <!-- Progressbar -->
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="post-header  has-cover ">
+      <div class="inner">
+        <span class="post-info">
+          <span class="post-type">Article</span>
+          <span class="post-count">Misc</span>
+        </span>
+        <h1 class="post-title">Reflections and lessons from failed React workout app</h1>
+        <div class="post-meta">
+          <div class="post-meta-avatars">
+
+
+            <figure class="post-meta-avatar avatar">
+              <a class="author-avatar" href="http://msvalina.loc:8000/author/marijan">
+                <img class="author-profile-image" src="" alt="Marijan" />
+              </a>
+            </figure>
+          </div>
+
+          <h4 class="post-meta-author">
+            Marijan
+          </h4>
+          <time datetime="Fri 25 Oct 2019">Fri 25 Oct 2019</time>
+        </div>
+          <div class="post-cover cover">
+            <img src="http://msvalina.loc:8000/assets/images/header_doggy_teacher.jpg" alt="Category misc" />
+          </div>
+      </div>
+    </header>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+          <section class="post-content">
+            <p>This story is about failed personal project I took between jobs. <strong>How
+microscopic end result I have to show. But still got something valuable, or
+not, you be the judge.</strong></p>
+<blockquote>
+<ul class="simple">
+<li>Update 25 Mar 2020. In the mean time I did &quot;finish&quot; <a class="reference external" href="https://github.com/msvalina/jun-a-k">React Django GraphQL app</a> for
+reporting wild dumps</li>
+</ul>
+</blockquote>
+<div class="section" id="background">
+<h2>Background</h2>
+<p>It's fall of 2015. Four years ago. I quit my job as Magento backend
+developer. It lasted only three months... Preparation for position took
+learning PHP for a year, and some months. On mornings before daily
+programing job. But that is a different story. So I need a new job, but I
+don't have to rush it. I'm thinking to myself. Let's build simple workout app
+for exercise routine I'm doing. Let's build it with some new technology that
+will help me land a new job.</p>
+</div>
+<div class="section" id="app-and-technology">
+<h2>App and technology</h2>
+<blockquote>
+Workout routine for app is from <a class="reference external" href="http://www.startbodyweight.com/2014/01/basic-routine-infographic-poster.html">StartBodyweight.com</a>, it's simple and
+good for beginners starting bodyweight exercises. It's based on this infographic poster.</blockquote>
+<a class="reference external image-reference" href="http://www.startbodyweight.com/2014/01/basic-routine-infographic-poster.html">
+<img alt="Start bodyweight poster" class="align-center" src="http://msvalina.loc:8000/assets/images/startbodyweight-com-poster.jpg" style="width: 75%;" />
+</a>
+<p>Web is not going anywhere. JavaScript is not going anywhere. I should orient
+toward them, is my thought stream. It's new beginning and I'm choosing
+to learn new — as some would describe — revolutionary technology. It's
+React — A JavaScript library for building user interfaces — invented at
+Facebook.</p>
+<p>As it is with paradigm shifts, new tech, best practices are not
+established for some time after invention. And in React case from start it is
+explicitly minimal in nature. Also, Facebook did not lead the way at the time
+with supporting frameworks, tools, and practices.</p>
+<p>That left a lot of space for enthusiast developers to fill the gaps needed to
+make complete application with React. <strong>Explosion of boilerplates code
+happened.</strong> Small frameworks that provide scaffolding code.</p>
+<p>There are many questions in front of me. Can I build something useful only
+with React? Which boilerplate to choose? Should I build only client side
+application? Why not build backend in JS also? I should go with express,
+right? How good is that MongoDB that everyone is talking about? Why not use
+JSON Web Token for authentication? Why not use Server Side Rendering to speed
+up loading time? What about latest ECMA script standard? Of course I should
+use webpack, right? And so on...</p>
+<p>These questions lead me to try and experiment with different approaches.
+A lot of research, and not so much development.</p>
+</div>
+<div class="section" id="result">
+<h2>Result</h2>
+<p>I spent two and a half months on project. On backend side, we can say that
+minimal viable product, working API is done. It support users, authentication,
+progressions, progression entries, and workout sessions.</p>
+<p>From the design side. What I have to show are this half baked wireframes:</p>
+<img alt="Start bodyweight app wireframes" class="align-center" src="http://msvalina.loc:8000/assets/images/sbw-wireframe.jpg" style="width: 95%;" />
+<p>And from frontend there is almost nothing. I tried to use, many different boilerplates.
+Started with simple.</p>
+<ul class="simple">
+<li>react + webpack + babel</li>
+<li><a class="reference external" href="https://github.com/kriasoft/react-starter-kit/compare/v0.4.0...v0.4.1">react + react-router + react-hot-loader</a></li>
+</ul>
+<p>Then figured I wanted state management. I tried three different redux
+implementations, with all latest bells and whistles.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/bdefore/universal-redux-jwt">universal-redux-jwt</a></li>
+<li><a class="reference external" href="https://github.com/joshgeller/react-redux-jwt-auth-example">react-redux-jwt-auth-example</a></li>
+<li><a class="reference external" href="https://github.com/erikras/react-redux-universal-hot-example">react-redux-universal-hot-example</a></li>
+</ul>
+<p>So that in the end I would settle on react-redux-universal-hot-example.
+And my time expired because I got new job offer. Which I took.</p>
+</div>
+<div class="section" id="mistakes">
+<h2>Mistakes</h2>
+<p>Why did I do so little?</p>
+<p>Part of story can be describe as distraction...</p>
+<img alt="Distracted boyfriend meme looking at new boilerplate" class="align-center" src="http://msvalina.loc:8000/assets/images/boilerplate-distracion.jpg" style="width: 80%;" />
+<p>Part of the plan was to do everything by myself.</p>
+<p>But that is also part of the problem.</p>
+<p>I thought I have time.</p>
+<p>I had time, just not as much as I needed.</p>
+<p>The ever present problem of estimation in software development...</p>
+<p>Trying to use every possible cutting edge technology at the time...</p>
+</div>
+<div class="section" id="leesons">
+<h2>Leesons</h2>
+<p><strong>New technology and fast results are not good combination.</strong></p>
+<p>It's easy to underestimate complexity of simple applications.</p>
+<p><strong>R&amp;D is not development.</strong></p>
+<p>Minimum viable product. Repeat MVP, MVP, MVP.</p>
+<div class="section" id="on-javascript-fatigue">
+<h3>On JavaScript fatigue</h3>
+<p>Many before me have identified this phenomenon as <a class="reference external" href="https://www.quora.com/Why-is-Javascript-Framework-fatigue-considered-a-big-problem">JavaScript fatigue</a>. I
+would not say this is that big of problem. Yes it would be easier if there
+were standards, best practices and less choices.
+But bigger problem in my case is that <strong>I was learning too many things at
+once.</strong> I'm not seasoned JavaScript developer. That meant, a lot of catching
+up, and a lot of unsuccessful pitfall avoidance.</p>
+</div>
+<div class="section" id="what-did-i-get-from-all-this-boilerplates">
+<h3>What did I get from all this boilerplates?</h3>
+<p>Well I did actually bother to understand every boilerplate that I used. I did
+my homework on understanding nodejs, express, mongoose, babel, on the backend side.
+And on frontend side react, webpack, SSR, babel, redux. My head was not in the sand.</p>
+</div>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>It's blast from the past. My broken truth with reflections. A way to draw
+leassons from failed project. Showcase of my current abilities. Failed
+showcase, but still. It should at least shed some light at my skill as
+Frontend DevOps Engineer, or as failed Full Stack Developer. Thank you for
+reading. Have a nice day. 💗</p>
+</div>
+
+          </section>
+
+
+          <section class="post-footer" >
+            <div class="post-share">
+              <span class="post-info-label">Share</span>
+              <a title="Twitter" aria-label="Twitter" class="twitter" href="https://twitter.com/share?text=Reflections and lessons from failed React workout app&amp;url=http://msvalina.loc:8000/2019/10/reflections-and-lessons-from-failed-react-workout-app.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="icon icon-twitter" aria-hidden="true"></i><span class="hidden">Twitter</span>
+              </a>
+              <a title="Facebook" aria-label="Facebook" class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://msvalina.loc:8000/2019/10/reflections-and-lessons-from-failed-react-workout-app.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="icon icon-facebook" aria-hidden="true"></i><span class="hidden">Facebook</span>
+              </a>
+              <a title="LinkedIn" aria-label="LinkedIn" class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://msvalina.loc:8000/2019/10/reflections-and-lessons-from-failed-react-workout-app.html&amp;title=Reflections and lessons from failed React workout app" onclick="window.open(this.href, 'linkedin-share', 'width=930,height=720');return false;">
+                <i class="icon icon-linkedin" aria-hidden="true"></i><span class="hidden">LinkedIn</span>
+              </a>
+              <a title="Email" aria-label="Email" class="email" href="mailto:?subject=Reflections and lessons from failed React workout app&amp;body=http://msvalina.loc:8000/2019/10/reflections-and-lessons-from-failed-react-workout-app.html">
+                <i class="icon icon-mail" aria-hidden="true"></i><span class="hidden">Email</span>
+              </a>
+              <div class="clear"></div>
+            </div>
+
+            <aside class="post-tags">
+<a href="http://msvalina.loc:8000/tag/freelancing">freelancing</a><a href="http://msvalina.loc:8000/tag/skills">skills</a><a href="http://msvalina.loc:8000/tag/frontend">frontend</a><a href="http://msvalina.loc:8000/tag/react">react</a>            </aside>
+
+            <div class="clear"></div>
+
+
+          </section>
+
+
+          <aside class="post-nav">
+            <a class="post-nav-prev" href="http://msvalina.loc:8000/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html">
+              <section class="post-nav-teaser">
+                <i class="icon icon-arrow-right"></i>
+                  <h2 class="post-nav-title">Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM after 8 years</h2>
+                <p class="post-nav-excerpt">Takeaway With better tools in your environment your ability will be higher. This will...</p>
+                <p class="post-nav-meta"><time datetime="Thu 26 Sep 2019">Thu 26 Sep 2019</time></p>
+              </section>
+            </a>
+            <div class="clear"></div>
+          </aside>
+
+        </div>
+      </article>
+    </main>
+    <div class="nav-footer">
+      <nav class="nav-wrapper" aria-label="Footer">
+        <span class="nav-copy">Here Be Dragons &copy; 2023
+        </span>
+        <span class="nav-credits">
+
+          <a class="menu-item js-theme" href="#" data-system="System theme" data-dark="Dark theme" data-light="Light theme">
+            <span class="theme-icon"></span><span class="theme-text">System theme</span>
+          </a>
+        </span>
+      </nav>
+    </div>
+
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script type="text/javascript" src="http://msvalina.loc:8000/theme/js/jquery.fitvids.js"></script>
+  <script type="text/javascript" src="http://msvalina.loc:8000/theme/js/script.js"></script>
+
+
+  <!-- 	The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in article.html, but it needs to be included down here, after jQuery has already loaded. -->
+
+<script>
+  $(document).ready(function () {
+    var viewport = $(window);
+    var post = $('.post-content');
+    // Responsive videos with fitVids
+    post.fitVids();
+
+    var mdSelector=".highlight pre";
+    var rstSelector=".highlight pre";
+    var selector=rstSelector;
+    // Format code blocks and add line numbers
+    function codestyling() {
+      $(selector).each(function(i, e) {
+        // Code highlight
+        hljs.highlightElement(e);
+        // No lines for plain text blocks
+        if (!$(this).hasClass('language-text')) {
+          var code = $(this);
+          // Calculate amount of lines
+          var lines = code.html().split(/\n(?!$)/g).length;
+          var numbers = [];
+          if (lines > 1) {
+            lines++;
+          }
+          for (i = 1; i < lines; i++) {
+            numbers += '<span class="line" aria-hidden="true">' + i + '</span>';
+          }
+          code.parent().append('<div class="lines">' + numbers + '</div>');
+        }
+      });
+    }
+
+    // Format code blocks only
+    function codestylingWithoutLineNumbers() {
+      $(selector).each(function(i, e) {
+        // Code highlight
+        hljs.highlightElement(e);
+      });
+    }
+
+    codestylingWithoutLineNumbers();
+    // Reading progress bar on window top
+    function readingProgress() {
+      var postBottom = post.offset().top + post.height();
+      var viewportHeight = viewport.height();
+      var progress = 100 - (((postBottom - (viewport.scrollTop() + viewportHeight) + viewportHeight / 3) / (postBottom - viewportHeight + viewportHeight / 3)) * 100);
+      $('.progress-bar').css('width', progress + '%');
+      (progress > 100) ? $('.progress-container').addClass('complete'): $('.progress-container').removeClass('complete');
+    }
+    readingProgress();
+    // Trigger reading progress
+    viewport.on({
+      'scroll': function() {
+        readingProgress();
+      },
+      'resize': function() {
+        readingProgress();
+      },
+      'orientationchange': function() {
+        readingProgress();
+      }
+    });
+
+  });
+</script>
+</body>
+
+</html>

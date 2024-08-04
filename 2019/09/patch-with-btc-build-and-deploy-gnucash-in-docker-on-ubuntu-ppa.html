@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>How to patch with Bitcoin, build and deploy GnuCash in Docker on Ubuntu PPA</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+<link href="http://msvalina.loc:8000/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html" rel="canonical" />
+  <!-- Feed -->
+
+  <link href="http://msvalina.loc:8000/theme/css/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- CSS specified by the user -->
+
+
+  <link href="http://msvalina.loc:8000/assets/css/override.css" type="text/css" rel="stylesheet" />
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <script>
+    var siteUrl = 'http://msvalina.loc:8000';
+  </script>
+
+  <script>
+    var localTheme = localStorage.getItem('attila_theme');
+    switch (localTheme) {
+      case 'dark':
+        document.documentElement.classList.add('theme-dark');
+        break;
+      case 'light':
+        document.documentElement.classList.add('theme-light');
+        break;
+      default:
+        break;
+    }
+  </script>
+
+
+
+
+
+
+
+    <meta name="description" content="Main goal of this article is to document high level steps. Steps to patch, build, and deploy GnuCash on Ubuntu PPA (Personal Package...">
+
+    <meta name="author" content="marijan">
+
+    <meta name="tags" content="bitcoin">
+    <meta name="tags" content="gnucash">
+    <meta name="tags" content="ubuntu">
+    <meta name="tags" content="linux">
+    <meta name="tags" content="docker">
+
+
+
+
+<!-- Open Graph -->
+<meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="Here Be Dragons"/>
+<meta prefix="og: http://ogp.me/ns#" property="og:title" content="How to patch with Bitcoin, build and deploy GnuCash in Docker on Ubuntu PPA"/>
+<meta prefix="og: http://ogp.me/ns#" property="og:description" content="Main goal of this article is to document high level steps. Steps to patch, build, and deploy GnuCash on Ubuntu PPA (Personal Package..."/>
+<meta prefix="og: http://ogp.me/ns#" property="og:locale" content="en_US"/>
+<meta prefix="og: http://ogp.me/ns#" property="og:url" content="http://msvalina.loc:8000/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html"/>
+<meta prefix="og: http://ogp.me/ns#" property="og:type" content="article"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:published_time" content="2019-09-08 10:45:00+02:00"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:modified_time" content="2024-08-04 10:30:24.469462+02:00"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:author" content="http://msvalina.loc:8000/author/marijan">
+<meta prefix="og: http://ogp.me/ns#" property="article:section" content="programming"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:tag" content="bitcoin"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:tag" content="gnucash"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:tag" content="ubuntu"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:tag" content="linux"/>
+<meta prefix="og: http://ogp.me/ns#" property="article:tag" content="docker"/>
+<meta prefix="og: http://ogp.me/ns#" property="og:image" content="http://msvalina.loc:8000/assets/images/header_doggy_three.jpg">
+
+<!-- Twitter Card -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "How to patch with Bitcoin, build and deploy GnuCash in Docker on Ubuntu PPA",
+  "headline": "How to patch with Bitcoin, build and deploy GnuCash in Docker on Ubuntu PPA",
+  "datePublished": "2019-09-08 10:45:00+02:00",
+  "dateModified": "2024-08-04 10:30:24.469462+02:00",
+  "author": {
+    "@type": "Person",
+    "name": "Marijan",
+    "url": "http://msvalina.loc:8000/author/marijan"
+  },
+  "image": "http://msvalina.loc:8000/assets/images/header_doggy_three.jpg",
+  "url": "http://msvalina.loc:8000/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html",
+  "description": "Main goal of this article is to document high level steps. Steps to patch, build, and deploy GnuCash on Ubuntu PPA (Personal Package..."
+}
+</script>
+</head>
+
+
+
+
+
+
+
+<body class="category-template">
+
+<div class="nav-header">
+  <nav class="nav-wrapper" aria-label="Main">
+<ul>
+
+    <li class="nav-Home " role="presentation"><a href="/"><span>Home</span></a></li>
+    <li class="nav-About " role="presentation"><a href="/pages/about/"><span>About</span></a></li>
+    <li class="nav-Contact " role="presentation"><a href="/pages/contact/"><span>Contact</span></a></li>
+    <li class="nav-Expertise " role="presentation"><a href="/pages/expertise/"><span>Expertise</span></a></li>
+    <li class="nav-Side Projects " role="presentation"><a href="/pages/side-projects/"><span>Side Projects</span></a></li>
+
+</ul>
+<ul class="nav-meta">
+  <li class="nav-search" style="display: none;">
+    <a title="Search">
+      <i class="icon icon-search" aria-hidden="true"></i>
+      <span>Search</span>
+    </a>
+  </li>
+</ul>  </nav>
+
+  <div class="nav-wrapper-control">
+    <div class="inner">
+      <a class="nav-menu" role="button"><i class="icon icon-menu" aria-hidden="true"></i>Menu</a>
+      <a class="nav-search" title="Search" role="button" style="display: none;"><i class="icon icon-search" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</div>
+<div class="nav-close" role="button" aria-label="Close"></div>
+  <section id="wrapper" class="page-wrapper">
+    <!-- Progressbar -->
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="post-header  has-cover ">
+      <div class="inner">
+        <span class="post-info">
+          <span class="post-type">Article</span>
+          <span class="post-count">Programming</span>
+        </span>
+        <h1 class="post-title">How to patch with Bitcoin, build and deploy GnuCash in Docker on Ubuntu PPA</h1>
+        <div class="post-meta">
+          <div class="post-meta-avatars">
+
+
+            <figure class="post-meta-avatar avatar">
+              <a class="author-avatar" href="http://msvalina.loc:8000/author/marijan">
+                <img class="author-profile-image" src="" alt="Marijan" />
+              </a>
+            </figure>
+          </div>
+
+          <h4 class="post-meta-author">
+            Marijan
+          </h4>
+          <time datetime="Sun 08 Sep 2019">Sun 08 Sep 2019</time>
+        </div>
+          <div class="post-cover cover">
+            <img src="http://msvalina.loc:8000/assets/images/header_doggy_three.jpg" alt="Category programming" />
+          </div>
+      </div>
+    </header>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+          <section class="post-content">
+            <p>Main goal of this article is to document high level steps. Steps
+to patch, build, and deploy <a class="reference external" href="https://www.gnucash.org/">GnuCash</a> on Ubuntu PPA (Personal Package
+Archive). Targeted audience is mid-level technical people. Also others who
+want to learn more about package building, Docker practices, and Linux.</p>
+<p>Docker builds the image. GPG (Gnu Privacy Guard) signs package. dput
+publishes packages on Ubuntu PPA. From GnuCash perspective added value is
+finding all the puzzles pieces. At the end I will compare
+this build process with Archlinux pkgbuild.</p>
+<div class="section" id="motivation-and-background">
+<h2>Motivation and background</h2>
+<p>There is <a class="reference external" href="http://gnucash.1415818.n4.nabble.com/Cryptocurrencies-td4690814.html">no official Bitcoin support</a> in GnuCash. It seems like there
+won't be one in future from GnuCash developers. On Archlinux I'm using
+<a class="reference external" href="https://aur.archlinux.org/packages/gnucash-xbt/">gnucash-xbt from AUR</a>. On my other Ubuntu machine I wanted to use the same.
+There was no PPA with Bitcoin support in GnuCash. So I created <a class="reference external" href="https://launchpad.net/~msvalina/+archive/ubuntu/gnucash">Ubuntu PPA</a>
+for myself and others. This wasn't my first build of debian like package.
+In past I hacked a Makefile to generate opkg package for OpenWRT. It was
+useful knowledge to have for this task.</p>
+</div>
+<div class="section" id="where-is-the-code">
+<h2>Where is the code?</h2>
+<p>You can find <a class="reference external" href="https://github.com/msvalina/ppa-gnucash-xbt">code on github repo</a> and skip over this article. You can
+find <a class="reference external" href="https://launchpad.net/~msvalina/+archive/ubuntu/gnucash">Ubuntu PPA packages</a> and install them right away.</p>
+</div>
+<div class="section" id="what-puzzle-pieces-did-you-use">
+<h2>What puzzle pieces did you use?</h2>
+<p>Thanks goes to all this work before mine. It was much easier to solve all the
+problems because of these people 💗</p>
+<ul class="simple">
+<li>Benedykt Przybyło (b3niup) for original Archlinux AUR pkgbuild
+<a class="reference external" href="https://aur.archlinux.org/packages/gnucash-xbt/">gnucash-xbt</a> and xbt.patch</li>
+<li>Dmitry Smirnov for maintaining <a class="reference external" href="https://salsa.debian.org/debian/gnucash/">Debian GnuCash dpkgbuild</a></li>
+<li>Dale Phurrough for nice GnuCash Dockerfile starting point
+<a class="reference external" href="https://github.com/diablodale/gnucash-dev-docker/">diablodale/gnucash-dev-docker</a></li>
+<li>Sicklylife for maintaining <a class="reference external" href="https://launchpad.net/~sicklylife/+archive/ubuntu/gnucash3.6">vanilla GnuCash Ubuntu PPA</a>.</li>
+<li>Andrey Arapov of nixaid.com for writing: <a class="reference external" href="https://nixaid.com/using-gpg-inside-a-docker-container/">Using GPG inside a docker
+container</a></li>
+</ul>
+</div>
+<div class="section" id="what-prerequisites-understanding-is-necessary">
+<h2>What prerequisites understanding is necessary?</h2>
+<p><a class="reference external" href="http://packaging.ubuntu.com/html/index.html">Ubuntu Packaging Guide</a> is good starting point, has many useful
+information. Guide also depends on debian packaging policies and tools. It is
+<strong>important</strong> to know that there are many ways/tools to build debian package.
+But two main categories are:</p>
+<div class="section" id="upstream-developer-way">
+<h3>Upstream Developer way</h3>
+<ul class="simple">
+<li><a class="reference external" href="https://jameswestby.net/bzr/builddeb/user_manual/">building using bzr-build</a> Ubuntu Packaging Guide focuses on this one</li>
+<li><a class="reference external" href="https://wiki.debian.org/PackagingWithGit">building using git-buildpackage</a></li>
+</ul>
+</div>
+<div class="section" id="debian-packager-way">
+<h3>Debian packager way</h3>
+<p><a class="reference external" href="https://askubuntu.com/questions/1087569/deploying-own-debian-package-to-launchpad">Quoting from askubuntu</a>:</p>
+<pre class="literal-block">
+&gt; In the normal workflow, packager starts by
+&gt; downloading *.orig.tar.gz archive then
+&gt; extracting.
+&gt;
+&gt;    Debian packages can be split into two kinds:
+&gt;    -  native '3.0 (native)' and
+&gt;    -  non-native '3.0 (quilt)'.
+&gt;    They have a slight different way in building.
+</pre>
+<p>Check <a class="reference external" href="https://wiki.debian.org/DebianMentorsFaq#What_is_the_difference_between_a_native_Debian_package_and_a_non-native_package.3F">DebianMentorsFaq</a> for difference between native and non-native.
+This project uses Debian packager way with non-native(quilt) type.</p>
+</div>
+</div>
+<div class="section" id="why-would-you-build-inside-docker">
+<h2>Why would you build inside Docker?</h2>
+<p>Infrastructure as Code principle is valuable and something Docker forces you
+to do. Also I don't want to clutter mine laptop with build dependencies.
+There are other ways to do that but, I also wanted to gather
+some more experiences with Docker.</p>
+</div>
+<div class="section" id="main-procedures">
+<h2>Main procedures</h2>
+<p>Docker image will</p>
+<ul class="simple">
+<li>build the environment for building GnuCash</li>
+<li>patch GnuCash with Bitcoin currency type</li>
+<li>build debian source package</li>
+<li>sign it with gpg (works with YubiKey)</li>
+<li>upload it to the Ubuntu PPA (Personal Package Archive)</li>
+</ul>
+</div>
+<div class="section" id="interesting-parts-dockerfile">
+<h2>Interesting parts: Dockerfile</h2>
+<p>First job of docker is to install all needed dependencies for build tools and
+for GnuCash itself. Other interesting thing is headache less permissions with
+docker volume. For that we create user and group in Dockerfile. They will
+have the same UID and GID as user which is building the container</p>
+<div class="highlight"><pre><span></span><span class="k">RUN</span><span class="w"> </span>groupadd<span class="w"> </span>--system<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--gid<span class="w"> </span><span class="si">${</span><span class="nv">GID</span><span class="k">:-</span><span class="nv">1000</span><span class="si">}</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>ubuntu
+
+<span class="k">RUN</span><span class="w"> </span>useradd<span class="w"> </span>--system<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--create-home<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--home-dir<span class="w"> </span>/home/ubuntu<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--shell<span class="w"> </span>/bin/bash<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--uid<span class="w"> </span><span class="si">${</span><span class="nv">UID</span><span class="k">:-</span><span class="nv">1000</span><span class="si">}</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--gid<span class="w"> </span><span class="si">${</span><span class="nv">GID</span><span class="k">:-</span><span class="nv">1000</span><span class="si">}</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--groups<span class="w"> </span>sudo<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--password<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>openssl<span class="w"> </span>passwd<span class="w"> </span>-1<span class="w"> </span>ubuntu<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>ubuntu
+
+<span class="k">USER</span><span class="w"> </span><span class="s">ubuntu</span>
+<span class="k">WORKDIR</span><span class="w"> </span><span class="s">/home/ubuntu/ppa-gnucash-xbt</span>
+
+<span class="k">CMD</span><span class="w"> </span>./build.sh
+</pre></div>
+<p>Then we create docker container with volumes from user that created docker
+image</p>
+<div class="highlight"><pre><span></span>docker<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span>--tty<span class="w"> </span>--interactive<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--volume<span class="w"> </span><span class="si">${</span><span class="nv">HOME</span><span class="si">}</span>/.gnupg/:/home/ubuntu/.gnupg/:ro<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--volume<span class="w"> </span>/run/user/<span class="k">$(</span>id<span class="w"> </span>-u<span class="k">)</span>/:/run/user/<span class="k">$(</span>id<span class="w"> </span>-u<span class="k">)</span>/:ro<span class="w">  </span><span class="se">\</span>
+<span class="w">  </span>--volume<span class="w"> </span><span class="si">${</span><span class="nv">HOME</span><span class="si">}</span>/path/to/ppa-gnucash-xbt/:/home/ubuntu/ppa-gnucash-xbt/<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span>dpkg-build-gnucash<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>gnucash-xbt-ubuntu-bionic-pkgbuild<span class="w"> </span>bash
+</pre></div>
+<p>Now data from repo is available both on host and container. Nobody will mess
+up owner, group or permissions.</p>
+</div>
+<div class="section" id="what-happens-on-new-upstream-release">
+<h2>What happens on new upstream release?</h2>
+<p>On new upstream release build.sh needs change. Latest upstream source url,
+sha256 checksum of that source need modification. Other steps are automatic.</p>
+</div>
+<div class="section" id="interesting-parts-build-sh-script">
+<h2>Interesting parts: build.sh script</h2>
+<p>In current form build.sh only builds debian source package. It doesn't
+compile GnuCash itself. To build it for local use and testing run container
+with bash and issue after running build.sh</p>
+<div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>ppa_builddir
+dpkg-buildpackage<span class="w"> </span>--build<span class="o">=</span>binary
+</pre></div>
+</div>
+<div class="section" id="how-long-will-i-maintain-ppa">
+<h2>How long will I maintain PPA?</h2>
+<p>I will maintain it as long as I use GnuCash. I used it for last 5
+years. So if we go by <a class="reference external" href="https://en.wikipedia.org/wiki/Lindy_effect">Lindy Effect</a> I will maintain it for 5 more years.
+But beware I'm looking at <a class="reference external" href="https://hledger.org/">HLedger</a> as a replacement.
+Feel free to take over maintaining when PPA becomes out of date.</p>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>So looking back and seeing how much time it would take me to patch and build
+GnuCash for Ubuntu I can say that my intuition was completely off... It took
+me 5 times more time then I anticipated. Comparing that to building on
+Archlinux's, it is complex. But I get way there is so many tools and
+policies in Ubuntu/Debian world. History and compatibility need preservation.
+But it takes a while to get gist of things. Also Docker and GPG issues took
+time as well. Hand in hand it is valuable experience for me, especially
+because Ubuntu Bionic is my main OS now. For a junior level Linux guy, if
+such category can be defined at all. It is real pain to build, patch and
+deploy dpkg package. If you are still reading. Thank you. Hope you got
+something out of it. 💗</p>
+</div>
+
+          </section>
+
+
+          <section class="post-footer" >
+            <div class="post-share">
+              <span class="post-info-label">Share</span>
+              <a title="Twitter" aria-label="Twitter" class="twitter" href="https://twitter.com/share?text=How to patch with Bitcoin, build and deploy GnuCash in Docker on Ubuntu PPA&amp;url=http://msvalina.loc:8000/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="icon icon-twitter" aria-hidden="true"></i><span class="hidden">Twitter</span>
+              </a>
+              <a title="Facebook" aria-label="Facebook" class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://msvalina.loc:8000/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="icon icon-facebook" aria-hidden="true"></i><span class="hidden">Facebook</span>
+              </a>
+              <a title="LinkedIn" aria-label="LinkedIn" class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://msvalina.loc:8000/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html&amp;title=How to patch with Bitcoin, build and deploy GnuCash in Docker on Ubuntu PPA" onclick="window.open(this.href, 'linkedin-share', 'width=930,height=720');return false;">
+                <i class="icon icon-linkedin" aria-hidden="true"></i><span class="hidden">LinkedIn</span>
+              </a>
+              <a title="Email" aria-label="Email" class="email" href="mailto:?subject=How to patch with Bitcoin, build and deploy GnuCash in Docker on Ubuntu PPA&amp;body=http://msvalina.loc:8000/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html">
+                <i class="icon icon-mail" aria-hidden="true"></i><span class="hidden">Email</span>
+              </a>
+              <div class="clear"></div>
+            </div>
+
+            <aside class="post-tags">
+<a href="http://msvalina.loc:8000/tag/bitcoin">bitcoin</a><a href="http://msvalina.loc:8000/tag/gnucash">gnucash</a><a href="http://msvalina.loc:8000/tag/ubuntu">ubuntu</a><a href="http://msvalina.loc:8000/tag/linux">linux</a><a href="http://msvalina.loc:8000/tag/docker">docker</a>            </aside>
+
+            <div class="clear"></div>
+
+
+          </section>
+
+
+          <aside class="post-nav">
+            <a class="post-nav-next" href="http://msvalina.loc:8000/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html">
+              <section class="post-nav-teaser">
+                <i class="icon icon-arrow-left"></i>
+                  <h2 class="post-nav-title">Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM after 8 years</h2>
+                <p class="post-nav-excerpt">Takeaway With better tools in your environment your ability will be higher. This will...</p>
+                <p class="post-nav-meta"><time datetime="Thu 26 Sep 2019">Thu 26 Sep 2019</time></p>
+              </section>
+            </a>
+            <div class="clear"></div>
+          </aside>
+
+        </div>
+      </article>
+    </main>
+    <div class="nav-footer">
+      <nav class="nav-wrapper" aria-label="Footer">
+        <span class="nav-copy">Here Be Dragons &copy; 2023
+        </span>
+        <span class="nav-credits">
+
+          <a class="menu-item js-theme" href="#" data-system="System theme" data-dark="Dark theme" data-light="Light theme">
+            <span class="theme-icon"></span><span class="theme-text">System theme</span>
+          </a>
+        </span>
+      </nav>
+    </div>
+
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script type="text/javascript" src="http://msvalina.loc:8000/theme/js/jquery.fitvids.js"></script>
+  <script type="text/javascript" src="http://msvalina.loc:8000/theme/js/script.js"></script>
+
+
+  <!-- 	The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in article.html, but it needs to be included down here, after jQuery has already loaded. -->
+
+<script>
+  $(document).ready(function () {
+    var viewport = $(window);
+    var post = $('.post-content');
+    // Responsive videos with fitVids
+    post.fitVids();
+
+    var mdSelector=".highlight pre";
+    var rstSelector=".highlight pre";
+    var selector=rstSelector;
+    // Format code blocks and add line numbers
+    function codestyling() {
+      $(selector).each(function(i, e) {
+        // Code highlight
+        hljs.highlightElement(e);
+        // No lines for plain text blocks
+        if (!$(this).hasClass('language-text')) {
+          var code = $(this);
+          // Calculate amount of lines
+          var lines = code.html().split(/\n(?!$)/g).length;
+          var numbers = [];
+          if (lines > 1) {
+            lines++;
+          }
+          for (i = 1; i < lines; i++) {
+            numbers += '<span class="line" aria-hidden="true">' + i + '</span>';
+          }
+          code.parent().append('<div class="lines">' + numbers + '</div>');
+        }
+      });
+    }
+
+    // Format code blocks only
+    function codestylingWithoutLineNumbers() {
+      $(selector).each(function(i, e) {
+        // Code highlight
+        hljs.highlightElement(e);
+      });
+    }
+
+    codestylingWithoutLineNumbers();
+    // Reading progress bar on window top
+    function readingProgress() {
+      var postBottom = post.offset().top + post.height();
+      var viewportHeight = viewport.height();
+      var progress = 100 - (((postBottom - (viewport.scrollTop() + viewportHeight) + viewportHeight / 3) / (postBottom - viewportHeight + viewportHeight / 3)) * 100);
+      $('.progress-bar').css('width', progress + '%');
+      (progress > 100) ? $('.progress-container').addClass('complete'): $('.progress-container').removeClass('complete');
+    }
+    readingProgress();
+    // Trigger reading progress
+    viewport.on({
+      'scroll': function() {
+        readingProgress();
+      },
+      'resize': function() {
+        readingProgress();
+      },
+      'orientationchange': function() {
+        readingProgress();
+      }
+    });
+
+  });
+</script>
+</body>
+
+</html>

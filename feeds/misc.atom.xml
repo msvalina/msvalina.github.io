@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Here Be Dragons - misc</title><link href="https://msvalina.org/" rel="alternate"></link><link href="https://msvalina.org/feeds/misc.atom.xml" rel="self"></link><id>https://msvalina.org/</id><updated>2024-08-04T10:30:24+02:00</updated><subtitle>Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.</subtitle><entry><title>Reflections and lessons from failed React workout app</title><link href="https://msvalina.org/2019/10/reflections-and-lessons-from-failed-react-workout-app.html" rel="alternate"></link><published>2019-10-25T10:49:00+02:00</published><updated>2024-08-04T10:30:24+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.org,2019-10-25:/2019/10/reflections-and-lessons-from-failed-react-workout-app.html</id><summary type="html">&lt;p&gt;This story is about failed personal project I took between jobs. &lt;strong&gt;How
+microscopic end result I have to show. But still got something valuable, or
+not, you be the judge.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Update 25 Mar 2020. In the mean time I did &amp;quot;finish&amp;quot; &lt;a class="reference external" href="https://github.com/msvalina/jun-a-k"&gt;React Django GraphQL app&lt;/a&gt; for
+reporting wild dumps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;div class="section" id="background"&gt;
+&lt;h2&gt;Background …&lt;/h2&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;This story is about failed personal project I took between jobs. &lt;strong&gt;How
+microscopic end result I have to show. But still got something valuable, or
+not, you be the judge.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Update 25 Mar 2020. In the mean time I did &amp;quot;finish&amp;quot; &lt;a class="reference external" href="https://github.com/msvalina/jun-a-k"&gt;React Django GraphQL app&lt;/a&gt; for
+reporting wild dumps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;div class="section" id="background"&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;It's fall of 2015. Four years ago. I quit my job as Magento backend
+developer. It lasted only three months... Preparation for position took
+learning PHP for a year, and some months. On mornings before daily
+programing job. But that is a different story. So I need a new job, but I
+don't have to rush it. I'm thinking to myself. Let's build simple workout app
+for exercise routine I'm doing. Let's build it with some new technology that
+will help me land a new job.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="app-and-technology"&gt;
+&lt;h2&gt;App and technology&lt;/h2&gt;
+&lt;blockquote&gt;
+Workout routine for app is from &lt;a class="reference external" href="http://www.startbodyweight.com/2014/01/basic-routine-infographic-poster.html"&gt;StartBodyweight.com&lt;/a&gt;, it's simple and
+good for beginners starting bodyweight exercises. It's based on this infographic poster.&lt;/blockquote&gt;
+&lt;a class="reference external image-reference" href="http://www.startbodyweight.com/2014/01/basic-routine-infographic-poster.html"&gt;
+&lt;img alt="Start bodyweight poster" class="align-center" src="https://msvalina.org/assets/images/startbodyweight-com-poster.jpg" style="width: 75%;" /&gt;
+&lt;/a&gt;
+&lt;p&gt;Web is not going anywhere. JavaScript is not going anywhere. I should orient
+toward them, is my thought stream. It's new beginning and I'm choosing
+to learn new — as some would describe — revolutionary technology. It's
+React — A JavaScript library for building user interfaces — invented at
+Facebook.&lt;/p&gt;
+&lt;p&gt;As it is with paradigm shifts, new tech, best practices are not
+established for some time after invention. And in React case from start it is
+explicitly minimal in nature. Also, Facebook did not lead the way at the time
+with supporting frameworks, tools, and practices.&lt;/p&gt;
+&lt;p&gt;That left a lot of space for enthusiast developers to fill the gaps needed to
+make complete application with React. &lt;strong&gt;Explosion of boilerplates code
+happened.&lt;/strong&gt; Small frameworks that provide scaffolding code.&lt;/p&gt;
+&lt;p&gt;There are many questions in front of me. Can I build something useful only
+with React? Which boilerplate to choose? Should I build only client side
+application? Why not build backend in JS also? I should go with express,
+right? How good is that MongoDB that everyone is talking about? Why not use
+JSON Web Token for authentication? Why not use Server Side Rendering to speed
+up loading time? What about latest ECMA script standard? Of course I should
+use webpack, right? And so on...&lt;/p&gt;
+&lt;p&gt;These questions lead me to try and experiment with different approaches.
+A lot of research, and not so much development.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="result"&gt;
+&lt;h2&gt;Result&lt;/h2&gt;
+&lt;p&gt;I spent two and a half months on project. On backend side, we can say that
+minimal viable product, working API is done. It support users, authentication,
+progressions, progression entries, and workout sessions.&lt;/p&gt;
+&lt;p&gt;From the design side. What I have to show are this half baked wireframes:&lt;/p&gt;
+&lt;img alt="Start bodyweight app wireframes" class="align-center" src="https://msvalina.org/assets/images/sbw-wireframe.jpg" style="width: 95%;" /&gt;
+&lt;p&gt;And from frontend there is almost nothing. I tried to use, many different boilerplates.
+Started with simple.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;react + webpack + babel&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/kriasoft/react-starter-kit/compare/v0.4.0...v0.4.1"&gt;react + react-router + react-hot-loader&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then figured I wanted state management. I tried three different redux
+implementations, with all latest bells and whistles.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/bdefore/universal-redux-jwt"&gt;universal-redux-jwt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/joshgeller/react-redux-jwt-auth-example"&gt;react-redux-jwt-auth-example&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/erikras/react-redux-universal-hot-example"&gt;react-redux-universal-hot-example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So that in the end I would settle on react-redux-universal-hot-example.
+And my time expired because I got new job offer. Which I took.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mistakes"&gt;
+&lt;h2&gt;Mistakes&lt;/h2&gt;
+&lt;p&gt;Why did I do so little?&lt;/p&gt;
+&lt;p&gt;Part of story can be describe as distraction...&lt;/p&gt;
+&lt;img alt="Distracted boyfriend meme looking at new boilerplate" class="align-center" src="https://msvalina.org/assets/images/boilerplate-distracion.jpg" style="width: 80%;" /&gt;
+&lt;p&gt;Part of the plan was to do everything by myself.&lt;/p&gt;
+&lt;p&gt;But that is also part of the problem.&lt;/p&gt;
+&lt;p&gt;I thought I have time.&lt;/p&gt;
+&lt;p&gt;I had time, just not as much as I needed.&lt;/p&gt;
+&lt;p&gt;The ever present problem of estimation in software development...&lt;/p&gt;
+&lt;p&gt;Trying to use every possible cutting edge technology at the time...&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="leesons"&gt;
+&lt;h2&gt;Leesons&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;New technology and fast results are not good combination.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It's easy to underestimate complexity of simple applications.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;R&amp;amp;D is not development.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Minimum viable product. Repeat MVP, MVP, MVP.&lt;/p&gt;
+&lt;div class="section" id="on-javascript-fatigue"&gt;
+&lt;h3&gt;On JavaScript fatigue&lt;/h3&gt;
+&lt;p&gt;Many before me have identified this phenomenon as &lt;a class="reference external" href="https://www.quora.com/Why-is-Javascript-Framework-fatigue-considered-a-big-problem"&gt;JavaScript fatigue&lt;/a&gt;. I
+would not say this is that big of problem. Yes it would be easier if there
+were standards, best practices and less choices.
+But bigger problem in my case is that &lt;strong&gt;I was learning too many things at
+once.&lt;/strong&gt; I'm not seasoned JavaScript developer. That meant, a lot of catching
+up, and a lot of unsuccessful pitfall avoidance.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-did-i-get-from-all-this-boilerplates"&gt;
+&lt;h3&gt;What did I get from all this boilerplates?&lt;/h3&gt;
+&lt;p&gt;Well I did actually bother to understand every boilerplate that I used. I did
+my homework on understanding nodejs, express, mongoose, babel, on the backend side.
+And on frontend side react, webpack, SSR, babel, redux. My head was not in the sand.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;It's blast from the past. My broken truth with reflections. A way to draw
+leassons from failed project. Showcase of my current abilities. Failed
+showcase, but still. It should at least shed some light at my skill as
+Frontend DevOps Engineer, or as failed Full Stack Developer. Thank you for
+reading. Have a nice day. 💗&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="misc"></category><category term="freelancing"></category><category term="skills"></category><category term="frontend"></category><category term="react"></category></entry><entry><title>Role of tools and environment in behavior, and why I switched to Ubuntu/VSCode from Arch/VIM after 8 years</title><link href="https://msvalina.org/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html" rel="alternate"></link><published>2019-09-26T10:49:00+02:00</published><updated>2019-10-21T12:04:00+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.org,2019-09-26:/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html</id><summary type="html">&lt;div class="section" id="takeaway"&gt;
+&lt;h2&gt;Takeaway&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;With better tools in your environment your ability will be higher. This will
+lead to doing more which will in turn give you more actual skills. Then
+it will be easier to do that behaviors in future even without tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;This is a story about role of environment in …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="takeaway"&gt;
+&lt;h2&gt;Takeaway&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;With better tools in your environment your ability will be higher. This will
+lead to doing more which will in turn give you more actual skills. Then
+it will be easier to do that behaviors in future even without tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;This is a story about role of environment in our behavior. It's written
+through my personal journey. Lot of it can be &lt;a class="reference external" href="https://www.lesspenguiny.com/articles/best-article-on-bragging"&gt;looked like and probably is
+bragging&lt;/a&gt;.
+&lt;strong&gt;Hope is though, that you will get some useful info out of it.&lt;/strong&gt;
+For regular people -- not geeks -- to understand this article here are crude
+descriptions of tools used. They are all free and open source technologies:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Ubuntu: Linux Operating System (OS) for PCs built for regular people.&lt;/li&gt;
+&lt;li&gt;VSCode: text editor with very easy learning curve and many great extensions.&lt;/li&gt;
+&lt;li&gt;Arch Linux: Linux OS for die hard geeks with hard learning curve.&lt;/li&gt;
+&lt;li&gt;VIM: text editor for die hard geeks with hard learning curve.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt="VIM inside VSCode" class="align-center" src="https://msvalina.org/assets/images/vim-in-vscode.png" style="width: 85%;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="accidental-success"&gt;
+&lt;h2&gt;Accidental success&lt;/h2&gt;
+&lt;p&gt;It's year 2009, it's third semester at my University journey. I'm more happy
+about running Ubuntu then learning. Around that time friend of mine suggests
+and helps me install Arch Linux OS. It's the coolest operating system for
+wannabe hacker at the time. Cool thing about it is that you have to construct
+it by yourself. Like Lego's.&lt;/p&gt;
+&lt;p&gt;This was huge change. Until that moment my knowledge about Linux like
+OS was more theoretical then practical. That started to change
+because everything I wanted and needed for my assignments I
+had to setup by my self. That meant a lot of tries and errors, and getting
+hands dirty to actually understand the underlying technologies and concepts.
+That process is and was very painful and frustrating at times. &lt;strong&gt;But I had no
+fallback computer&lt;/strong&gt;. I gave away my laptop to parents. More accidentally
+though, then purposely to change environment.&lt;/p&gt;
+&lt;img alt="My small room with PC, laptop and a bed." class="align-center" src="https://msvalina.org/assets/images/university-apartment.jpg" style="width: 85%;" /&gt;
+&lt;p&gt;&lt;strong&gt;Success was sticking with Arch for first year. That only happened because
+there were no fallback&lt;/strong&gt;. After that my skills were much better and sticking
+with all the housekeeping that needs to be done when running Arch was not a
+big deal.&lt;/p&gt;
+&lt;p&gt;On journey of 8 years with Arch I got a lot of good stuff. Most importantly
+skills and knowledge about tools, concepts and ecosystem of applications in
+general. But also insights about different Free and Open Source Software --
+FOSS -- community cultures and benevolent dictators. On the bad side, I
+formed some half baked opinions and values. Mostly held dogmatically as would
+describe well my personal development at that time. Which can be summarized
+as: open source is the only way to go. I was missing that &lt;strong&gt;these are just
+means in bigger fight for values in this universe.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="analysis-of-behaviors-tools-skills-and-environment"&gt;
+&lt;h2&gt;Analysis of behaviors, tools, skills and environment&lt;/h2&gt;
+&lt;p&gt;Before returning to values. Let's see how can we understand our behavior. For
+that we need a model. Best model out there is &lt;a class="reference external" href="https://www.behaviormodel.org/"&gt;Fogg Behavior Model&lt;/a&gt; &lt;strong&gt;FBM&lt;/strong&gt;. FBM
+says &lt;strong&gt;Behavior&lt;/strong&gt; happens when &lt;strong&gt;Motivation&lt;/strong&gt;, &lt;strong&gt;Ability&lt;/strong&gt;, and &lt;strong&gt;Prompt&lt;/strong&gt;
+come at &lt;strong&gt;the same time&lt;/strong&gt;. Prompt says do the thing now! There is connection
+between Motivation and Ability which is &lt;strong&gt;Action Line&lt;/strong&gt;. If combination of
+Motivation and Ability is bellow Action Line when Prompt happens there will
+be no Behavior.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.behaviormodel.org/"&gt;
+&lt;img alt="Meme - Well... thank you captain obvious" class="align-center" src="https://msvalina.org/assets/images/fogg-behavior-model-graphic-2019.webp" /&gt;
+&lt;/a&gt;
+&lt;p&gt;Let's take for example donating to your favorite charity. If somebody asks you
+to donate 1000$, and you don't have that money with you or it is too much for
+you. Your Ability will be very low and if you don't have huge Motivation you
+wont do that Behavior. But if they ask for 10$ and you want to do it, and you
+have the money with you, Behavior will happen. The takeaway here is that
+Motivation is like a wave. It comes and goes, everybody knows that. But where
+great idea is, is that &lt;strong&gt;by making things simpler or more easy to do we
+don't have to rely on Motivation.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="section" id="simplicity-changes-behavior"&gt;
+&lt;h3&gt;Simplicity changes Behavior&lt;/h3&gt;
+&lt;p&gt;Or in other words anything which will boost your abilities will change your
+behaviors. So how can we increase our abilities you ask?&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;by training person so that his skill increases&lt;/li&gt;
+&lt;li&gt;by simplifying action with starter step or with tiny version&lt;/li&gt;
+&lt;li&gt;by &lt;strong&gt;putting a tool or resource in person's environment&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="tools-are-important"&gt;
+&lt;h3&gt;Tools are important&lt;/h3&gt;
+&lt;img alt="Meme - Well... thank you captain obvious" class="align-center" src="https://msvalina.org/assets/images/thank-you-captain-obvious.png" style="width: 85%;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="more-important-then-you-think"&gt;
+&lt;h3&gt;More important then you think&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;With better tools or resources in your environment or context your ability
+will be higher. This will lead to doing more which will in turn give you more
+actual skills. Then it will be easier to do that behaviors in future even
+without tools. And in different environments.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;That is the reason why I'm very deliberate about everything in my environment.
+And why I switched Arch Linux for Ubuntu. And VIM for VSCode. And why I
+bought three different chairs, and a standing desk, and so on. I'm sure that
+the benefits of having more stable OS and text editor with such an easy
+learning curve, great user experiences, and powerful extensions will
+increase my skills even more. As they already did.&lt;/p&gt;
+&lt;p&gt;This ideas about behavior design comes from &lt;a class="reference external" href="https://www.bjfogg.com"&gt;Stanford professor
+BJ Fogg&lt;/a&gt;. This is a &lt;a class="reference external" href="https://www.tinyhabits.com"&gt;tiny part of BJ's work&lt;/a&gt; go and learn everything about it
+will change your life forever! &lt;a class="reference external" href="https://www.tinyhabits.com/book"&gt;Preorder his book on Tiny Habits&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="reference external image-reference" href="https://www.tinyhabits.com/book"&gt;
+&lt;img alt="Tiny Habits book cover photo" class="align-center" src="https://msvalina.org/assets/images/tiny-habits-book.webp" style="width: 75%;" /&gt;
+&lt;/a&gt;
+&lt;p&gt;BJ's ideas did change my life. Because as most of us I also knew what would be
+and what is good for me. But the problem was how to change habits. How to
+change childhood conditioning. How to change lifestyle, how to make healthy
+habits.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Switching to VSCode and Ubuntu is my way to sharpen my tools. To heighten my
+abilities by changing environment. So I can work more successfully on things
+that I value. Hope is that you also see the arguments for importance of tools.&lt;/p&gt;
+&lt;p&gt;For all of us, this is a call to action. We should collectively
+always be aware how our our environment steers our behavior and focus on
+consciously designing it. So we don't have to be saints to do the right
+thing. Live long and prosper. Thank you. Have a nice day. 💗&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Modification notes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;My friends rightly noted that I was jamming too much of my interest in one
+article. Thank you guys for honest criticism.&lt;/p&gt;
+&lt;p&gt;2019 Oct 19&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Remove parts about personal trauma, and behavior.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2019 Oct 21&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Remove parts about Bitcoin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+</content><category term="misc"></category><category term="tools"></category><category term="behavior"></category><category term="environment"></category></entry></feed>

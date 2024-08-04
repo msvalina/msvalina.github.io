@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Here Be Dragons - programming</title><link href="https://msvalina.org/" rel="alternate"></link><link href="https://msvalina.org/feeds/programming.atom.xml" rel="self"></link><id>https://msvalina.org/</id><updated>2024-08-04T10:30:24+02:00</updated><subtitle>Thoughts on navigating at the edge of order and chaos. Seriously. And some IT stuff.</subtitle><entry><title>How to patch with Bitcoin, build and deploy GnuCash in Docker on Ubuntu PPA</title><link href="https://msvalina.org/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html" rel="alternate"></link><published>2019-09-08T10:45:00+02:00</published><updated>2024-08-04T10:30:24+02:00</updated><author><name>marijan</name></author><id>tag:msvalina.org,2019-09-08:/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html</id><summary type="html">&lt;p&gt;Main goal of this article is to document high level steps. Steps
+to patch, build, and deploy &lt;a class="reference external" href="https://www.gnucash.org/"&gt;GnuCash&lt;/a&gt; on Ubuntu PPA (Personal Package
+Archive). Targeted audience is mid-level technical people. Also others who
+want to learn more about package building, Docker practices, and Linux.&lt;/p&gt;
+&lt;p&gt;Docker builds the image. GPG (Gnu …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Main goal of this article is to document high level steps. Steps
+to patch, build, and deploy &lt;a class="reference external" href="https://www.gnucash.org/"&gt;GnuCash&lt;/a&gt; on Ubuntu PPA (Personal Package
+Archive). Targeted audience is mid-level technical people. Also others who
+want to learn more about package building, Docker practices, and Linux.&lt;/p&gt;
+&lt;p&gt;Docker builds the image. GPG (Gnu Privacy Guard) signs package. dput
+publishes packages on Ubuntu PPA. From GnuCash perspective added value is
+finding all the puzzles pieces. At the end I will compare
+this build process with Archlinux pkgbuild.&lt;/p&gt;
+&lt;div class="section" id="motivation-and-background"&gt;
+&lt;h2&gt;Motivation and background&lt;/h2&gt;
+&lt;p&gt;There is &lt;a class="reference external" href="http://gnucash.1415818.n4.nabble.com/Cryptocurrencies-td4690814.html"&gt;no official Bitcoin support&lt;/a&gt; in GnuCash. It seems like there
+won't be one in future from GnuCash developers. On Archlinux I'm using
+&lt;a class="reference external" href="https://aur.archlinux.org/packages/gnucash-xbt/"&gt;gnucash-xbt from AUR&lt;/a&gt;. On my other Ubuntu machine I wanted to use the same.
+There was no PPA with Bitcoin support in GnuCash. So I created &lt;a class="reference external" href="https://launchpad.net/~msvalina/+archive/ubuntu/gnucash"&gt;Ubuntu PPA&lt;/a&gt;
+for myself and others. This wasn't my first build of debian like package.
+In past I hacked a Makefile to generate opkg package for OpenWRT. It was
+useful knowledge to have for this task.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="where-is-the-code"&gt;
+&lt;h2&gt;Where is the code?&lt;/h2&gt;
+&lt;p&gt;You can find &lt;a class="reference external" href="https://github.com/msvalina/ppa-gnucash-xbt"&gt;code on github repo&lt;/a&gt; and skip over this article. You can
+find &lt;a class="reference external" href="https://launchpad.net/~msvalina/+archive/ubuntu/gnucash"&gt;Ubuntu PPA packages&lt;/a&gt; and install them right away.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-puzzle-pieces-did-you-use"&gt;
+&lt;h2&gt;What puzzle pieces did you use?&lt;/h2&gt;
+&lt;p&gt;Thanks goes to all this work before mine. It was much easier to solve all the
+problems because of these people 💗&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Benedykt Przybyło (b3niup) for original Archlinux AUR pkgbuild
+&lt;a class="reference external" href="https://aur.archlinux.org/packages/gnucash-xbt/"&gt;gnucash-xbt&lt;/a&gt; and xbt.patch&lt;/li&gt;
+&lt;li&gt;Dmitry Smirnov for maintaining &lt;a class="reference external" href="https://salsa.debian.org/debian/gnucash/"&gt;Debian GnuCash dpkgbuild&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dale Phurrough for nice GnuCash Dockerfile starting point
+&lt;a class="reference external" href="https://github.com/diablodale/gnucash-dev-docker/"&gt;diablodale/gnucash-dev-docker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sicklylife for maintaining &lt;a class="reference external" href="https://launchpad.net/~sicklylife/+archive/ubuntu/gnucash3.6"&gt;vanilla GnuCash Ubuntu PPA&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Andrey Arapov of nixaid.com for writing: &lt;a class="reference external" href="https://nixaid.com/using-gpg-inside-a-docker-container/"&gt;Using GPG inside a docker
+container&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-prerequisites-understanding-is-necessary"&gt;
+&lt;h2&gt;What prerequisites understanding is necessary?&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://packaging.ubuntu.com/html/index.html"&gt;Ubuntu Packaging Guide&lt;/a&gt; is good starting point, has many useful
+information. Guide also depends on debian packaging policies and tools. It is
+&lt;strong&gt;important&lt;/strong&gt; to know that there are many ways/tools to build debian package.
+But two main categories are:&lt;/p&gt;
+&lt;div class="section" id="upstream-developer-way"&gt;
+&lt;h3&gt;Upstream Developer way&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://jameswestby.net/bzr/builddeb/user_manual/"&gt;building using bzr-build&lt;/a&gt; Ubuntu Packaging Guide focuses on this one&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://wiki.debian.org/PackagingWithGit"&gt;building using git-buildpackage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="debian-packager-way"&gt;
+&lt;h3&gt;Debian packager way&lt;/h3&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://askubuntu.com/questions/1087569/deploying-own-debian-package-to-launchpad"&gt;Quoting from askubuntu&lt;/a&gt;:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+&amp;gt; In the normal workflow, packager starts by
+&amp;gt; downloading *.orig.tar.gz archive then
+&amp;gt; extracting.
+&amp;gt;
+&amp;gt;    Debian packages can be split into two kinds:
+&amp;gt;    -  native '3.0 (native)' and
+&amp;gt;    -  non-native '3.0 (quilt)'.
+&amp;gt;    They have a slight different way in building.
+&lt;/pre&gt;
+&lt;p&gt;Check &lt;a class="reference external" href="https://wiki.debian.org/DebianMentorsFaq#What_is_the_difference_between_a_native_Debian_package_and_a_non-native_package.3F"&gt;DebianMentorsFaq&lt;/a&gt; for difference between native and non-native.
+This project uses Debian packager way with non-native(quilt) type.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="why-would-you-build-inside-docker"&gt;
+&lt;h2&gt;Why would you build inside Docker?&lt;/h2&gt;
+&lt;p&gt;Infrastructure as Code principle is valuable and something Docker forces you
+to do. Also I don't want to clutter mine laptop with build dependencies.
+There are other ways to do that but, I also wanted to gather
+some more experiences with Docker.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="main-procedures"&gt;
+&lt;h2&gt;Main procedures&lt;/h2&gt;
+&lt;p&gt;Docker image will&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;build the environment for building GnuCash&lt;/li&gt;
+&lt;li&gt;patch GnuCash with Bitcoin currency type&lt;/li&gt;
+&lt;li&gt;build debian source package&lt;/li&gt;
+&lt;li&gt;sign it with gpg (works with YubiKey)&lt;/li&gt;
+&lt;li&gt;upload it to the Ubuntu PPA (Personal Package Archive)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="interesting-parts-dockerfile"&gt;
+&lt;h2&gt;Interesting parts: Dockerfile&lt;/h2&gt;
+&lt;p&gt;First job of docker is to install all needed dependencies for build tools and
+for GnuCash itself. Other interesting thing is headache less permissions with
+docker volume. For that we create user and group in Dockerfile. They will
+have the same UID and GID as user which is building the container&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;RUN&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;groupadd&lt;span class="w"&gt; &lt;/span&gt;--system&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;--gid&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;GID&lt;/span&gt;&lt;span class="k"&gt;:-&lt;/span&gt;&lt;span class="nv"&gt;1000&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;ubuntu
+
+&lt;span class="k"&gt;RUN&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;useradd&lt;span class="w"&gt; &lt;/span&gt;--system&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;--create-home&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;--home-dir&lt;span class="w"&gt; &lt;/span&gt;/home/ubuntu&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;--shell&lt;span class="w"&gt; &lt;/span&gt;/bin/bash&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;--uid&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;UID&lt;/span&gt;&lt;span class="k"&gt;:-&lt;/span&gt;&lt;span class="nv"&gt;1000&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;--gid&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;GID&lt;/span&gt;&lt;span class="k"&gt;:-&lt;/span&gt;&lt;span class="nv"&gt;1000&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;--groups&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;--password&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;openssl&lt;span class="w"&gt; &lt;/span&gt;passwd&lt;span class="w"&gt; &lt;/span&gt;-1&lt;span class="w"&gt; &lt;/span&gt;ubuntu&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;ubuntu
+
+&lt;span class="k"&gt;USER&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;ubuntu&lt;/span&gt;
+&lt;span class="k"&gt;WORKDIR&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;/home/ubuntu/ppa-gnucash-xbt&lt;/span&gt;
+
+&lt;span class="k"&gt;CMD&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;./build.sh
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then we create docker container with volumes from user that created docker
+image&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker&lt;span class="w"&gt; &lt;/span&gt;run&lt;span class="w"&gt; &lt;/span&gt;--rm&lt;span class="w"&gt; &lt;/span&gt;--tty&lt;span class="w"&gt; &lt;/span&gt;--interactive&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;--volume&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;HOME&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;/.gnupg/:/home/ubuntu/.gnupg/:ro&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;--volume&lt;span class="w"&gt; &lt;/span&gt;/run/user/&lt;span class="k"&gt;$(&lt;/span&gt;id&lt;span class="w"&gt; &lt;/span&gt;-u&lt;span class="k"&gt;)&lt;/span&gt;/:/run/user/&lt;span class="k"&gt;$(&lt;/span&gt;id&lt;span class="w"&gt; &lt;/span&gt;-u&lt;span class="k"&gt;)&lt;/span&gt;/:ro&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;--volume&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;HOME&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;/path/to/ppa-gnucash-xbt/:/home/ubuntu/ppa-gnucash-xbt/&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;--name&lt;span class="w"&gt; &lt;/span&gt;dpkg-build-gnucash&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;gnucash-xbt-ubuntu-bionic-pkgbuild&lt;span class="w"&gt; &lt;/span&gt;bash
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now data from repo is available both on host and container. Nobody will mess
+up owner, group or permissions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-happens-on-new-upstream-release"&gt;
+&lt;h2&gt;What happens on new upstream release?&lt;/h2&gt;
+&lt;p&gt;On new upstream release build.sh needs change. Latest upstream source url,
+sha256 checksum of that source need modification. Other steps are automatic.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="interesting-parts-build-sh-script"&gt;
+&lt;h2&gt;Interesting parts: build.sh script&lt;/h2&gt;
+&lt;p&gt;In current form build.sh only builds debian source package. It doesn't
+compile GnuCash itself. To build it for local use and testing run container
+with bash and issue after running build.sh&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;ppa_builddir
+dpkg-buildpackage&lt;span class="w"&gt; &lt;/span&gt;--build&lt;span class="o"&gt;=&lt;/span&gt;binary
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="how-long-will-i-maintain-ppa"&gt;
+&lt;h2&gt;How long will I maintain PPA?&lt;/h2&gt;
+&lt;p&gt;I will maintain it as long as I use GnuCash. I used it for last 5
+years. So if we go by &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Lindy_effect"&gt;Lindy Effect&lt;/a&gt; I will maintain it for 5 more years.
+But beware I'm looking at &lt;a class="reference external" href="https://hledger.org/"&gt;HLedger&lt;/a&gt; as a replacement.
+Feel free to take over maintaining when PPA becomes out of date.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;So looking back and seeing how much time it would take me to patch and build
+GnuCash for Ubuntu I can say that my intuition was completely off... It took
+me 5 times more time then I anticipated. Comparing that to building on
+Archlinux's, it is complex. But I get way there is so many tools and
+policies in Ubuntu/Debian world. History and compatibility need preservation.
+But it takes a while to get gist of things. Also Docker and GPG issues took
+time as well. Hand in hand it is valuable experience for me, especially
+because Ubuntu Bionic is my main OS now. For a junior level Linux guy, if
+such category can be defined at all. It is real pain to build, patch and
+deploy dpkg package. If you are still reading. Thank you. Hope you got
+something out of it. 💗&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="programming"></category><category term="bitcoin"></category><category term="gnucash"></category><category term="ubuntu"></category><category term="linux"></category><category term="docker"></category></entry></feed>

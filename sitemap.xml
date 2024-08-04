@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://msvalina.loc:8000/</loc>
-<lastmod>2024-08-04T13:55:46-00:00</lastmod>
+<lastmod>2024-08-04T18:05:54-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://msvalina.loc:8000/tags.html</loc>
-<lastmod>2024-08-04T13:55:46-00:00</lastmod>
+<lastmod>2024-08-04T18:05:54-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://msvalina.loc:8000/categories.html</loc>
-<lastmod>2024-08-04T13:55:46-00:00</lastmod>
+<lastmod>2024-08-04T18:05:54-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://msvalina.loc:8000/authors.html</loc>
-<lastmod>2024-08-04T13:55:46-00:00</lastmod>
+<lastmod>2024-08-04T18:05:54-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://msvalina.loc:8000/archives.html</loc>
-<lastmod>2024-08-04T13:55:46-00:00</lastmod>
+<lastmod>2024-08-04T18:05:54-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

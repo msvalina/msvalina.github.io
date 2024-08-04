@@ -1,4 +1,5 @@
 __pycache__/
 content/assets/images/gimp-xcf/
 .vscode/
+venv/
 output/

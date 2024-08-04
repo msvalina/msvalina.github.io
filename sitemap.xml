@@ -4,189 +4,189 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://msvalina.loc:8000/</loc>
-<lastmod>2024-08-04T18:08:20-00:00</lastmod>
+<loc>https://msvalina.org/</loc>
+<lastmod>2024-08-04T18:09:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/tags.html</loc>
-<lastmod>2024-08-04T18:08:20-00:00</lastmod>
+<loc>https://msvalina.org/tags.html</loc>
+<lastmod>2024-08-04T18:09:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/categories.html</loc>
-<lastmod>2024-08-04T18:08:20-00:00</lastmod>
+<loc>https://msvalina.org/categories.html</loc>
+<lastmod>2024-08-04T18:09:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/authors.html</loc>
-<lastmod>2024-08-04T18:08:20-00:00</lastmod>
+<loc>https://msvalina.org/authors.html</loc>
+<lastmod>2024-08-04T18:09:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/archives.html</loc>
-<lastmod>2024-08-04T18:08:20-00:00</lastmod>
+<loc>https://msvalina.org/archives.html</loc>
+<lastmod>2024-08-04T18:09:44-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/pages/about/</loc>
+<loc>https://msvalina.org/pages/about/</loc>
 <lastmod>2024-08-04T10:30:24+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/pages/contact/</loc>
+<loc>https://msvalina.org/pages/contact/</loc>
 <lastmod>2024-08-04T10:30:24+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/pages/expertise/</loc>
+<loc>https://msvalina.org/pages/expertise/</loc>
 <lastmod>2019-10-01T10:13:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/pages/side-projects/</loc>
+<loc>https://msvalina.org/pages/side-projects/</loc>
 <lastmod>2024-06-01T10:13:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/2019/10/reflections-and-lessons-from-failed-react-workout-app.html</loc>
+<loc>https://msvalina.org/2019/10/reflections-and-lessons-from-failed-react-workout-app.html</loc>
 <lastmod>2024-08-04T10:30:24+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html</loc>
+<loc>https://msvalina.org/2019/09/role-of-tools-and-environment-in-behavior-and-why-i-switched-to-ubuntu-vscode-from-arch-vim.html</loc>
 <lastmod>2019-10-21T12:04:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html</loc>
+<loc>https://msvalina.org/2019/09/patch-with-btc-build-and-deploy-gnucash-in-docker-on-ubuntu-ppa.html</loc>
 <lastmod>2024-08-04T10:30:24+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/category/misc</loc>
+<loc>https://msvalina.org/category/misc</loc>
 <lastmod>2024-08-04T10:30:24+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/category/programming</loc>
+<loc>https://msvalina.org/category/programming</loc>
 <lastmod>2024-08-04T10:30:24+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/tag/freelancing</loc>
+<loc>https://msvalina.org/tag/freelancing</loc>
 <lastmod>2024-08-04T10:30:24+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/tag/skills</loc>
+<loc>https://msvalina.org/tag/skills</loc>
 <lastmod>2024-08-04T10:30:24+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/tag/frontend</loc>
+<loc>https://msvalina.org/tag/frontend</loc>
 <lastmod>2024-08-04T10:30:24+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/tag/react</loc>
+<loc>https://msvalina.org/tag/react</loc>
 <lastmod>2024-08-04T10:30:24+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/tag/tools</loc>
+<loc>https://msvalina.org/tag/tools</loc>
 <lastmod>2019-10-21T12:04:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/tag/behavior</loc>
+<loc>https://msvalina.org/tag/behavior</loc>
 <lastmod>2019-10-21T12:04:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/tag/environment</loc>
+<loc>https://msvalina.org/tag/environment</loc>
 <lastmod>2019-10-21T12:04:00+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/tag/bitcoin</loc>
+<loc>https://msvalina.org/tag/bitcoin</loc>
 <lastmod>2024-08-04T10:30:24+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/tag/gnucash</loc>
+<loc>https://msvalina.org/tag/gnucash</loc>
 <lastmod>2024-08-04T10:30:24+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/tag/ubuntu</loc>
+<loc>https://msvalina.org/tag/ubuntu</loc>
 <lastmod>2024-08-04T10:30:24+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/tag/linux</loc>
+<loc>https://msvalina.org/tag/linux</loc>
 <lastmod>2024-08-04T10:30:24+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/tag/docker</loc>
+<loc>https://msvalina.org/tag/docker</loc>
 <lastmod>2024-08-04T10:30:24+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://msvalina.loc:8000/author/marijan</loc>
+<loc>https://msvalina.org/author/marijan</loc>
 <lastmod>2024-08-04T10:30:24+01:22</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

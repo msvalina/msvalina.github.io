@@ -9,6 +9,7 @@
 * `source venv/bin/activate`
 * `pip3 install "pelican[markdown]"`
 * `pip3 install pelican-webassets`
+* `pip3 install ghp-import`
 * `echo "\n127.0.0.1 msvalina.loc" | sudo tee -a /etc/hosts `
 * `mkdir -p pelican-themes/attila-2.0 ` 
 * `curl -L https://github.com/arulrajnet/attila/archive/refs/tags/v2.0.tar.gz | tar -xz -C pelican-themes/attila-2.0 --strip-components=1 ` 
@@ -21,5 +22,5 @@
 
 After that
 
-* `ghp-import output -b gh-pages`
+* `ghp-import output -b gh-pages` creates local branch gh-pages
 * `git push origin gh-pages:master` Probably needs `--force`

@@ -13,3 +13,38 @@ blockquote ul {
   font-style: normal !important;
   font-weight: normal !important;
 }
+
+.cover-active .nav-header li.active a {
+  /* primary is color: #D95736 */
+  color: var(--color-primary); 
+  font-weight: 800;
+}
+
+.cover-active .nav-header li a {
+  font-weight: 600;
+  color: var(--color-content-main);
+}
+
+.has-cover .post-title {
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgb(218 87 54 / 50%);
+}
+
+@media only screen and (max-width: 640px) {
+  .nav-header .nav-wrapper {
+      background: var(--color-background-secondary);
+      flex-direction: column
+  }
+
+  @supports (-webkit-backdrop-filter: blur(2rem)) {
+      .nav-header .nav-wrapper {
+          background:rgba(50, 56, 64, 0.873);
+          -webkit-backdrop-filter: blur(2rem)
+      }
+  }
+}
+
+.cover-active .nav-wrapper-control a {
+  color: var(--color-content-main);
+  font-weight: 600;
+}

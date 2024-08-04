@@ -30,6 +30,16 @@ blockquote ul {
   text-shadow: 0 1px 2px rgb(218 87 54 / 50%);
 }
 
+.has-cover .blog-name {
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgb(218 87 54 / 50%);
+}
+
+.has-cover .blog-description {
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgb(218 87 54 / 50%);
+}
+
 @media only screen and (max-width: 640px) {
   .nav-header .nav-wrapper {
       background: var(--color-background-secondary);
